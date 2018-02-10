@@ -28,3 +28,24 @@ Software Project Management Plan
 
 	2.3 Likungan tanggung jawab
 		Anggota Koperasi Politeknik Negeri Indramayu 
+3. Proses Manajerial
+	3.1 Tujuan dan prioritas dan manajemen
+		Tujuan dari projek ini adalah untuk meringankan pembayaran pada saat pembelian barang, karena menggunakan sistem kredit.
+                 	      Dan membantu karyawan untuk melakukan transaksi pembelian barang dengan lebih mudah dan praktis.
+	3.2 Asumsi-asumsi, ketergantungan/keterkaitan dan batasan-batasan
+		Keterbatasan peralatan :
+		- Laptop kurang memadai
+		Kendala :
+		- Waktu
+	3.3 Manajemen resiko
+		Aplikasi ini hanya diperuntukan untuk karyawan Koperasi POLINDRA
+	3.4 Mekanisme monitoring dan kontroling
+		- Bekerja sama dengan mitra
+		- Perancangan 
+		- Pengerjaan proyek
+		- Uji Coba Aplikasi
+		- Evaluasi
+	3.5 Perancangan staf
+		- Project Manager
+		- Front-End
+		- Back-End
