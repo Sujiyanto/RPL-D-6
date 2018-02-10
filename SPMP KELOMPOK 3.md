@@ -57,3 +57,18 @@ Software Project Management Plan
 	4.3 Fungsi-fungsi pendukung proyek
 		- Penjualan barang
 		- Pinjaman Uang
+
+5. Paket Pekerjaan, Jadwal dan Budget
+	5.1 Paket pekerjaan
+		Pengerjaan aplikasi ini dibagi kepada 3 anggota tim diantaranya sebagai project manager, Front-End, dan Back-End.
+	5.2 Ketergantungan/keterkaitan
+		Aplikasi ini memiliki keterkaitan mitra dengan Koperasi POLINDRA
+	5.3 Kebutuhan-kebutuhaan sumber daya
+		Kebutuhan pembuatan Aplikasi :
+		- Laptop
+		- Software Pendukung
+		- Akses Internet
+	5.4 Alokasi budget sumber daya
+	5.5 Jadwal
+		jadwal pembuatan proyek dimulai dari bulan februari sampai bulan mei.
+
