@@ -49,3 +49,11 @@ Software Project Management Plan
 		- Project Manager
 		- Front-End
 		- Back-End
+4. Proses Teknis
+	4.1 Metoda, tool dan teknik
+		Proyek ini akan diimplementasikan kepada karyawan/anggota yang tergabung dalam Koperasi POLINDRA
+	4.2 Dokumentasi perangkat lunak
+		Aplikasi ini bekerja sama dengan Koperasi Politeknik Negeri Indramayu.
+	4.3 Fungsi-fungsi pendukung proyek
+		- Penjualan barang
+		- Pinjaman Uang
