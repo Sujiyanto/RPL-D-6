@@ -1,13 +1,15 @@
+
 **Aplikasi Kredit Barang berbasis Android**
 
-Software Project Management Plan
-1. Pendahuluan
-	1.1 Gambaran Proyek
+**Software Project Management Plan**
+1. **Pendahuluan**
+	 Gambaran Proyek
 		Aplikasi Rawat Jalan Berbasis Android adalah sebuah aplikasi yang ditujunkan untuk mempermudah dan meringankan karyawan dalam melakukan pembelian barang di Koperasi POLINDRA. Karyawan dapat membeli sebuah barang di Koperasi dengan sistem pembayaran kredit/cicilan. Barang yang dapat dibayar dengan kredit berupa Barang Elektronik, Sembako, dan juga dapat berupa pinjaman uang.
 	1.2 Dokumen-dokumen dalam proyek
 	1.3 Evaluasi SPMP
 	1.4 Material proyek
 		 Apliasi Pendukung :
+		 
 		- Android Studio
 		- Sublaim Text
 		- Balsamiq
@@ -16,36 +18,42 @@ Software Project Management Plan
 		1. Admin
 		2. Karyawan
 
-2. Organisasi Proyek
+2. **Organisasi Proyek**
 	2.1 Model proyek
-		Aplikas tersebut berbasis android, dengan menggunakan sebuah software android studio. Dan kemungkinan akan ada aplikasi pendukung lainya. 
+	Aplikas tersebut berbasis android, dengan menggunakan sebuah software android studio. Dan kemungkinan akan ada aplikasi pendukung lainya. 
 	2.2 Struktur organisasi
 		Anggota TIM
+		
 		1. Nur Inayatun Mahmuda	(1603104) Project Plen
 		2. Muhammad Fauzi Alfaris	(1603105) Perancangan Project (Dfd, Flowchart, dll)
-		3. Sujiyanto			(1603106) Perancangan Database
+		3. Sujiyanto		      	(1603106) Perancangan Database
 	2.3 Batasan dan antarmuka organisasi
 
 	2.3 Likungan tanggung jawab
 		Anggota Koperasi Politeknik Negeri Indramayu 
-3. Proses Manajerial
+3. **Proses Manajerial**
 	3.1 Tujuan dan prioritas dan manajemen
 		Tujuan dari projek ini adalah untuk meringankan pembayaran pada saat pembelian barang, karena menggunakan sistem kredit.
-                 	      Dan membantu karyawan untuk melakukan transaksi pembelian barang dengan lebih mudah dan praktis.
-	3.2 Asumsi-asumsi, ketergantungan/keterkaitan dan batasan-batasan
-		Keterbatasan peralatan :
-		- Laptop kurang memadai
-		Kendala :
+		Dan membantu karyawan untuk melakukan transaksi pembelian barang dengan lebih mudah dan praktis.
+	3.2 Asumsi-asumsi, ketergantungan/keterkaitan dan batasan-batasan 
+	Keterbatasan peralatan :
+	
+		- Laptop kurang memadai.
+			
+	Kendala :
+	
 		- Waktu
 	3.3 Manajemen resiko
 		Aplikasi ini hanya diperuntukan untuk karyawan Koperasi POLINDRA
 	3.4 Mekanisme monitoring dan kontroling
+		
 		- Bekerja sama dengan mitra
 		- Perancangan 
 		- Pengerjaan proyek
 		- Uji Coba Aplikasi
 		- Evaluasi
 	3.5 Perancangan staf
+	
 		- Project Manager
 		- Front-End
 		- Back-End
@@ -55,6 +63,7 @@ Software Project Management Plan
 	4.2 Dokumentasi perangkat lunak
 		Aplikasi ini bekerja sama dengan Koperasi Politeknik Negeri Indramayu.
 	4.3 Fungsi-fungsi pendukung proyek
+
 		- Penjualan barang
 		- Pinjaman Uang
 
@@ -65,6 +74,7 @@ Software Project Management Plan
 		Aplikasi ini memiliki keterkaitan mitra dengan Koperasi POLINDRA
 	5.3 Kebutuhan-kebutuhaan sumber daya
 		Kebutuhan pembuatan Aplikasi :
+	
 		- Laptop
 		- Software Pendukung
 		- Akses Internet
