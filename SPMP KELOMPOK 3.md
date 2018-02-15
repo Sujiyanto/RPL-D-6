@@ -4,22 +4,22 @@
 **Software Project Management Plan**
 1. **Pendahuluan**
 	 Gambaran Proyek
-		Aplikasi Rawat Jalan Berbasis Android adalah sebuah aplikasi yang ditujunkan untuk mempermudah dan meringankan karyawan dalam melakukan pembelian barang di Koperasi POLINDRA. Karyawan dapat membeli sebuah barang di Koperasi dengan sistem pembayaran kredit/cicilan. Barang yang dapat dibayar dengan kredit berupa Barang Elektronik, Sembako, dan juga dapat berupa pinjaman uang.
+		Koperasi merupakan suatu organisasi nirlaba yang cukup kompleks, satu organisasi yang menjalankan beberapa unit usaha yang dikelola dengan tujuan meningkatkan kesejahteraan anggotanya. Dengan semakin berkembang pesatnya organisasi ini, sudah saatnya memanfaatkan kemajuan teknologi yang ada sehingga dapat mempermudah pengelolaan program dalam koperasi tersebut. Pemanfaatan teknologi yang dimaksud adalah dengan adanya pembuatan Aplikasi Kredit Barang berbasis Android karena teknologi mobile sedang dalam perkembangan yang sangat maju maka kami rasa Aplikasi ini cukup untuk membantu seluruh anggota koperasi dalam memajukan kesejahteraan bersama. Aplikasi Kredit Barang Berbasis Android adalah sebuah aplikasi yang ditujunkan untuk mempermudah dan meringankan karyawan dalam melakukan pembelian barang di Koperasi  Karyawan POLINDRA. Karyawan/Anggota Koperasi dapat membeli sebuah barang di Koperasi dengan sistem pembayaran Kredit/Cicilan. Barang yang dapat dibayar dengan kredit berupa Barang Elektronik, Sembako, dan juga dapat berupa pinjaman uang.
 	1.2 Dokumen-dokumen dalam proyek
-	1.3 Evaluasi SPMP
+		- Proposal Mitra
+			Sebagai pengajuan pembuatan Aplikasi dan kerja sama dengan Mitra
+		- MOU Mitra
+			Sebagai bukti terjadinya perjanjian dengan Mitra
+		- Logbook 
+			Sebagai dokumentasi pembuatan aplikasi
+		- Laporan 
+			Sebagai laporan akhir pembuatan aplikasi
+	1.3 Evolusi SPMP
 	1.4 Material proyek
-		 Apliasi Pendukung :
-		- Android Studio
-		- Sublaim Text
-		- Balsamiq
-
 	1.5 Definisi dan akronim (singkatan)
-		 Aplikasi ini memiliki 2 user, yaitu : 
-		1. Admin
-		2. Karyawan
 
 2. **Organisasi Proyek**
-	2.1 Model proyek
+	2.1 Model proses
 	Aplikas tersebut berbasis android, dengan menggunakan sebuah software android studio. Dan kemungkinan akan ada aplikasi pendukung lainya. 
 	2.2 Struktur organisasi
 		Anggota TIM :
