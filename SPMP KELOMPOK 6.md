@@ -22,11 +22,12 @@
 	2.1 Model proses
 	Aplikas tersebut berbasis android, dengan menggunakan sebuah software android studio. Dan kemungkinan akan ada aplikasi pendukung lainya. 
 	2.2 Struktur organisasi
-		Anggota TIM :
-		1. Nur Inayatun Mahmuda	(1603104) Project Plen
-		2. Muhammad Fauji Al Fariz	(1603107) Perancangan Project (Dfd, Flowchart, dll)
-		3. Sujiyanto		      	(1603106) Perancangan Database
-
+		|No. |			Nama			|		Jabatan			|
+		|----|--------------------------|-----------------------|
+		|1.  |Nur Inayatun Mahmuda		|- Project Plan			|
+		|2.  |Muhammad Fauji Al Fariz	|- Web Development		|
+		|3.  |Sujiyanto					|- Android Development	|
+  
 	2.3 Batasan dan antarmuka organisasi
 
 	2.3 Likungan tanggung jawab
