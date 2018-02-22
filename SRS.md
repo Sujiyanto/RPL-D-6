@@ -14,6 +14,7 @@
 		Jurusan D3 Teknik Informatika
 		 Politeknik Negeri Indramayu
 
+<<<<<<< HEAD
 1. PENDAHULUAN
 	1.1 TUJUAN
 		Tujuan dari dokumen ini adalah untuk menyajikan deskripsi rinci tentang aplikasi yang akan dibuat serta dokumen ini akan menjelaskan tentang tujuan dan fitur dari sistem yang akan dibangun beserta interface dari sistem.
@@ -23,6 +24,8 @@
 	1.4 Referensi
 	1.5 Overview
 
+=======
+>>>>>>> a8bdd88e7f51ac59006e8b8dd9d9ac24dbbc984d
 1. PENDAHULUAN<br>
 	1.1 TUJUAN<br>
 	1.2 Lingkup<br>
