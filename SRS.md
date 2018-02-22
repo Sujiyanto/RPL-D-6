@@ -2,7 +2,7 @@
 ##			Version 1.0
 ##		22 Februari 2018
 
-![Logo Polindra](/images/polindra.png)
+![Logo Polindra](/image/polindra.png)
 
 ##AKBAR KOPKAR (Aplikasi Kredit Barang Koperasi Karyawan) POLINDRA
 
