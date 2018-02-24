@@ -1,18 +1,18 @@
-#Software Requirements Specification
-##			Version 1.0
-##		22 Februari 2018
-
+## Software Requirements Specification
+### Version 1.0
+### 22 Februari 2018
 ![Logo Polindra](/image/polindra.png)
 
-##AKBAR KOPKAR (Aplikasi Kredit Barang Koperasi Karyawan) POLINDRA
+## AKBAR KOPKAR (Aplikasi Kredit Barang Koperasi Karyawan) POLINDRA
 
-			Anggota 
-		- Nur Inayatun Mahmuda 		(1603109)
-		- Muhammad Fauji Al Fariz	(1603107)
-		- Sujiyanto					(1603112)
-	
-		Jurusan D3 Teknik Informatika
-		 Politeknik Negeri Indramayu
+Anggota 
+ 1. Nur Inayatun Mahmuda (1603109)
+ 2. Muhammad Fauji Al Fariz (1603107)
+ 3. Sujiyanto (1603112)
+
+### Jurusan Teknik Informatika 
+### Polireknik Negeri Indramayu
+
 
 1. PENDAHULUAN
 	1.1 TUJUAN
