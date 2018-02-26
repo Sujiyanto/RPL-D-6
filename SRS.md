@@ -20,11 +20,10 @@ Anggota
 	1.2 Lingkup Proyek
 		Sistem Perangkat Lunak ini hanya akan menjadi aplikasi lokal, yang artinya aplikasi ini hanya akan dibuat untuk anggota yang terdaftar dalam koperasi karyawan Polindra. Sistem ini akan dirangcang untuk membantu admin koperasi dalam pemantauan penjualan serta angsuran pembayaran serta dapat membantu pihak anggota sebagai user yang menggunakan aplikasi ini untuk mempermudah melakukan transaksi pembelian barang dan peminjaman uang secara online. Dengan memaksimalkan sistem pada aplikasi ini maka akan memenuhi kebutuhan pihak koperasi dan tetap mudah dimengerti dalam hal penggunaan untuk semua user.
 	1.3 Definisi, Akronim, Singkatan
-		|		Istilah			|		Definisi					|
-		|-----------------------|-----------------------------------|
-		| Admin					| Orang yang mengelolah web server	|
-		|						| dari aplikasi						|
-		| User					| Pemakai atau pengguna aplikasi	|
+		| Istilah | Definisi                                       |
+		|---------|------------------------------------------------|
+		| Admin   | Orang yang mengelolah web server dari aplikasi |
+		| User    | Pemakai atau pengguna aplikasi                 |
 	1.4 Referensi
 		
 	1.5 Overview
