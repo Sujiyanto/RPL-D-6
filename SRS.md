@@ -37,10 +37,37 @@ Bab 2, bagian Uraian Keseluruhan, dari dokumen ini memberikan sebuah gambaran fu
 	
 **2.1.1 Antarmuka Sistem**
 ![Use Case Diagram](/image/Use%20Case%20Diagram.png)
+
 **2.1.2 Mockup**
 ![Dashboard](/image/Dashboard.png)
+
 **2.1.3 Antarmuka Hardware** 
  ![Antarmuka Hardware](/image/Antarmuka%20Hardware.png)
+ 
  **2.2 Fungsi-Fungsi Produk**
+ 
+ **USER**
+
+ - Dapat Melakukan Transaksi
+ - Melihat List Barang
+ - Login
+ 
+ **ADMIN**
+ 
+ - Dapat Menambahkan Barang
+ - Melihat laporan
+ - Login
+ - Melihat Barang
+
  **2.3 Karakteristik Pengguna**
+ Hanya Ada 2 Karakteristik Pengguna
+ 1. Admin
+ 2. Pengguna / User
+ 
  **2.4 Batasan-Batasan**
+ Batasan Sistem Aplikasi dalam dokumen SRS ini adalah sebagai berikut:  
+1. Aplikasi ini dilengkapi dengan pemberian hak akses masing  – masing user.
+2. Sistem Aplikasi yang berupa data anggota, transaksi pinjaman, angsuran pinjaman.
+3. Anggota koperasi dan Staff  harus melakukan login terlebih dahulu untuk mendapat hak akses ke menu selanjutnya. 
+4. Dalam transaksi simpan pinjam, koperasi hanya dapat melayani transaksi kepada anggotanya saja sehingga yang bukan anggota koperasi tidak diperbolehkan. 
+5. Untuk non anggota harus melakukan regristrasi terlebih dahulu menjadi anggota dan mendapatkan user dan password.  
