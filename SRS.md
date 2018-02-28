@@ -38,9 +38,9 @@ Bab 2, bagian Uraian Keseluruhan, dari dokumen ini memberikan sebuah gambaran fu
 **2.1.1 Antarmuka Sistem**
 ![Use Case Diagram](/image/Use%20Case%20Diagram.png)
 **2.1.2 Mockup**
-![Dashboard](/images/Dashboard.png)
+![Dashboard](/image/Dashboard.png)
 **2.1.3 Antarmuka Hardware** 
-		 
+ ![Antarmuka Hardware](/image/Antarmuka%20Hardware.png)
  **2.2 Fungsi-Fungsi Produk**
  **2.3 Karakteristik Pengguna**
  **2.4 Batasan-Batasan**
