@@ -48,25 +48,27 @@ Bab 2, bagian Uraian Keseluruhan, dari dokumen ini memberikan sebuah gambaran fu
  **2.2 Fungsi-Fungsi Produk**<br>
  
  **USER**
-<br>
+
  - Dapat Melakukan Transaksi
  - Melihat List Barang
  - Login
- <br>
+ 
  **ADMIN**
- <br>
+ 
  - Dapat Menambahkan Barang
  - Melihat laporan
  - Login
  - Melihat Barang
-<br>
- **2.3 Karakteristik Pengguna**<br>
- Hanya Ada 2 Karakteristik Pengguna<br>
+
+ **2.3 Karakteristik Pengguna**
+ 
+ Hanya Ada 2 Karakteristik Pengguna
  1. Admin
  2. Pengguna / User
- <br>
- **2.4 Batasan-Batasan**<br>
+ 
+ **2.4 Batasan-Batasan**
  Batasan Sistem Aplikasi dalam dokumen SRS ini adalah sebagai berikut:  
+ 
 1. Aplikasi ini dilengkapi dengan pemberian hak akses masing  – masing user.
 2. Sistem Aplikasi yang berupa data anggota, transaksi pinjaman, angsuran pinjaman.
 3. Anggota koperasi dan Staff  harus melakukan login terlebih dahulu untuk mendapat hak akses ke menu selanjutnya. 
