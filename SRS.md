@@ -40,7 +40,10 @@ Bab 2, bagian Uraian Keseluruhan, dari dokumen ini memberikan sebuah gambaran fu
 ![Use Case Diagram](/image/Use%20Case%20Diagram.png)
 <br>
 **2.1.2 Mockup**<br>
-![Dashboard](/image/Dashboard.png)
+![Dashboard](/image/Dashboard.png) ![Account](/image/Account.png)  ![editakun](/image/Elektronik.png)
+![bill](/image/Bill.png) ![editakun](https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Edit%20Account.png) ![loginuser](https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Login%20User.png)
+![daftar user](https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Daftar%20User.png) ![angsuran](https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Elektronik%20(pilih%20angsuran).png) ![pembayaran](https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Elektronik%20(waktu%20pembayaran).png)
+![login admin](https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Login%20Admin.png) ![home admin](https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Dasboard%20Admin.png)
 <br>
 **2.1.3 Antarmuka Hardware** <br>
  ![Antarmuka Hardware](/image/Antarmuka%20Hardware.png)
