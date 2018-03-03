@@ -61,3 +61,16 @@ User dapat menggunakan fungsi login pada aplikasi adnroid kemudian melihat baran
  
 **2.4 Karakteristik Pengguna** <br>
 Dengan adanya aplikasi ini diharapkan dapat membantu admin mengelolah data perkreditan barang yang dijual dan peminjaman uang yang dilakukan oleh anggota. Kemudian untuk pengguna sendiri diharapkan bisa membantu mempermudah melakukan transaksi menggunakan aplikasi mobile ini.<br>
+**2.5 Batasan-Batasan**<br>
+Batasan pada produk :
+1.	Hanya menangani kredit penjualan barang atau peminjaman uang pada KOPKAR POLINDRA.
+2.	Aplikasi akan dibuat dengan modul dan fungsionalitas sesuai dengan kebutuhan.
+3.	Aplikasi dibangun dengan Java di Android Studio dan Firebase sebagai database
+<br>
+**2.6 Asumsi-Asumsi Keterkaitan**<br>
+
+### 3. SPESIFIKASI KEBUTUHAN
+
+**3.1 Kebutuhan Antarmuka Eksternal**<br>
+**3.2 Kebutuhan Fungsional**<br>
+**3.3 Detail Persyaratan non-Fungsional**<br>
