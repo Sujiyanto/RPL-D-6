@@ -1,81 +1,55 @@
-<p align="center"><h1>Software Requirements Specification</h1></p>
-<p align="center"> Version 1.0</p>
-<p align="center">22 Februari 2018</p>
+## Software Requirements Specification
+### Version 1.0
+### 22 Februari 2018
+![Logo Polindra](/image/polindra.png)
 
-<p align="center"><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/POLINDRA.png"></p><br>
+## AKBAR KOPKAR (Aplikasi Kredit Barang Koperasi Karyawan) POLINDRA
 
-<p align="center"><b>AKBAR KOPKAR</b>
-<p align="center"><b>(Aplikasi Kredit Barang Koperasi Karyawan) POLINDRA</b>
-
-<p align="center"><b>Anggota</b> 
+Anggota 
  1. Nur Inayatun Mahmuda (1603109)
  2. Muhammad Fauji Al Fariz (1603107)
- 3. Sujiyanto (1603112)<br></p>
+ 3. Sujiyanto (1603112)
 
-<p align="center">Jurusan Teknik Informatika
-<p align="center">Polireknik Negeri Indramayu
+### Jurusan Teknik Informatika 
+### Polireknik Negeri Indramayu
 
 
 ### 1. Pendahuluan
-**1.1 Tujuan**<br>
+**1.1 Tujuan**
+		Tujuan dari dokumen ini adalah untuk menyajikan deskripsi rinci tentang aplikasi yang akan dibuat serta dokumen ini akan menjelaskan tentang tujuan dan fitur dari sistem yang akan dibangun beserta interface dari sistem.
+**1.2 Lingkup Proyek**
+		Sistem Perangkat Lunak ini hanya akan menjadi aplikasi lokal, yang artinya aplikasi ini hanya akan dibuat untuk anggota yang terdaftar dalam koperasi karyawan Polindra. Sistem ini akan dirangcang untuk membantu admin koperasi dalam pemantauan penjualan serta angsuran pembayaran serta dapat membantu pihak anggota sebagai user yang menggunakan aplikasi ini untuk mempermudah melakukan transaksi pembelian barang dan peminjaman uang secara online. Dengan memaksimalkan sistem pada aplikasi ini maka akan memenuhi kebutuhan pihak koperasi dan tetap mudah dimengerti dalam hal penggunaan untuk semua user.
+**1.3 Definisi, Akronim, Singkatan**
 
-		Tujuan dari dokumen ini adalah untuk menyajikan deskripsi rinci tentang aplikasi yang akan dibuat serta dokumen ini akan menjelaskan tentang tujuan dan fitur dari sistem yang akan dibangun beserta interface dari sistem.<br>
-**1.2 Lingkup Proyek**<br><br>
-		Sistem Perangkat Lunak ini hanya akan menjadi aplikasi lokal, yang artinya aplikasi ini hanya akan dibuat untuk anggota yang terdaftar dalam koperasi karyawan Polindra. Sistem ini akan dirangcang untuk membantu admin koperasi dalam pemantauan penjualan serta angsuran pembayaran serta dapat membantu pihak anggota sebagai user yang menggunakan aplikasi ini untuk mempermudah melakukan transaksi pembelian barang dan peminjaman uang secara online. Dengan memaksimalkan sistem pada aplikasi ini maka akan memenuhi kebutuhan pihak koperasi dan tetap mudah dimengerti dalam hal penggunaan untuk semua user.<br><br>
-
-		<p>Tujuan dari dokumen ini adalah untuk menyajikan deskripsi rinci tentang aplikasi yang akan dibuat serta dokumen ini akan menjelaskan tentang tujuan dan fitur dari sistem yang akan dibangun beserta interface dari sistem.</p><br>
-**1.2 Lingkup Proyek**<br>
-		Sistem Perangkat Lunak ini hanya akan menjadi aplikasi lokal, yang artinya aplikasi ini hanya akan dibuat untuk anggota yang terdaftar dalam koperasi karyawan Polindra. Sistem ini akan dirangcang untuk membantu admin koperasi dalam pemantauan penjualan serta angsuran pembayaran serta dapat membantu pihak anggota sebagai user yang menggunakan aplikasi ini untuk mempermudah melakukan transaksi pembelian barang dan peminjaman uang secara online. Dengan memaksimalkan sistem pada aplikasi ini maka akan memenuhi kebutuhan pihak koperasi dan tetap mudah dimengerti dalam hal penggunaan untuk semua user.<br>
-
-**1.3 Definisi, Akronim, Singkatan**<br>
-
-| Istilah |Definisi                                       |
-|---------|------------------------------------------------|
-| Admin   | Orang yang mengelolah web server dari aplikasi |
-| User    | Pemakai atau pengguna aplikasi                 |
-<br>
-
-**1.4 Referensi**<br>
-
+		| Istilah | Definisi                                       |
+		|---------|------------------------------------------------|
+		| Admin   | Orang yang mengelolah web server dari aplikasi |
+		| User    | Pemakai atau pengguna aplikasi                 |
 **1.4 Referensi**
-
-**1.5 Overview**<br>
-Bab 2, bagian Uraian Keseluruhan, dari dokumen ini memberikan sebuah gambaran fungsionalitas produk. Bab 3, Bagian Persyaratan Spesifikasi, dari dokumen ini ditulis terutama untuk menjelaskan secara teknis rinciannya fungsionalitas produk. Kedua bagian dokumen tersebut menggambarkan produk perangkat lunak yang sama secara keseluruhan, namun ditujukan untuk khalayak yang berbeda.<br>
+		
+**1.5 Overview**
+Bab 2, bagian Uraian Keseluruhan, dari dokumen ini memberikan sebuah gambaran fungsionalitas produk. Bab 3, Bagian Persyaratan Spesifikasi, dari dokumen ini ditulis terutama untuk menjelaskan secara teknis rinciannya fungsionalitas produk. Kedua bagian dokumen tersebut menggambarkan produk perangkat lunak yang sama secara keseluruhan, namun ditujukan untuk khalayak yang berbeda.
 
 ### 2. DESKRIPSI UMUM PERANGKAT LUNAK
 
   **2.1 Perspektif Produk**
-<br>AKBAR Kopkar Polindra adalah aplikasi kredit barang di Koperasi Karyawan Politeknik Negeri Indramayu. Secara umum aplikasi ini berfungsi sebagai aplikasi penjualan yang berbasis android. Tujuannya untuk mempermudah  pihak koperasi dalam melakukan penjualan barang serta membantu pihak karyawan yang tergabung dalam anggota koperasi untuk melakukan pembelian barang karena pembayarannya dilakukan dengan sistem kredit tanpa menggunakan kartu kredit. Aplikasi ini berpacu pada aplikasi yang sudah ada sebelumnya yaitu aplikasi “Akulaku” namun aplikasi yang kita buat hanya ditujukan khusus untuk penjualan satu toko yaitu kopkar polindra dan hanya karyawan yang terdaftar yang bisa menggunakan aplikasi tersebut. Serta aplikasi ini memiliki fungsi tambahan untuk pengajuan peminjaman uang.<br>
+	AKBAR Kopkar Polindra adalah aplikasi kredit barang di Koperasi Karyawan Politeknik Negeri Indramayu. Secara umum aplikasi ini berfungsi sebagai aplikasi penjualan yang berbasis android. Tujuannya untuk mempermudah  pihak koperasi dalam melakukan penjualan barang serta membantu pihak karyawan yang tergabung dalam anggota koperasi untuk melakukan pembelian barang karena pembayarannya dilakukan dengan sistem kredit tanpa menggunakan kartu kredit. Aplikasi ini berpacu pada aplikasi yang sudah ada sebelumnya yaitu aplikasi “Akulaku” namun aplikasi yang kita buat hanya ditujukan khusus untuk penjualan satu toko yaitu kopkar polindra dan hanya karyawan yang terdaftar yang bisa menggunakan aplikasi tersebut. Serta aplikasi ini memiliki fungsi tambahan untuk pengajuan peminjaman uang. 
 	
-**2.1.1 Antarmuka Sistem**<br>
-<p align="center"><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Use%20Case%20Diagram.png"></p>
-<br>
-**2.1.2 Mockup**<br>
-<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Dashboard.png"><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Account.png"><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Elektronik.png">
-<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Bill.png"><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Edit%20Account.png"><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Login%20User.png"><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Daftar%20User.png"><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Elektronik%20(pilih%20angsuran).png"><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Elektronik%20(waktu%20pembayaran).png">
-<p align="center">
-<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Login%20Admin.png"></p> 
-<p align="center">
-<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Dasboard%20Admin.png"></p>
-
-**2.1.3 Antarmuka Hardware** <br>
+**2.1.1 Antarmuka Sistem**
+![Use Case Diagram](/image/Use%20Case%20Diagram.png)
+**2.1.2 Mockup**
+![Dashboard](/images/Dashboard.png)
+**2.1.3 Antarmuka Hardware** 
  ![Antarmuka Hardware](/image/Antarmuka%20Hardware.png)
- <br>
- **2.2 Spesifikasi Kebutuhan Fungsional**<br>
-Bagian ini menguraikan use case untuk masing-masing pengguna secara terpisah. Dimana aktor dalam aplikasi ini yaitu admin.<br><br>
-**2.2.1 Admin Use Case**<br>
-![Use Case Admin](/image/Use Case Admin.png)<br>
-Admin dapat login pada website server dan menambahkan data anggota serta barang yang tersedia kemudian fungsi selanjutnya yaitu admin membuat laporan perkreditan.<br>
-![Use Case User](/image/Use Case User.png)<br>
-User dapat menggunakan fungsi login pada aplikasi adnroid kemudian melihat barang dan melakukan transaksi.<br>
- **2.3 Spesifikasi Kebutuhan non-Fungsional**<br>
-
+ **2.2 Spesifikasi Kebutuhan Fungsional**
+Bagian ini menguraikan use case untuk masing-masing pengguna secara terpisah. Dimana aktor dalam aplikasi ini yaitu admin.
+**2.2.1 Admin Use Case**
+Admin dapat login pada website server dan menambahkan data anggota serta barang yang tersedia kemudian fungsi selanjutnya yaitu admin membuat laporan perkreditan.
+![Admin Use Case](/image/Use%20Case%20Admin.png)
+**2.2.2 User Use Case**
+User dapat menggunakan fungsi login pada aplikasi adnroid kemudian melihat barang dan melakukan transaksi.
+![enter image description here](/image/Use%20Case%20User.png)
+ **2.3 Spesifikasi Kebutuhan non-Fungsional**
  
- **2.4 Batasan-Batasan**<br>
- Batasan Sistem Aplikasi dalam dokumen SRS ini adalah sebagai berikut:  
- 
-1. Aplikasi ini dilengkapi dengan pemberian hak akses masing  – masing user.
-2. Sistem Aplikasi yang berupa data anggota, transaksi pinjaman, angsuran pinjaman.
-3. Anggota koperasi dan Staff  harus melakukan login terlebih dahulu untuk mendapat hak akses ke menu selanjutnya. 
-4. Dalam transaksi simpan pinjam, koperasi hanya dapat melayani transaksi kepada anggotanya saja sehingga yang bukan anggota koperasi tidak diperbolehkan. 
-5. Untuk non anggota harus melakukan regristrasi terlebih dahulu menjadi anggota dan mendapatkan user dan password.  
+ **2.4 Karakteristik Pengguna**
+Dengan adanya aplikasi ini diharapkan dapat membantu admin mengelolah data perkreditan barang yang dijual dan peminjaman uang yang dilakukan oleh anggota. Kemudian untuk pengguna sendiri diharapkan bisa membantu mempermudah melakukan transaksi menggunakan aplikasi mobile ini.
