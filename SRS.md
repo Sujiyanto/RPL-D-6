@@ -1,3 +1,4 @@
+
 ## Software Requirements Specification
 ### Version 1.0
 ### 22 Februari 2018
@@ -36,19 +37,26 @@ Bab 2, bagian Uraian Keseluruhan, dari dokumen ini memberikan sebuah gambaran fu
 	AKBAR Kopkar Polindra adalah aplikasi kredit barang di Koperasi Karyawan Politeknik Negeri Indramayu. Secara umum aplikasi ini berfungsi sebagai aplikasi penjualan yang berbasis android. Tujuannya untuk mempermudah  pihak koperasi dalam melakukan penjualan barang serta membantu pihak karyawan yang tergabung dalam anggota koperasi untuk melakukan pembelian barang karena pembayarannya dilakukan dengan sistem kredit tanpa menggunakan kartu kredit. Aplikasi ini berpacu pada aplikasi yang sudah ada sebelumnya yaitu aplikasi “Akulaku” namun aplikasi yang kita buat hanya ditujukan khusus untuk penjualan satu toko yaitu kopkar polindra dan hanya karyawan yang terdaftar yang bisa menggunakan aplikasi tersebut. Serta aplikasi ini memiliki fungsi tambahan untuk pengajuan peminjaman uang. <br>
 	
 **2.1.1 Antarmuka Sistem**<br>
-![Use Case Diagram](/image/Use%20Case%20Diagram.png)
+![Use Case Diagram](/image/Use%20Case%20Diagram.png)<br>
 **2.1.2 Mockup**<br>
-![Dashboard](/images/Dashboard.png)
+![Dashboard](/image/Dashboard.png)
+![Menu Elektronik](/image/Elektronik.png)<br>
+![Angsuran](/image/Elektronik%20%28pilih%20angsuran%29.png)
+![Login user](/image/Login%20User.png)<br>
+![account](/image/Account.png)
+![Bill](/image/Bill.png)<br>
+![Login admin](/image/Login%20Admin.png)<br>
+![Dashboard admin](/image/Dasboard%20Admin.png)<br>
 **2.1.3 Antarmuka Hardware**<br>
- ![Antarmuka Hardware](/image/Antarmuka%20Hardware.png)
+ ![Antarmuka Hardware](/image/Antarmuka%20Hardware.png)<br>
  **2.2 Spesifikasi Kebutuhan Fungsional**<br>
 Bagian ini menguraikan use case untuk masing-masing pengguna secara terpisah. Dimana aktor dalam aplikasi ini yaitu admin.<br>
 **2.2.1 Admin Use Case**<br>
 Admin dapat login pada website server dan menambahkan data anggota serta barang yang tersedia kemudian fungsi selanjutnya yaitu admin membuat laporan perkreditan.<br>
-![Admin Use Case](/image/Use%20Case%20Admin.png)
+![Admin Use Case](/image/Use%20Case%20Admin.png)<br>
 **2.2.2 User Use Case**<br>
 User dapat menggunakan fungsi login pada aplikasi adnroid kemudian melihat barang dan melakukan transaksi.<br>
-![enter image description here](/image/Use%20Case%20User.png)
+![User Use Case](/image/Use%20Case%20User.png)<br>
 **2.3 Spesifikasi Kebutuhan non-Fungsional**<br>
  
 **2.4 Karakteristik Pengguna** <br>
