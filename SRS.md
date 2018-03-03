@@ -7,10 +7,10 @@
 <p align="center"><b>AKBAR KOPKAR</b>
 <p align="center"><b>(Aplikasi Kredit Barang Koperasi Karyawan) POLINDRA</b>
 
-Anggota 
+<p align="center"><b>Anggota</b> 
  1. Nur Inayatun Mahmuda (1603109)
  2. Muhammad Fauji Al Fariz (1603107)
- 3. Sujiyanto (1603112)<br>
+ 3. Sujiyanto (1603112)<br></p>
 
 <p align="center">Jurusan Teknik Informatika
 <p align="center">Polireknik Negeri Indramayu
@@ -18,15 +18,15 @@ Anggota
 
 ### 1. Pendahuluan
 **1.1 Tujuan**<br>
-<<<<<<< HEAD
+
 		Tujuan dari dokumen ini adalah untuk menyajikan deskripsi rinci tentang aplikasi yang akan dibuat serta dokumen ini akan menjelaskan tentang tujuan dan fitur dari sistem yang akan dibangun beserta interface dari sistem.<br>
 **1.2 Lingkup Proyek**<br><br>
 		Sistem Perangkat Lunak ini hanya akan menjadi aplikasi lokal, yang artinya aplikasi ini hanya akan dibuat untuk anggota yang terdaftar dalam koperasi karyawan Polindra. Sistem ini akan dirangcang untuk membantu admin koperasi dalam pemantauan penjualan serta angsuran pembayaran serta dapat membantu pihak anggota sebagai user yang menggunakan aplikasi ini untuk mempermudah melakukan transaksi pembelian barang dan peminjaman uang secara online. Dengan memaksimalkan sistem pada aplikasi ini maka akan memenuhi kebutuhan pihak koperasi dan tetap mudah dimengerti dalam hal penggunaan untuk semua user.<br><br>
-=======
+
 		<p>Tujuan dari dokumen ini adalah untuk menyajikan deskripsi rinci tentang aplikasi yang akan dibuat serta dokumen ini akan menjelaskan tentang tujuan dan fitur dari sistem yang akan dibangun beserta interface dari sistem.</p><br>
 **1.2 Lingkup Proyek**<br>
 		Sistem Perangkat Lunak ini hanya akan menjadi aplikasi lokal, yang artinya aplikasi ini hanya akan dibuat untuk anggota yang terdaftar dalam koperasi karyawan Polindra. Sistem ini akan dirangcang untuk membantu admin koperasi dalam pemantauan penjualan serta angsuran pembayaran serta dapat membantu pihak anggota sebagai user yang menggunakan aplikasi ini untuk mempermudah melakukan transaksi pembelian barang dan peminjaman uang secara online. Dengan memaksimalkan sistem pada aplikasi ini maka akan memenuhi kebutuhan pihak koperasi dan tetap mudah dimengerti dalam hal penggunaan untuk semua user.<br>
->>>>>>> 2e6e40f838bea0a4a24c6a069f3790cc3726722a
+
 **1.3 Definisi, Akronim, Singkatan**<br>
 
 | Istilah |Definisi                                       |
@@ -34,12 +34,11 @@ Anggota
 | Admin   | Orang yang mengelolah web server dari aplikasi |
 | User    | Pemakai atau pengguna aplikasi                 |
 <br>
-<<<<<<< HEAD
+
 **1.4 Referensi**<br>
-=======
+
 **1.4 Referensi**
-		
->>>>>>> 2e6e40f838bea0a4a24c6a069f3790cc3726722a
+
 **1.5 Overview**<br>
 Bab 2, bagian Uraian Keseluruhan, dari dokumen ini memberikan sebuah gambaran fungsionalitas produk. Bab 3, Bagian Persyaratan Spesifikasi, dari dokumen ini ditulis terutama untuk menjelaskan secara teknis rinciannya fungsionalitas produk. Kedua bagian dokumen tersebut menggambarkan produk perangkat lunak yang sama secara keseluruhan, namun ditujukan untuk khalayak yang berbeda.<br>
 
@@ -63,8 +62,6 @@ Bab 2, bagian Uraian Keseluruhan, dari dokumen ini memberikan sebuah gambaran fu
  ![Antarmuka Hardware](/image/Antarmuka%20Hardware.png)
  <br>
  **2.2 Spesifikasi Kebutuhan Fungsional**<br>
- 
-<<<<<<< HEAD
 Bagian ini menguraikan use case untuk masing-masing pengguna secara terpisah. Dimana aktor dalam aplikasi ini yaitu admin.<br><br>
 **2.2.1 Admin Use Case**<br>
 ![Use Case Admin](/image/Use Case Admin.png)<br>
@@ -72,29 +69,9 @@ Admin dapat login pada website server dan menambahkan data anggota serta barang 
 ![Use Case User](/image/Use Case User.png)<br>
 User dapat menggunakan fungsi login pada aplikasi adnroid kemudian melihat barang dan melakukan transaksi.<br>
  **2.3 Spesifikasi Kebutuhan non-Fungsional**<br>
- Hanya Ada 2 Karakteristik Pengguna<br>
-=======
- **USER**
 
- - Dapat Melakukan Transaksi
- - Melihat List Barang
- - Login
  
- **ADMIN**
- 
- - Dapat Menambahkan Barang
- - Melihat laporan
- - Login
- - Melihat Barang
-
- **2.3 Karakteristik Pengguna**
- 
- Hanya Ada 2 Karakteristik Pengguna
->>>>>>> 2e6e40f838bea0a4a24c6a069f3790cc3726722a
- 1. Admin
- 2. Pengguna / User
- 
- **2.4 Batasan-Batasan**
+ **2.4 Batasan-Batasan**<br>
  Batasan Sistem Aplikasi dalam dokumen SRS ini adalah sebagai berikut:  
  
 1. Aplikasi ini dilengkapi dengan pemberian hak akses masing  – masing user.
