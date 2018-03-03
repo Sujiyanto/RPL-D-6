@@ -17,8 +17,8 @@ Anggota
 ### 1. Pendahuluan
 **1.1 Tujuan**<br>
 		Tujuan dari dokumen ini adalah untuk menyajikan deskripsi rinci tentang aplikasi yang akan dibuat serta dokumen ini akan menjelaskan tentang tujuan dan fitur dari sistem yang akan dibangun beserta interface dari sistem.<br>
-**1.2 Lingkup Proyek**<br>
-		Sistem Perangkat Lunak ini hanya akan menjadi aplikasi lokal, yang artinya aplikasi ini hanya akan dibuat untuk anggota yang terdaftar dalam koperasi karyawan Polindra. Sistem ini akan dirangcang untuk membantu admin koperasi dalam pemantauan penjualan serta angsuran pembayaran serta dapat membantu pihak anggota sebagai user yang menggunakan aplikasi ini untuk mempermudah melakukan transaksi pembelian barang dan peminjaman uang secara online. Dengan memaksimalkan sistem pada aplikasi ini maka akan memenuhi kebutuhan pihak koperasi dan tetap mudah dimengerti dalam hal penggunaan untuk semua user.<br>
+**1.2 Lingkup Proyek**<br><br>
+		Sistem Perangkat Lunak ini hanya akan menjadi aplikasi lokal, yang artinya aplikasi ini hanya akan dibuat untuk anggota yang terdaftar dalam koperasi karyawan Polindra. Sistem ini akan dirangcang untuk membantu admin koperasi dalam pemantauan penjualan serta angsuran pembayaran serta dapat membantu pihak anggota sebagai user yang menggunakan aplikasi ini untuk mempermudah melakukan transaksi pembelian barang dan peminjaman uang secara online. Dengan memaksimalkan sistem pada aplikasi ini maka akan memenuhi kebutuhan pihak koperasi dan tetap mudah dimengerti dalam hal penggunaan untuk semua user.<br><br>
 **1.3 Definisi, Akronim, Singkatan**<br>
 
 		| Istilah | Definisi                                       |
@@ -27,7 +27,6 @@ Anggota
 		| User    | Pemakai atau pengguna aplikasi                 |
 <br>
 **1.4 Referensi**<br>
-		
 **1.5 Overview**<br>
 Bab 2, bagian Uraian Keseluruhan, dari dokumen ini memberikan sebuah gambaran fungsionalitas produk. Bab 3, Bagian Persyaratan Spesifikasi, dari dokumen ini ditulis terutama untuk menjelaskan secara teknis rinciannya fungsionalitas produk. Kedua bagian dokumen tersebut menggambarkan produk perangkat lunak yang sama secara keseluruhan, namun ditujukan untuk khalayak yang berbeda.<br>
 
@@ -45,22 +44,15 @@ Bab 2, bagian Uraian Keseluruhan, dari dokumen ini memberikan sebuah gambaran fu
 **2.1.3 Antarmuka Hardware** <br>
  ![Antarmuka Hardware](/image/Antarmuka%20Hardware.png)
  <br>
- **2.2 Fungsi-Fungsi Produk**<br>
+ **2.2 Spesifikasi Kebutuhan Fungsional**<br>
  
- **USER**
-<br>
- - Dapat Melakukan Transaksi
- - Melihat List Barang
- - Login
- <br>
- **ADMIN**
- <br>
- - Dapat Menambahkan Barang
- - Melihat laporan
- - Login
- - Melihat Barang
-<br>
- **2.3 Karakteristik Pengguna**<br>
+Bagian ini menguraikan use case untuk masing-masing pengguna secara terpisah. Dimana aktor dalam aplikasi ini yaitu admin.<br><br>
+**2.2.1 Admin Use Case**<br>
+![Use Case Admin](/image/Use Case Admin.png)<br>
+Admin dapat login pada website server dan menambahkan data anggota serta barang yang tersedia kemudian fungsi selanjutnya yaitu admin membuat laporan perkreditan.<br>
+![Use Case User](/image/Use Case User.png)<br>
+User dapat menggunakan fungsi login pada aplikasi adnroid kemudian melihat barang dan melakukan transaksi.<br>
+ **2.3 Spesifikasi Kebutuhan non-Fungsional**<br>
  Hanya Ada 2 Karakteristik Pengguna<br>
  1. Admin
  2. Pengguna / User
