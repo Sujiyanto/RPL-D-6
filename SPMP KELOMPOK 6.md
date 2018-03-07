@@ -25,25 +25,26 @@ Selama proyek dokumen ini akan diperbarui karena sebuah rencana disempurnakan se
  - Balsamiq
  Digunakan sebagai media untuk membuat desain tampilan interface aplikasi yang akan dibuat
 
-**1.5 Definisi dan akronim (singkatan)**<br>
-```
+**1.5 Definisi dan akronim (singkatan)**
+
 | Istilah | Definisi                                       |
 |---------|------------------------------------------------|
 | Admin   | Orang yang mengelolah web server dari aplikasi |
 | User    | Pemakai atau pengguna aplikasi                 |
-```
+
 **2. Organisasi Proyek**<br>
 **2.1 Model proses**<br>
 	
 Aplikasi tersebut berbasis android, dengan menggunakan sebuah software android studio. Dan kemungkinan akan ada aplikasi pendukung lainya. <br>
 	
-**2.2 Struktur organisasi**<br>
+**2.2 Struktur organisasi**
 
-	| No. |			Nama							|		Jabatan			            |
-	| ---  |--------------------------------|------------------------------|
-	| 1.   |Nur Inayatun Mahmuda		|  Project Plan			            |
-	| 2.   |Muhammad Fauji Al Fariz	|  Web Development		    |
-	| 3.   |Sujiyanto					            |  Android Development	|
+| No. |Nama|Jabatan|
+| ---  |------------------------|-----------------------|
+| 1.   |Nur Inayatun Mahmuda	|  Project Plan		|
+| 2.   |Muhammad Fauji Al Fariz	|  Web Development	|
+| 3.   |Sujiyanto		|  Android Development	|
+| 4.   |Astri Alisah		|  Database		|
   
 
 
@@ -68,23 +69,23 @@ Tujuan dari projek ini adalah untuk meringankan pembayaran pada saat pembelian b
 		- Waktu
 		- cuaca kurang mendukung
 
-**3.3 Manajemen resiko**
+**3.3 Manajemen resiko**<br>
 		Aplikasi ini hanya diperuntukan untuk karyawan Koperasi POLINDRA
-		Sabar setoran kredit melihat penghasilan custumer<br>
+		Sabar setoran kredit melihat penghasilan custumer
 		
 **3.4 Mekanisme monitoring dan kontroling**<br>
 	
-			- Negosisasi untuk Bekerja sama dengan mitra
-			- Perancangan 
-			- Pengerjaan proyek
-			- Testing Aplikasi
-			- Evaluasi
+		- Negosisasi untuk Bekerja sama dengan mitra
+		- Perancangan 
+		- Pengerjaan proyek
+		- Testing Aplikasi
+		- Evaluasi
 
 **3.5 Perancangan staf**<br>
 	
-			- Project Manager
-			- Front-End
-			- Back-End
+		- Project Manager
+		- Front-End
+		- Back-End
 
 **4. Proses Teknis**<br>
 
@@ -96,8 +97,8 @@ Tujuan dari projek ini adalah untuk meringankan pembayaran pada saat pembelian b
 	
 **4.3 Fungsi-fungsi pendukung proyek**<br>
 	
-			- Penjualan barang
-			- Pinjaman Uang
+	- Penjualan barang
+	- Pinjaman Uang
 
  **5. Paket Pekerjaan, Jadwal dan Budget**<br>
 
@@ -113,14 +114,14 @@ Tujuan dari projek ini adalah untuk meringankan pembayaran pada saat pembelian b
 		
 |Perangkat keras |Perangkat Lunak |Other    |
 |----------------|----------------|---------|
-|3x Laptop		 |Sublime Text    | Internet|
+|3x Laptop	 |Sublime Text    | Internet|
 |Barang Kredit   |Microsoft Word  |Konsumsi |
 |                |Microsoft exel  |         |
 
 
 **5.4 Alokasi budget sumber daya**
 	
-|No|Keperluan |   Anggaran 	  |
+|No|Keperluan | Anggaran |
 |--|----------|---------------|
 |1 |3x Laptop |Rp. 40.000.000 |
 |2 |Internet  |Rp. 2.000.000  |
