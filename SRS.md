@@ -50,8 +50,9 @@ Bab 2, bagian Uraian Keseluruhan, dari dokumen ini memberikan sebuah gambaran fu
 ![Dashboard admin](/image/Dasboard%20Admin.png)<br>
 **2.1.3 Antarmuka Hardware**<br>
  ![Antarmuka Hardware](/image/Antarmuka%20Hardware.png)<br>
- **2.2 Spesifikasi Kebutuhan Fungsional**<br>
-Bagian ini menguraikan use case untuk masing-masing pengguna secara terpisah. Dimana aktor dalam aplikasi ini yaitu admin.<br>
+  **2.2 Spesifikasi Kebutuhan Fungsional**<br>
+Bagian ini menguraikan use case untuk masing-masing pengguna secara terpisah. Dimana aktor dalam aplikasi ini yaitu admin.
+![Spesifikasi Kebutuhan Fungsional](/image/SKF.png)<br>
 **2.2.1 Admin Use Case**<br>
 Admin dapat login pada website server dan menambahkan data anggota serta barang yang tersedia kemudian fungsi selanjutnya yaitu admin membuat laporan perkreditan.<br>
 ![Admin Use Case](/image/Use%20Case%20Admin.png)<br>
