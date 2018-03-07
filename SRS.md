@@ -74,9 +74,10 @@ Batasan pada produk :
 **3.1 Kebutuhan Antarmuka Eksternal**<br>
 Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk anggota koperasi sebagai user dan menggunakan website untuk admin, untuk pengelolaan user interface digunakan aplikasi sublime text dimana tampilan website didesain sesuai kebutuhan admin dan user interface untuk anggota didesain menggunakan balsamiq dan diimplementasikan dengan android studio dan fungsi yang ada sesuai kebutuhan pengguna. aplikasi ini dilengkapi dengan beberapa fungsi yang disediakan. interaksi antara pengguna dan perangkat lunak dilakukan dengan smartphone dan interaksi antara admin dan website dilakukan baik dengan keyboard dan mouse.<br>
 **3.2 Kebutuhan Fungsional**<br>
-**3.2.1 Dashboard User**<br>
-|Nama Fungsi|Halaman awal user|
-|--|--|
+**3.2.1 Dashboard User**
+
+| Nama Fungsi |Halaman awal user                           |
+|---------|------------------------------------------------|
 | **Ref** | **Bag 2.1.2** |
 |**Trigger**|**isi**|
 |**Precondition**|**isi**|
@@ -84,9 +85,11 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 |**Alternative**|**isi**|
 |**Post Condition**|**isi**|
 |**Exception Push**|**isi**|
-**3.2.2 Menu Elektronik**<br>
-|Nama Fungsi|Elektronik  |
-|--|--|
+
+**3.2.2 Menu Elektronik**
+
+| Nama Fungsi |Elektronik                           |
+|---------|------------------------------------------------|
 |**Ref** | **Bag 2.1.2** |
 |**Trigger**|**Membuka aplikasi menu elektronik**|
 |**Precondition**|**Halaman Utama Aplikasi**|
