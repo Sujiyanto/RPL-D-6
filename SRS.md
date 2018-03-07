@@ -27,8 +27,8 @@ Anggota
 		|---------|------------------------------------------------|
 		| Admin   | Orang yang mengelolah web server dari aplikasi |
 		| User    | Pemakai atau pengguna aplikasi                 |
-**1.4 Referensi**
-https://www.slideshare.net/rivaldysetiawan7/srs-example-webapp-33986122
+**1.4 Referensi** <br>
+https://www.slideshare.net/rivaldysetiawan7/srs-example-webapp-33986122 <br>
 **1.5 Overview**<br>
 Bab 2, bagian Uraian Keseluruhan, dari dokumen ini memberikan sebuah gambaran fungsionalitas produk. Bab 3, Bagian Persyaratan Spesifikasi, dari dokumen ini ditulis terutama untuk menjelaskan secara teknis rinciannya fungsionalitas produk. Kedua bagian dokumen tersebut menggambarkan produk perangkat lunak yang sama secara keseluruhan, namun ditujukan untuk khalayak yang berbeda.
 
