@@ -67,10 +67,98 @@ Batasan pada produk :
 2.	Aplikasi akan dibuat dengan modul dan fungsionalitas sesuai dengan kebutuhan.
 3.	Aplikasi dibangun dengan Java di Android Studio dan Firebase sebagai database
 <br>
-**2.6 Asumsi-Asumsi Keterkaitan**<br>
+**2.6 Asumsi-Asumsi Keterkaitan** <br>
 
 ### 3. SPESIFIKASI KEBUTUHAN
 
 **3.1 Kebutuhan Antarmuka Eksternal**<br>
+Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk anggota koperasi sebagai user dan menggunakan website untuk admin, untuk pengelolaan user interface digunakan aplikasi sublime text dimana tampilan website didesain sesuai kebutuhan admin dan user interface untuk anggota didesain menggunakan balsamiq dan diimplementasikan dengan android studio dan fungsi yang ada sesuai kebutuhan pengguna. aplikasi ini dilengkapi dengan beberapa fungsi yang disediakan. interaksi antara pengguna dan perangkat lunak dilakukan dengan smartphone dan interaksi antara admin dan website dilakukan baik dengan keyboard dan mouse.<br>
 **3.2 Kebutuhan Fungsional**<br>
+**3.2.1 Dashboard User**<br>
+|Nama Fungsi|Halaman awal user|
+|--|--|
+| **Ref** | **Bag 2.1.2** |
+|**Trigger**|**isi**|
+|**Precondition**|**isi**|
+|**Basic Path**|**isi**|
+|**Alternative**|**isi**|
+|**Post Condition**|**isi**|
+|**Exception Push**|**isi**|
+**3.2.2 Menu Elektronik**<br>
+|Nama Fungsi|Elektronik  |
+|--|--|
+|**Ref** | **Bag 2.1.2** |
+|**Trigger**|**Membuka aplikasi menu elektronik**|
+|**Precondition**|**Halaman Utama Aplikasi**|
+|**Basic path**|**User membuka menu elektronik**|
+|**Alternative**|**Tidak ada**|
+|**Post Condition**|**Tanpa login user dapat melihat menu ini**|
+|**Exception Push**|**Tidak ada**|
+
+**3.2.3 Pengajuan Cicilan**<br>
+|Nama Fungsi|Pengajuan Cicilan|
+|--|--|
+| **Ref** | **Bag 2.1.2** |
+|**Trigger**|**isi**|
+|**Precondition**|**isi**|
+|**Basic Path**|**isi**|
+|**Alternative**|**isi**|
+|**Post Condition**|**isi**|
+|**Exception Push**|**isi**|
+
+**3.2.4 Login User**<br>
+|Nama Fungsi|Login|
+|--|--|
+| **Ref** | **Bag 2.1.2** |
+|**Trigger**|**isi**|
+|**Precondition**|**isi**|
+|**Basic Path**|**isi**|
+|**Alternative**|**isi**|
+|**Post Condition**|**isi**|
+|**Exception Push**|**isi**|
+
+**3.2.5 Personal**<br>
+|Nama Fungsi|Personal|
+|--|--|
+| **Ref** | **Bag 2.1.2** |
+|**Trigger**|**isi**|
+|**Precondition**|**isi**|
+|**Basic Path**|**isi**|
+|**Alternative**|**isi**|
+|**Post Condition**|**isi**|
+|**Exception Push**|**isi**|
+
+**3.2.6 Bill**<br>
+|Nama Fungsi|Bill|
+|--|--|
+| **Ref** | **Bag 2.1.2** |
+|**Trigger**|**isi**|
+|**Precondition**|**isi**|
+|**Basic Path**|**isi**|
+|**Alternative**|**isi**|
+|**Post Condition**|**isi**|
+|**Exception Push**|**isi**|
+
+**3.2.7 Login Admin**<br>
+|Nama Fungsi|Login|
+|--|--|
+| **Ref** | **Bag 2.1.2** |
+|**Trigger**|**isi**|
+|**Precondition**|**isi**|
+|**Basic Path**|**isi**|
+|**Alternative**|**isi**|
+|**Post Condition**|**isi**|
+|**Exception Push**|**isi**|
+
+**3.2.8 Dashboard Admin**<br>
+|Nama Fungsi|Halaman Awal Admin|
+|--|--|
+| **Ref** | **Bag 2.1.2** |
+|**Trigger**|**isi**|
+|**Precondition**|**isi**|
+|**Basic Path**|**isi**|
+|**Alternative**|**isi**|
+|**Post Condition**|**isi**|
+|**Exception Push**|**isi**|
+
 **3.3 Detail Persyaratan non-Fungsional**<br>
