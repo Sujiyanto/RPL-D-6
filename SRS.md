@@ -1,4 +1,5 @@
 
+
 ## Software Requirements Specification
 ### Version 1.0
 ### 22 Februari 2018
@@ -58,22 +59,36 @@ Admin dapat login pada website server dan menambahkan data anggota serta barang 
 User dapat menggunakan fungsi login pada aplikasi adnroid kemudian melihat barang dan melakukan transaksi.<br>
 ![User Use Case](/image/Use%20Case%20User.png)<br>
 **2.3 Spesifikasi Kebutuhan non-Fungsional**<br>
- 
-**2.4 Karakteristik Pengguna** <br>
+ 1. Sistem dapat dijalankan diperangkat smartphone dan oleh beberapa software web browser
+ 2. Proses dari pengguna membuka aplikasi dan menampilkan beberapa menu didalamnya berlangsung tidak akan lama
+ 3. Sistem harus dapat memastikan bahwa data yang digunakan dalam sistem harus terlindung dari akses yang tidak berwenang
+ 4. Sistem memiliki tampilan (antar mukan) yang mudah dipahami <br>
+ **2.4 Karakteristik Pengguna** <br>
 Dengan adanya aplikasi ini diharapkan dapat membantu admin mengelolah data perkreditan barang yang dijual dan peminjaman uang yang dilakukan oleh anggota. Kemudian untuk pengguna sendiri diharapkan bisa membantu mempermudah melakukan transaksi menggunakan aplikasi mobile ini.<br>
 **2.5 Batasan-Batasan**<br>
 Batasan pada produk :
-1.	Hanya menangani kredit penjualan barang atau peminjaman uang pada KOPKAR POLINDRA.
+1. Hanya menangani kredit penjualan barang atau peminjaman uang pada KOPKAR POLINDRA.
 2.	Aplikasi akan dibuat dengan modul dan fungsionalitas sesuai dengan kebutuhan.
 3.	Aplikasi dibangun dengan Java di Android Studio dan Firebase sebagai database
-<br>
-**2.6 Asumsi-Asumsi Keterkaitan** <br>
+
 
 ### 3. SPESIFIKASI KEBUTUHAN
 
 **3.1 Kebutuhan Antarmuka Eksternal**<br>
 Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk anggota koperasi sebagai user dan menggunakan website untuk admin, untuk pengelolaan user interface digunakan aplikasi sublime text dimana tampilan website didesain sesuai kebutuhan admin dan user interface untuk anggota didesain menggunakan balsamiq dan diimplementasikan dengan android studio dan fungsi yang ada sesuai kebutuhan pengguna. aplikasi ini dilengkapi dengan beberapa fungsi yang disediakan. interaksi antara pengguna dan perangkat lunak dilakukan dengan smartphone dan interaksi antara admin dan website dilakukan baik dengan keyboard dan mouse.<br>
 **3.2 Kebutuhan Fungsional**<br>
+1. Website Admin
+- Admin dapat melakukan login
+- Admin dapat menginputkan, mengedit dan menghapus data barang
+- Admin dapat menginputkan, mengedit dan menghapus data anggota
+- Admin dapat melihat ajuan kredit
+- Admin dapat melihat laporan penjualan 
+3.  Software User
+- Pengguna dapat melakukan login
+- Pengguna dapat melihat data barang yang tersedia
+- Pengguna dapat melakukan pengajuan cicilan dalam pembelian barang
+- Pengguna dapat melihat Bill pembayaran
+- Pengguna dapat melakukan edit profile<br>
 **3.2.1 Dashboard User**
 
 | Nama Fungsi |Halaman awal user                           |
@@ -167,7 +182,7 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 |**Precondition**|**Tidak ada**|
 |**Basic Path**|**User membuka aplikasi**|
 |**Alternative**|**Tidak ada**|
-|**Post Condition**|**Tanpa login user dapat melihat halaman dasboard**|
+|**Post Condition**|**Tanpa login user dapat melihat halaman dashboard**|
 |**Exception Push**|**Tidak ada**|
 
 **3.3 Detail Persyaratan non-Fungsional**<br>
