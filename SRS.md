@@ -188,7 +188,7 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 |**Post Condition**|**Tanpa login user dapat melihat halaman dashboard**|
 |**Exception Push**|**Tidak ada**|
 
-**3.3 Detail Persyaratan non-Fungsional**
+**3.3 Detail Persyaratan non-Fungsional** <br>
 			**3.3.1	Struktur data logis**
 			**Struktur data yang ada pada aplikasi Akbar Kopkar**<br>
 			![ERD](/image/ERD.png)
