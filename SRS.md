@@ -164,8 +164,8 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 |---------|----------|
 | **Ref** | **Bag 2.1.2** |
 |**Trigger**|**Membuka dasboard user**|
-|**Precondition**|**User membuka aplikasi**|
-|**Basic Path**|**isi**|
+|**Precondition**|**Tidak ada**|
+|**Basic Path**|**User membuka aplikasi**|
 |**Alternative**|**Tidak ada**|
 |**Post Condition**|**Tanpa login user dapat melihat halaman dasboard**|
 |**Exception Push**|**Tidak ada**|
