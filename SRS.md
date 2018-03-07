@@ -1,5 +1,6 @@
 
 
+
 ## Software Requirements Specification
 ### Version 1.0
 ### 22 Februari 2018
@@ -52,7 +53,7 @@ Bab 2, bagian Uraian Keseluruhan, dari dokumen ini memberikan sebuah gambaran fu
  ![Antarmuka Hardware](/image/Antarmuka%20Hardware.png)<br>
   **2.2 Spesifikasi Kebutuhan Fungsional**<br>
 Bagian ini menguraikan use case untuk masing-masing pengguna secara terpisah. Dimana aktor dalam aplikasi ini yaitu admin.
-![Spesifikasi Kebutuhan Fungsional](/image/SKF.png)<br>
+![Use case keseluruhan](/image/Use%20case.png)<br>
 **2.2.1 Admin Use Case**<br>
 Admin dapat login pada website server dan menambahkan data anggota serta barang yang tersedia kemudian fungsi selanjutnya yaitu admin membuat laporan perkreditan.<br>
 ![Admin Use Case](/image/Use%20Case%20Admin.png)<br>
@@ -190,7 +191,7 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 **3.3 Detail Persyaratan non-Fungsional**
 			**3.3.1	Struktur data logis**
 			**Struktur data yang ada pada aplikasi Akbar Kopkar**<br>
-			![ERD](/image/ERD.png) 
+			![ERD](/image/ERD.png)
 			**Anggota**	
 |Data item|Type|Description|Comment|
 |---------|----|-----------|-------|
