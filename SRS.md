@@ -186,4 +186,48 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 |**Post Condition**|**Tanpa login user dapat melihat halaman dashboard**|
 |**Exception Push**|**Tidak ada**|
 
-**3.3 Detail Persyaratan non-Fungsional**<br>
+**3.3 Detail Persyaratan non-Fungsional**
+			**3.3.1	Struktur data logis**
+			**Struktur data yang ada pada aplikasi Akbar Kopkar**<br>
+			![ERD](/image/ERD.png) 
+			**Anggota**	
+|Data item|Type|Description|Comment|
+|---------|----|-----------|-------|
+|Id_Anggota|integer|Identitas pengguna|Digunakan untuk Primary key       |
+|No_hp|integer|Contact Person pengguna||
+|NIK|integer|Nomor kependudukan pengguna||
+|J_kelamin|char|Jenis Kelamin pengguna||
+|tgl_lahir|date|Tanggal lahir pengguna||
+|Alamat|string|Alamat pengguna||
+
+**Admin**
+|Data Item|Type|Description|Comment|
+|---------|----|-----------|-------|
+|Id_admin|Integer|Identitas admin|Primary key|
+|Nama|String|Nama admin|       |
+|Username|String|Username admin|       |
+|Password|String|Autentikasi|       |
+
+**Barang**
+|Data Item|Type|Description|Comment|
+|--|--|--|--|
+|Id_barang|Integer|Identitas barang|  |
+|nm_barang|String|nama barang|  |
+|Kategori|String|kategori|  |
+|Harga|Integer|harga|  |
+|Stok|Integer|stok|  |
+
+**Kategori**
+|Data item|Type|Description|Comment|
+|--|--|--|--|
+|Id_kategori|Integer|Identitas kategori|Foregn key|
+|nm_kategori|String|nama kategori||
+
+**Transaksi**
+|Data item|Type|Description|Comment|
+|--|--|--|--|
+|Kd_nota|Integer|Kode nota||
+|nm_barang|String|Nama barang||
+|nm_pembeli|String|Nama pembeli||
+|cicilan|Integer|Ajuan cicilan||
+|jumlah|Integer|Jumlah yang harus dibayar||
