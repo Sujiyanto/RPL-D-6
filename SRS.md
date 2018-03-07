@@ -79,12 +79,12 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 | Nama Fungsi |Halaman awal user                           |
 |---------|------------------------------------------------|
 | **Ref** | **Bag 2.1.2** |
-|**Trigger**|**isi**|
-|**Precondition**|**isi**|
-|**Basic Path**|**isi**|
-|**Alternative**|**isi**|
-|**Post Condition**|**isi**|
-|**Exception Push**|**isi**|
+|**Trigger**|**Membuka dasboard user**|
+|**Precondition**|**Tidak ada**|
+|**Basic Path**|**User membuka aplikasi**|
+|**Alternative**|**Tidak ada**|
+|**Post Condition**|**Tanpa login user dapat melihat halaman dasboard**|
+|**Exception Push**|**Tidak ada**|
 
 **3.2.2 Menu Elektronik**
 
@@ -95,7 +95,7 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 |**Precondition**|**Halaman Utama Aplikasi**|
 |**Basic path**|**User membuka menu elektronik**|
 |**Alternative**|**Tidak ada**|
-|**Post Condition**|**Tanpa login user dapat melihat menu ini**|
+|**Post Condition**|**Tanpa login user dapat melihat menu Elektronik**|
 |**Exception Push**|**Tidak ada**|
 
 **3.2.3 Pengajuan Cicilan**
@@ -103,71 +103,71 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 | Nama Fungsi |Penjualan Cicilan                         |
 |---------|------------------------------------------------|
 | **Ref** | **Bag 2.1.2** |
-|**Trigger**|**isi**|
-|**Precondition**|**isi**|
-|**Basic Path**|**isi**|
-|**Alternative**|**isi**|
-|**Post Condition**|**isi**|
-|**Exception Push**|**isi**|
+|**Trigger**|**User memilih jangka waktu pembayaran**|
+|**Precondition**|**Tampilan Detail barang**|
+|**Basic Path**|**User memilih tombol bulan**|
+|**Alternative**|**Tidak ada**|
+|**Post Condition**|**Tanpa login user dapat melihat jumlah harga yang harus dibayar**|
+|**Exception Push**|**Tidak ada**|
 
 **3.2.4 Login User**
 
 | Nama Fungsi |Login |
 |---------|----------|
 | **Ref** | **Bag 2.1.2** |
-|**Trigger**|**isi**|
-|**Precondition**|**isi**|
-|**Basic Path**|**isi**|
-|**Alternative**|**isi**|
-|**Post Condition**|**isi**|
-|**Exception Push**|**isi**|
+|**Trigger**|**User memasukan akun*|
+|**Precondition**|**Tampilan pengajuan cicilan**|
+|**Basic Path**|**User melakukan transaksi**|
+|**Alternative**|**Tidak ada**|
+|**Post Condition**|**User Mengisi akun login**|
+|**Exception Push**|**Tidak ada**|
 
 **3.2.5 Personal**
 
 | Nama Fungsi |Perasonal |
 |---------|--------------|
 | **Ref** | **Bag 2.1.2** |
-|**Trigger**|**isi**|
-|**Precondition**|**isi**|
-|**Basic Path**|**isi**|
-|**Alternative**|**isi**|
-|**Post Condition**|**isi**|
-|**Exception Push**|**isi**|
+|**Trigger**|**User melihat data profile**|
+|**Precondition**|**Tampilan halaman utama**|
+|**Basic Path**|**Mengisi kelengkapan profile**|
+|**Alternative**|**Tidak ada**|
+|**Post Condition**|**User harus memiliki akun**|
+|**Exception Push**|**Tidak ada**|
 
 **3.2.6 Bill**
 
 | Nama Fungsi |Bill |
 |---------|--------------|
 | **Ref** | **Bag 2.1.2** |
-|**Trigger**|**isi**|
-|**Precondition**|**isi**|
-|**Basic Path**|**isi**|
-|**Alternative**|**isi**|
-|**Post Condition**|**isi**|
-|**Exception Push**|**isi**|
+|**Trigger**|**User melihat tagihan pembayaran**|
+|**Precondition**|**Tampilan halaman utama**|
+|**Basic Path**|**User mengklik menu bill pembayaran**|
+|**Alternative**|**Tidak ada**|
+|**Post Condition**|**Hanya ada saat user melakukan transaksi**|
+|**Exception Push**|**Tidak ada**|
 
 **3.2.7 Login Admin**
 
 | Nama Fungsi |Login |
 |---------|----------|
 | **Ref** | **Bag 2.1.2** |
-|**Trigger**|**isi**|
-|**Precondition**|**isi**|
-|**Basic Path**|**isi**|
-|**Alternative**|**isi**|
-|**Post Condition**|**isi**|
-|**Exception Push**|**isi**|
+|**Trigger**|**User memasukan akun**|
+|**Precondition**|**Tampilan pengajuan cicilan**|
+|**Basic Path**|**User melakukan transaksi**|
+|**Alternative**|**Tidak ada**|
+|**Post Condition**|**User mengisi akun login**|
+|**Exception Push**|**Tidak ada**|
 
 **3.2.8 Dashboard Admin**
 
 | Nama Fungsi |Halaman awal admin |
 |---------|----------|
 | **Ref** | **Bag 2.1.2** |
-|**Trigger**|**isi**|
-|**Precondition**|**isi**|
+|**Trigger**|**Membuka dasboard user**|
+|**Precondition**|**User membuka aplikasi**|
 |**Basic Path**|**isi**|
-|**Alternative**|**isi**|
-|**Post Condition**|**isi**|
-|**Exception Push**|**isi**|
+|**Alternative**|**Tidak ada**|
+|**Post Condition**|**Tanpa login user dapat melihat halaman dasboard**|
+|**Exception Push**|**Tidak ada**|
 
 **3.3 Detail Persyaratan non-Fungsional**<br>
