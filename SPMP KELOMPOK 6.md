@@ -1,3 +1,4 @@
+
 ## Aplikasi Kredit Barang berbasis Android
 
 ### Software Project Management Plan
@@ -34,9 +35,7 @@ Selama proyek dokumen ini akan diperbarui karena sebuah rencana disempurnakan se
 
 **2. Organisasi Proyek**<br>
 **2.1 Model proses**<br>
-	
-Aplikasi tersebut berbasis android, dengan menggunakan sebuah software android studio. Dan kemungkinan akan ada aplikasi pendukung lainya. <br>
-	
+	![vmodel](/image/v%20model.png)	
 **2.2 Struktur organisasi**
 
 | No. |Nama|Jabatan|
