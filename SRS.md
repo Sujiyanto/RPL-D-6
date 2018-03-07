@@ -28,7 +28,7 @@ Anggota
 		| Admin   | Orang yang mengelolah web server dari aplikasi |
 		| User    | Pemakai atau pengguna aplikasi                 |
 **1.4 Referensi**
-		
+https://www.slideshare.net/rivaldysetiawan7/srs-example-webapp-33986122
 **1.5 Overview**<br>
 Bab 2, bagian Uraian Keseluruhan, dari dokumen ini memberikan sebuah gambaran fungsionalitas produk. Bab 3, Bagian Persyaratan Spesifikasi, dari dokumen ini ditulis terutama untuk menjelaskan secara teknis rinciannya fungsionalitas produk. Kedua bagian dokumen tersebut menggambarkan produk perangkat lunak yang sama secara keseluruhan, namun ditujukan untuk khalayak yang berbeda.
 
@@ -63,7 +63,8 @@ User dapat menggunakan fungsi login pada aplikasi adnroid kemudian melihat baran
  2. Proses dari pengguna membuka aplikasi dan menampilkan beberapa menu didalamnya berlangsung tidak akan lama
  3. Sistem harus dapat memastikan bahwa data yang digunakan dalam sistem harus terlindung dari akses yang tidak berwenang
  4. Sistem memiliki tampilan (antar mukan) yang mudah dipahami <br>
- **2.4 Karakteristik Pengguna** <br>
+
+**2.4 Karakteristik Pengguna** <br>
 Dengan adanya aplikasi ini diharapkan dapat membantu admin mengelolah data perkreditan barang yang dijual dan peminjaman uang yang dilakukan oleh anggota. Kemudian untuk pengguna sendiri diharapkan bisa membantu mempermudah melakukan transaksi menggunakan aplikasi mobile ini.<br>
 **2.5 Batasan-Batasan**<br>
 Batasan pada produk :
@@ -130,7 +131,7 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 | Nama Fungsi |Login |
 |---------|----------|
 | **Ref** | **Bag 2.1.2** |
-|**Trigger**|**User memasukan akun*|
+|**Trigger**|**User memasukan akun**|
 |**Precondition**|**Tampilan pengajuan cicilan**|
 |**Basic Path**|**User melakukan transaksi**|
 |**Alternative**|**Tidak ada**|
