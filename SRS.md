@@ -98,9 +98,10 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 |**Post Condition**|**Tanpa login user dapat melihat menu ini**|
 |**Exception Push**|**Tidak ada**|
 
-**3.2.3 Pengajuan Cicilan**<br>
-|Nama Fungsi|Pengajuan Cicilan|
-|--|--|
+**3.2.3 Pengajuan Cicilan**
+
+| Nama Fungsi |Penjualan Cicilan                         |
+|---------|------------------------------------------------|
 | **Ref** | **Bag 2.1.2** |
 |**Trigger**|**isi**|
 |**Precondition**|**isi**|
@@ -109,9 +110,10 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 |**Post Condition**|**isi**|
 |**Exception Push**|**isi**|
 
-**3.2.4 Login User**<br>
-|Nama Fungsi|Login|
-|--|--|
+**3.2.4 Login User**
+
+| Nama Fungsi |Login |
+|---------|----------|
 | **Ref** | **Bag 2.1.2** |
 |**Trigger**|**isi**|
 |**Precondition**|**isi**|
@@ -120,9 +122,10 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 |**Post Condition**|**isi**|
 |**Exception Push**|**isi**|
 
-**3.2.5 Personal**<br>
-|Nama Fungsi|Personal|
-|--|--|
+**3.2.5 Personal**
+
+| Nama Fungsi |Perasonal |
+|---------|--------------|
 | **Ref** | **Bag 2.1.2** |
 |**Trigger**|**isi**|
 |**Precondition**|**isi**|
@@ -131,9 +134,10 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 |**Post Condition**|**isi**|
 |**Exception Push**|**isi**|
 
-**3.2.6 Bill**<br>
-|Nama Fungsi|Bill|
-|--|--|
+**3.2.6 Bill**
+
+| Nama Fungsi |Bill |
+|---------|--------------|
 | **Ref** | **Bag 2.1.2** |
 |**Trigger**|**isi**|
 |**Precondition**|**isi**|
@@ -142,9 +146,10 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 |**Post Condition**|**isi**|
 |**Exception Push**|**isi**|
 
-**3.2.7 Login Admin**<br>
-|Nama Fungsi|Login|
-|--|--|
+**3.2.7 Login Admin**
+
+| Nama Fungsi |Login |
+|---------|----------|
 | **Ref** | **Bag 2.1.2** |
 |**Trigger**|**isi**|
 |**Precondition**|**isi**|
@@ -153,9 +158,10 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 |**Post Condition**|**isi**|
 |**Exception Push**|**isi**|
 
-**3.2.8 Dashboard Admin**<br>
-|Nama Fungsi|Halaman Awal Admin|
-|--|--|
+**3.2.8 Dashboard Admin**
+
+| Nama Fungsi |Halaman awal admin |
+|---------|----------|
 | **Ref** | **Bag 2.1.2** |
 |**Trigger**|**isi**|
 |**Precondition**|**isi**|
