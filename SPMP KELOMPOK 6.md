@@ -35,7 +35,7 @@ Selama proyek dokumen ini akan diperbarui karena sebuah rencana disempurnakan se
 
 **2. Organisasi Proyek**<br>
 **2.1 Model proses**<br>
-	![vmodel](/image/v%20model.png)	
+	![vmodel](/image/v%20model.png)	<br>
 **2.2 Struktur organisasi**
 
 | No. |Nama|Jabatan|
