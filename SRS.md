@@ -190,12 +190,13 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 
 **3.3 Detail Persyaratan non-Fungsional** <br>
 			**3.3.1	Struktur data logis**
-			**Struktur data yang ada pada aplikasi Akbar Kopkar**<br>
-			![ERD](/image/ERD.png)
+			**Struktur data yang ada pada aplikasi Akbar Kopkar**
+			![ERD](https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/ERD.png)
 			**Anggota**	
-|Data item|Type|Description|Comment|
-|---------|----|-----------|-------|
-|Id_Anggota|integer|Identitas pengguna|Digunakan untuk Primary key       |
+			
+| Data Item | Type | Description | Comment |
+|-----------|------|-------------|---------|
+|Id_Anggota|integer|Identitas pengguna|Digunakan untuk Primary key |
 |No_hp|integer|Contact Person pengguna||
 |NIK|integer|Nomor kependudukan pengguna||
 |J_kelamin|char|Jenis Kelamin pengguna||
@@ -203,16 +204,18 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 |Alamat|string|Alamat pengguna||
 
 **Admin**
-|Data Item|Type|Description|Comment|
-|---------|----|-----------|-------|
+
+| Data Item | Type | Description | Comment |
+|-----------|------|-------------|---------|
 |Id_admin|Integer|Identitas admin|Primary key|
 |Nama|String|Nama admin|       |
 |Username|String|Username admin|       |
 |Password|String|Autentikasi|       |
 
 **Barang**
-|Data Item|Type|Description|Comment|
-|--|--|--|--|
+
+| Data Item | Type | Description | Comment |
+|-----------|------|-------------|---------|
 |Id_barang|Integer|Identitas barang|  |
 |nm_barang|String|nama barang|  |
 |Kategori|String|kategori|  |
@@ -220,14 +223,16 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 |Stok|Integer|stok|  |
 
 **Kategori**
-|Data item|Type|Description|Comment|
-|--|--|--|--|
+
+| Data Item | Type | Description | Comment |
+|-----------|------|-------------|---------|
 |Id_kategori|Integer|Identitas kategori|Foregn key|
 |nm_kategori|String|nama kategori||
 
 **Transaksi**
-|Data item|Type|Description|Comment|
-|--|--|--|--|
+
+| Data Item | Type | Description | Comment |
+|-----------|------|-------------|---------|
 |Kd_nota|Integer|Kode nota||
 |nm_barang|String|Nama barang||
 |nm_pembeli|String|Nama pembeli||
