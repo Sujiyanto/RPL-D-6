@@ -1,3 +1,8 @@
+**REKAYASA PERANGKAT LUNAK**
+Software Design Description (SDD)
+Untuk
+AKBAR KOPKAR
+![logo](/image/polindra.png)
 **1. Pendahuluan**
 		1.1 Tujuan
 		1.2 Lingkup
