@@ -34,3 +34,5 @@ https://www.slideshare.net/rivaldysetiawan7/srs-example-webapp-33986122 <br>
 **3.3.1 DFD Level 1 Data Member**<br>
 **3.3.2 DFD Level 1 Data Barang**<br>
 **3.3.3 DFD Level 1 Data Order**<br>
+![Data order](/image/DFD%20Level%201%20Data%20Order.jpg)
+
