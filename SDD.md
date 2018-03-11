@@ -32,7 +32,10 @@ https://www.slideshare.net/rivaldysetiawan7/srs-example-webapp-33986122 <br>
 ![DFD level 0](/image/DFD%20Level%200.jpeg)<br>
 **3.3 DFD Level 1**<br>
 **3.3.1 DFD Level 1 Data Member**<br>
-**3.3.2 DFD Level 1 Data Barang**<br>
-**3.3.3 DFD Level 1 Data Order**<br>
-![Data order](/image/DFD%20Level%201%20Data%20Order.jpg)
+![DFD LvL 1 Data Member](/image/DFD%20lvl%201%20Data%20Member.png)
 
+**3.3.2 DFD Level 1 Data Barang**<br>
+![DFD LvL 1 Data Barang](/image/DFD%20lvl%201%20Data%20Barang.png)
+
+**3.3.3 DFD Level 1 Data Order**<br>
+![DFD LEVEL 1 DATA ORDER](/image/DFD%20lvl%201%20Data%20Order.png)
