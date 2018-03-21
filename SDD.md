@@ -53,11 +53,11 @@ SDD ini berisikan penjabaran rancangan dari perangkat lunak yang akan dibuat, se
 **3.1 Diagram Konteks**<br>
 ![Diagram konteks](/image/Diagram%20konteks.png)<br>
 **3.2 DFD Level 0**<br>
-![DFD Level 0](/image/DFD%20Level%200.jpg)<br>
+![DFD Level 0](/image/DFD%20Level%200.jpeg)<br>
 **3.2.1 DFD Level 0 Admin** <br>
-![DFD level0 Admin](/image/DFD%20level0%20Admin.jpg)
+![DFD Level0 Admin](/image/DFD%20level0%20Admin.JPG) <br>
 **3.3 DFD Level 1**<br>
-![DFD Level 1](/image/DFD%20Level1.jpg) <br>
+![enter image description here](/image/DFD%20level1%20Admin.PNG) <br>
 **3.3.1 DFD Level 1 Data Member**<br>
 ![DFD LvL 1 Data Member](/image/DFD%20lvl%201%20Data%20Member.png)
 		
