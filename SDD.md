@@ -51,18 +51,15 @@ SDD ini berisikan penjabaran rancangan dari perangkat lunak yang akan dibuat, se
 
 **3. Penjelasan dekomposisi**<br>
 **3.1 Diagram Konteks**<br>
-![diagram konteks](/image/Diagram%20konteks.jpeg)<br>
+![Diagram konteks](/image/Diagram%20konteks.png)<br>
 **3.2 DFD Level 0**<br>
-![DFD level 0](/image/DFD%20Level%200.jpeg)<br>
+![DFD Level 0](/image/DFD%20Level%200.jpg)<br>
+**3.2.1 DFD Level 0 Admin** <br>
+![DFD level0 Admin](/image/DFD%20level0%20Admin.jpg)
 **3.3 DFD Level 1**<br>
+![DFD Level 1](/image/DFD%20Level1.jpg) <br>
 **3.3.1 DFD Level 1 Data Member**<br>
 ![DFD LvL 1 Data Member](/image/DFD%20lvl%201%20Data%20Member.png)
-
-**3.3.2 DFD Level 1 Data Barang**<br>
-![DFD LvL 1 Data Barang](/image/DFD%20lvl%201%20Data%20Barang.png)
-
-**3.3.3 DFD Level 1 Data Order**<br>
-![DFD LEVEL 1 DATA ORDER](/image/DFD%20lvl%201%20Data%20Order.png)
 		
 **1.2 Lingkup**
 		
