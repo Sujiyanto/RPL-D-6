@@ -73,5 +73,7 @@ SDD ini berisikan penjabaran rancangan dari perangkat lunak yang akan dibuat, se
 
 <img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/DFD%20Level%201%20Data%20Order.jpg">
 
+**3.3.4 DFD Level 1 Data Admin** <br>
+<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/DFD%20lvl1%20data%20admin.png">
 </html>
 
