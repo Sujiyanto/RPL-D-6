@@ -90,4 +90,8 @@ https://www.slideshare.net/rivaldysetiawan7/srs-example-webapp-33986122 <br>
 
 **3.3.3 DFD Level 1 Data Order**<br>
 ![DFD LEVEL 1 DATA ORDER](/image/DFD%20lvl%201%20Data%20Order.png)
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 700c9192d4348dd69a415e72c1e33c009edcfc36
