@@ -4,13 +4,15 @@
 <h2 align="center">Software Design Description (SDD)</h2>
 <h2 align="center">Aplikasi Kredit Barang Koperasi Karyawan POLINDRA</h2>
 <br>
-<img align="center" src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/POLINDRA.png">
+<p align="center"><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/POLINDRA.png"></p>
 <br>
 <h3 align="center">Kelompok 5
-<li>Nur Inayatun Mahmuda</li>
-<li>Muhammad Fauji Al Fariz</li>
-<li>Astri Alisah</li>
-<li>Sujiyanto</li>
+<p align="center">
+Nur Inayatun Mahmuda<br>
+Muhammad Fauji Al Fariz<br>
+Astri Alisah<br>
+Sujiyanto
+	</p>
 </h3>
 <br><br><br>
 <h2 align="center">TEKNIK INFORMATIKA<br>
@@ -41,6 +43,7 @@ http://www.san.uri.br/~pbetencourt/engsoftII/IEEE-P1016-d50.PDF
 
 **1.5 Iktisar Dokumen**<br>
 SDD ini berisikan penjabaran rancangan dari perangkat lunak yang akan dibuat, sehingga pada tahap implementasi perangkat lunak tersebut memiliki spesifikasi yang jelas dengan tetap menjadikan dokumen ini sebagai acuan.
+
 |BAB        |Isi                             |
 |-----------|--------------------------------|
 |**BAB I**  |**Pendahuluan**                 |
@@ -49,15 +52,26 @@ SDD ini berisikan penjabaran rancangan dari perangkat lunak yang akan dibuat, se
 
 **3. Penjelasan dekomposisi**<br>
 **3.1 Diagram Konteks**<br>
+
 <img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Diagram%20konteks.png"><br>
+
 **3.2 DFD Level 0**<br>
+
 <img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/DFD%20level%200.JPG"><br>
+
 **3.3 DFD Level 1**<br>
+
 **3.3.1 DFD Level 1 Data Member**<br>
+
 <img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/DFD%20lvl%201%20Data%20Member.png">
+
 **3.3.2 DFD Level 1 Data Barang**<br>
+
 <img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/DFD%20lvl%201%20Data%20Barang.png">
+
 **3.3.3 DFD Level 1 Data Order**<br>
+
 <img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/DFD%20Level%201%20Data%20Order.jpg">
+
 </html>
 
