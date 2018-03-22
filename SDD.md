@@ -1,22 +1,19 @@
 
+<html>
+<h1 align="center"> REKAYASA PERANGKAT LUNAK</h1>
+<h2 align="center">Software Design Description (SDD)</h2>
+<h2 align="center">Aplikasi Kredit Barang Koperasi Karyawan POLINDRA</h2>
+<br><br>
+<h3 align="center">Kelompok 5
+<li>Nur Inayatun Mahmuda</li>
+<li>Muhammad Fauji Al Fariz</li>
+<li>Astri Alisah</li>
+<li>Sujiyanto</li>
+</h3>
+<br>
+<h2 align="center">TEKNIK INFORMATIKA<br>
+POLITEKNIK NEGERI INDRAMAYU</h2>
 
-
-## REKAYASA PERANGKAT LUNAK
-### Software Design Description (SDD)
-### Aplikasi Kredit Barang Koperasi Karyawan POLINDRA
-![logo](/image/polindra.png)<br>
-**1. Pendahuluan**
-
-**1.1 Tujuan**
-
-Tujuan dari dokumen ini adalah untuk menyajikan deskripsi rinci tentang aplikasi yang akan dibuat serta dokumen ini akan menjelaskan tentang tujuan dan fitur dari sistem yang akan dibangun beserta interface dari sistem.
-
-
-
-## REKAYASA PERANGKAT LUNAK
-### Software Design Description (SDD)
-### Aplikasi Kredit Barang Koperasi Karyawan POLINDRA
-![logo](/image/polindra.png)<br>
 **1. Pendahuluan**
 
 **1.1 Tujuan Penulisan Dokumen**
@@ -51,15 +48,18 @@ SDD ini berisikan penjabaran rancangan dari perangkat lunak yang akan dibuat, se
 
 **3. Penjelasan dekomposisi**<br>
 **3.1 Diagram Konteks**<br>
-![Diagram konteks](/image/Diagram%20konteks.png)<br>
+![diagram konteks](/image/Diagram%20konteks.jpeg)<br>
 **3.2 DFD Level 0**<br>
-![DFD Level 0](/image/DFD%20Level%200.jpeg)<br>
-**3.2.1 DFD Level 0 Admin** <br>
-![DFD Level0 Admin](/image/DFD%20level0%20Admin.JPG) <br>
+![DFD level 0](/image/DFD%20Level%200.jpeg)<br>
 **3.3 DFD Level 1**<br>
-![enter image description here](/image/DFD%20level1%20Admin.PNG) <br>
 **3.3.1 DFD Level 1 Data Member**<br>
 ![DFD LvL 1 Data Member](/image/DFD%20lvl%201%20Data%20Member.png)
+
+**3.3.2 DFD Level 1 Data Barang**<br>
+![DFD LvL 1 Data Barang](/image/DFD%20lvl%201%20Data%20Barang.png)
+
+**3.3.3 DFD Level 1 Data Order**<br>
+![DFD LEVEL 1 DATA ORDER](/image/DFD%20lvl%201%20Data%20Order.png)
 		
 **1.2 Lingkup**
 		
@@ -90,3 +90,4 @@ https://www.slideshare.net/rivaldysetiawan7/srs-example-webapp-33986122 <br>
 
 **3.3.3 DFD Level 1 Data Order**<br>
 ![DFD LEVEL 1 DATA ORDER](/image/DFD%20lvl%201%20Data%20Order.png)
+</html>
