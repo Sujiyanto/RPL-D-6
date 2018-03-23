@@ -1,4 +1,3 @@
-
 <html>
 <h1 align="center"> REKAYASA PERANGKAT LUNAK</h1>
 <h2 align="center">Software Design Description (SDD)</h2>
@@ -49,6 +48,15 @@ SDD ini berisikan penjabaran rancangan dari perangkat lunak yang akan dibuat, se
 |**BAB I**  |**Pendahuluan**                 |
 |**BAB II** |**Deskripsi Perancangan Global**|
 |**BAB III**|**Deskripsi Perancangan Rinci** |
+
+**2. Deskripsi Perancangan Global**<br>
+**2.1 Rancangan Lingkungan Implementasi**<br>
+Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kredit Barang Koperasi Karyawan Polindra ini adalah :
+Sistem Operasi				: Windows 10
+DBMS								: MySQL
+Development Tools		: Sublime Text, Android Studio, Balsamiq, Xampp
+Bahasa Pemrograman	: HTML, PHP, Java <br>
+**2.2 Deskripsi Data**<br>
 
 **3. Penjelasan dekomposisi**<br>
 **3.1 Diagram Konteks**<br>
