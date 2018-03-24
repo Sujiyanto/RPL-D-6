@@ -1,19 +1,18 @@
+
 <html>
-<h1 align="center"> REKAYASA PERANGKAT LUNAK</h1>
-<h2 align="center">Software Design Description (SDD)</h2>
+<h1 align="center">Software Design Description (SDD)</h1>
 <h2 align="center">Aplikasi Kredit Barang Koperasi Karyawan POLINDRA</h2>
+<center><b>Version 1.0</b></center>
+<center><b>24 Maret 2018</b></center>
 <br>
 <p align="center"><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/POLINDRA.png"></p>
 <br>
-<h3 align="center">Kelompok 5
-<p align="center">
-Nur Inayatun Mahmuda<br>
-Muhammad Fauji Al Fariz<br>
-Astri Alisah<br>
-Sujiyanto
-	</p>
-</h3>
-<br><br><br>
+<center><b>Kelompok 5</b></center><br>
+<center><b> - Nur Inayatun Mahmuda (1603109)<br>
+ - Muhammad Fauji Al Fariz (1603107)<br>
+ - Sujiyanto (1603112)<br>
+ - Astri Alisah (1603091)<br></b></center>
+<br><br>
 <h2 align="center">TEKNIK INFORMATIKA<br>
 POLITEKNIK NEGERI INDRAMAYU</h2>
 
@@ -41,6 +40,7 @@ https://www.slideshare.net/rivaldysetiawan7/srs-example-webapp-33986122 <br>
 http://www.san.uri.br/~pbetencourt/engsoftII/IEEE-P1016-d50.PDF
 
 **1.5 Iktisar Dokumen**<br>
+
 SDD ini berisikan penjabaran rancangan dari perangkat lunak yang akan dibuat, sehingga pada tahap implementasi perangkat lunak tersebut memiliki spesifikasi yang jelas dengan tetap menjadikan dokumen ini sebagai acuan.
 
 |BAB        |Isi                             |
@@ -50,15 +50,19 @@ SDD ini berisikan penjabaran rancangan dari perangkat lunak yang akan dibuat, se
 |**BAB III**|**Deskripsi Perancangan Rinci** |
 
 **2. Deskripsi Perancangan Global**<br>
+
 **2.1 Rancangan Lingkungan Implementasi**<br>
+
 Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kredit Barang Koperasi Karyawan Polindra ini adalah :
 Sistem Operasi				: Windows 10
 DBMS								: MySQL
 Development Tools		: Sublime Text, Android Studio, Balsamiq, Xampp
 Bahasa Pemrograman	: HTML, PHP, Java <br>
+
 **2.2 Deskripsi Data**<br>
 
 **3. Penjelasan dekomposisi**<br>
+
 **3.1 Diagram Konteks**<br>
 
 <img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Diagram%20konteks.png"><br>
