@@ -21,7 +21,7 @@ Anggota
 **1.1 Tujuan**<br>
 		Tujuan dari dokumen ini adalah untuk menyajikan deskripsi rinci tentang aplikasi yang akan dibuat serta dokumen ini akan menjelaskan tentang tujuan, istilah-istilah yang digunakan pada dokumen  dan fitur dari sistem yang akan dibangun beserta interface dari sistem.<br>
 **1.2 Lingkup Proyek**<br>
-		Sistem Perangkat Lunak ini hanya akan menjadi aplikasi lokal, yang artinya aplikasi ini hanya akan dibuat untuk anggota yang terdaftar dalam koperasi karyawan Polindra. Sistem ini akan dirangcang untuk membantu admin koperasi dalam pemantauan penjualan serta angsuran pembayaran serta dapat membantu pihak anggota sebagai user yang menggunakan aplikasi ini untuk mempermudah melakukan transaksi pembelian barang dan peminjaman uang secara online. Dengan memaksimalkan sistem pada aplikasi ini maka akan memenuhi kebutuhan pihak koperasi dan tetap mudah dimengerti dalam hal penggunaan untuk semua user.<br>
+		Sistem Perangkat Lunak ini hanya akan menjadi aplikasi lokal, yang artinya aplikasi ini hanya akan dibuat untuk anggota yang terdaftar dalam koperasi karyawan Polindra. Sistem ini akan dirangcang untuk membantu admin koperasi dalam pemantauan penjualan serta angsuran pembayaran serta dapat membantu anggota sebagai user yang menggunakan aplikasi ini untuk mempermudah melakukan transaksi pembelian barang dan peminjaman uang secara online. Dengan memaksimalkan sistem pada aplikasi ini maka akan memenuhi kebutuhan pihak koperasi dan tetap mudah dimengerti dalam hal penggunaan untuk semua user.<br>
 **1.3 Definisi, Akronim, Singkatan**<br>
 
 		| Istilah | Definisi                                       |
@@ -36,19 +36,19 @@ Bab 2, bagian Uraian Keseluruhan, dari dokumen ini memberikan sebuah gambaran fu
 ### 2. DESKRIPSI UMUM PERANGKAT LUNAK
 
 **2.1 Perspektif Produk** <br>
-	AKBAR Kopkar Polindra adalah aplikasi kredit barang di Koperasi Karyawan Politeknik Negeri Indramayu. Secara umum aplikasi ini berfungsi sebagai aplikasi penjualan yang berbasis android. Tujuannya untuk mempermudah  pihak koperasi dalam melakukan penjualan barang serta membantu pihak karyawan yang tergabung dalam anggota koperasi untuk melakukan pembelian barang karena pembayarannya dilakukan dengan sistem kredit tanpa menggunakan kartu kredit. Aplikasi ini berpacu pada aplikasi yang sudah ada sebelumnya yaitu aplikasi “Akulaku” namun aplikasi yang kita buat hanya ditujukan khusus untuk penjualan satu toko yaitu kopkar polindra dan hanya karyawan yang terdaftar yang bisa menggunakan aplikasi tersebut. Serta aplikasi ini memiliki fungsi tambahan untuk pengajuan peminjaman uang. <br>
+	AKBAR Kopkar Polindra adalah aplikasi kredit barang di Koperasi Karyawan Politeknik Negeri Indramayu. Secara umum aplikasi ini berfungsi sebagai aplikasi penjualan yang berbasis android. Tujuannya untuk mempermudah  pihak koperasi dalam melakukan penjualan barang serta membantu pihak karyawan yang tergabung dalam anggota koperasi untuk melakukan pembelian barang karena pembayarannya dilakukan dengan sistem kredit tanpa menggunakan kartu kredit. Aplikasi ini berpacu pada aplikasi yang sudah ada sebelumnya yaitu aplikasi “Akulaku” namun aplikasi yang kita buat hanya ditujukan khusus untuk penjualan satu toko yaitu kopkar polindra dan hanya karyawan yang terdaftar yang bisa menggunakan aplikasi tersebut, kelebihan dari aplikasi ini mudah dioperasikan dan dipahami Serta aplikasi ini memiliki fungsi tambahan untuk pengajuan peminjaman uang. <br>
 	
 **2.1.1 Antarmuka Sistem**<br>
 ![Use Case Diagram](/image/Use%20Case%20Diagram.png)<br>
 **2.1.2 Mockup**<br>
 ![Dashboard](/image/Dashboard.png)
-![Menu Elektronik](/image/Elektronik.png)<br>
-![Angsuran](/image/Elektronik%20%28pilih%20angsuran%29.png)
-![Login user](/image/Login%20User.png)<br>
-![account](/image/Account.png)
-![Bill](/image/Bill.png)<br>
+![Menu Elektronik](/image/Menu Elektronik.png)<br>
+![angsuran elektronik](/image/Elektronik%20%28pilih%20angsuran%29.png)
+![Login user](/image/Login.png)<br>
+![Personal](/image/Personal.png)
+![Laporan Pembayaran](/image/Laporan%20Pembayaran.png)<br>
 ![Login admin](/image/Login%20Admin.png)<br>
-![Dashboard admin](/image/Dasboard%20Admin.png)<br>
+![Dashboard admin](/image/Dasboard.png)<br>
 **2.1.3 Antarmuka Hardware**<br>
  ![Antarmuka Hardware](/image/Antarmuka%20Hardware.png)<br>
   **2.2 Spesifikasi Kebutuhan Fungsional**<br>
