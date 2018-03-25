@@ -94,31 +94,31 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 - Pengguna dapat melakukan pengajuan cicilan dalam pembelian barang
 - Pengguna dapat melihat Bill pembayaran
 - Pengguna dapat melakukan edit profile<br>
-**3.2.1 Dashboard User**
+**3.2.1 Home**
 
 | Nama Fungsi |Halaman awal user                           |
 |---------|------------------------------------------------|
 | **Ref** | **Bag 2.1.2** |
-|**Trigger**|**Membuka dasboard user**|
+|**Trigger**|**Membuka Home**|
 |**Precondition**|**Tidak ada**|
 |**Basic Path**|**User membuka aplikasi**|
 |**Alternative**|**Tidak ada**|
-|**Post Condition**|**Tanpa login user dapat melihat halaman dasboard**|
+|**Post Condition**|**Tanpa login dapat melihat halaman Home**|
 |**Exception Push**|**Tidak ada**|
 
-**3.2.2 Menu Elektronik**
+**3.2.2 Detail Elektronik**
 
 | Nama Fungsi |Elektronik                           |
 |---------|------------------------------------------------|
 |**Ref** | **Bag 2.1.2** |
-|**Trigger**|**Membuka aplikasi menu elektronik**|
+|**Trigger**|**Membuka aplikasi Detail elektronik**|
 |**Precondition**|**Halaman Utama Aplikasi**|
-|**Basic path**|**User membuka menu elektronik**|
+|**Basic path**|**User membuka Detail elektronik**|
 |**Alternative**|**Tidak ada**|
-|**Post Condition**|**Tanpa login user dapat melihat menu Elektronik**|
+|**Post Condition**|**Tanpa login dapat melihat Detail Elektronik**|
 |**Exception Push**|**Tidak ada**|
 
-**3.2.3 Pengajuan Cicilan**
+**3.2.3 Pilihan Angsuran**
 
 | Nama Fungsi |Penjualan Cicilan                         |
 |---------|------------------------------------------------|
@@ -127,16 +127,16 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 |**Precondition**|**Tampilan Detail barang**|
 |**Basic Path**|**User memilih tombol bulan**|
 |**Alternative**|**Tidak ada**|
-|**Post Condition**|**Tanpa login user dapat melihat jumlah harga yang harus dibayar**|
+|**Post Condition**|**Tanpa login dapat melihat jumlah harga yang harus dibayar**|
 |**Exception Push**|**Tidak ada**|
 
-**3.2.4 Login User**
+**3.2.4 Login**
 
 | Nama Fungsi |Login |
 |---------|----------|
 | **Ref** | **Bag 2.1.2** |
 |**Trigger**|**User memasukan akun**|
-|**Precondition**|**Tampilan pengajuan cicilan**|
+|**Precondition**|**Tampilan pilihan angsuran**|
 |**Basic Path**|**User melakukan transaksi**|
 |**Alternative**|**Tidak ada**|
 |**Post Condition**|**User Mengisi akun login**|
@@ -144,7 +144,7 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 
 **3.2.5 Personal**
 
-| Nama Fungsi |Perasonal |
+| Nama Fungsi |Personal |
 |---------|--------------|
 | **Ref** | **Bag 2.1.2** |
 |**Trigger**|**User melihat data profile**|
@@ -154,14 +154,14 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 |**Post Condition**|**User harus memiliki akun**|
 |**Exception Push**|**Tidak ada**|
 
-**3.2.6 Bill**
+**3.2.6 Laporan Pembayaran**
 
-| Nama Fungsi |Bill |
+| Nama Fungsi |Laporan Pembayaran |
 |---------|--------------|
 | **Ref** | **Bag 2.1.2** |
 |**Trigger**|**User melihat tagihan pembayaran**|
 |**Precondition**|**Tampilan halaman utama**|
-|**Basic Path**|**User mengklik menu bill pembayaran**|
+|**Basic Path**|**User mengklik menu Laporan pembayaran**|
 |**Alternative**|**Tidak ada**|
 |**Post Condition**|**Hanya ada saat user melakukan transaksi**|
 |**Exception Push**|**Tidak ada**|
@@ -172,22 +172,22 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 |---------|----------|
 | **Ref** | **Bag 2.1.2** |
 |**Trigger**|**User memasukan akun**|
-|**Precondition**|**Tampilan pengajuan cicilan**|
+|**Precondition**|**Tampilan pilihan angsuran**|
 |**Basic Path**|**User melakukan transaksi**|
 |**Alternative**|**Tidak ada**|
 |**Post Condition**|**User mengisi akun login**|
 |**Exception Push**|**Tidak ada**|
 
-**3.2.8 Dashboard Admin**
+**3.2.8 Dashboard**
 
 | Nama Fungsi |Halaman awal admin |
 |---------|----------|
 | **Ref** | **Bag 2.1.2** |
-|**Trigger**|**Membuka dasboard user**|
+|**Trigger**|**Membuka Home**|
 |**Precondition**|**Tidak ada**|
 |**Basic Path**|**User membuka aplikasi**|
 |**Alternative**|**Tidak ada**|
-|**Post Condition**|**Tanpa login user dapat melihat halaman dashboard**|
+|**Post Condition**|**Tanpa login dapat melihat halaman dashboard**|
 |**Exception Push**|**Tidak ada**|
 
 **3.3 Detail Persyaratan non-Fungsional** <br>
