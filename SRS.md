@@ -12,6 +12,7 @@ Anggota
  1. Nur Inayatun Mahmuda (1603109)
  2. Muhammad Fauji Al Fariz (1603107)
  3. Sujiyanto (1603112)
+ 4. Astri Alisah (1603091)
 
 ### Jurusan Teknik Informatika 
 ### Polireknik Negeri Indramayu
@@ -28,6 +29,7 @@ Anggota
 		|---------|------------------------------------------------|
 		| Admin   | Orang yang mengelolah web server dari aplikasi |
 		| User    | Pemakai atau pengguna aplikasi                 |
+
 **1.4 Referensi** <br>
 https://www.slideshare.net/rivaldysetiawan7/srs-example-webapp-33986122 <br>
 **1.5 Overview**<br>
@@ -41,14 +43,26 @@ Bab 2, bagian Uraian Keseluruhan, dari dokumen ini memberikan sebuah gambaran fu
 **2.1.1 Antarmuka Sistem**<br>
 ![Use Case Diagram](/image/Use%20Case%20Diagram.png)<br>
 **2.1.2 Mockup**<br>
-![Dashboard](/image/Dashboard.png)
-![Menu Elektronik](/image/Menu Elektronik.png)<br>
-![angsuran elektronik](/image/Elektronik%20%28pilih%20angsuran%29.png)
+![Detail Elektronik](/image/Detail%20Elektronik.png)
+![Edit Profil](/image/Edit%20Profil.png)<br>
+![Help](/image/Help.png)
+![Home](/image/Home.png) <br>
+![Menu Elektronik](/image/Menu%20Elektronik.png)
+![Detail Elektronik](/image/Detail%20Elektronik.png)<br>
+![Peminjaman Uang](/image/Peminjaman%20Uang.png)
 ![Login user](/image/Login.png)<br>
-![Personal](/image/Personal.png)
-![Laporan Pembayaran](/image/Laporan%20Pembayaran.png)<br>
-![Login admin](/image/Login%20Admin.png)<br>
-![Dashboard admin](/image/Dasboard.png)<br>
+![Pilihan Angsuran](/image/Pilihan%20Angsuran.png)
+![Personal](/image/Personal.png) <br>
+![Laporan Pembayaran](/image/Laporan%20Pembayaran.png)
+![Daftar Akun](/image/Daftar%20Akun.png) <br>
+![Login admin](/image/Login%20Admin.png)
+![Dashboard admin](/image/Dashboard.png) <br>
+![Data Barang](/image/Data%20Barang.png) 
+![Data Member](/image/Data%20Member.png) <br>
+![Data Order](/image/Data%20Order.png) 
+![Data Pembayaran](/image/Data%20Pembayaran.png) <br>
+![Register](/image/Register.png)
+![Dashboard](/image/Dashboard.png)
 **2.1.3 Antarmuka Hardware**<br>
  ![Antarmuka Hardware](/image/Antarmuka%20Hardware.png)<br>
   **2.2 Spesifikasi Kebutuhan Fungsional**<br>
