@@ -43,26 +43,14 @@ Bab 2, bagian Uraian Keseluruhan, dari dokumen ini memberikan sebuah gambaran fu
 **2.1.1 Antarmuka Sistem**<br>
 ![Use Case Diagram](/image/Use%20Case%20Diagram.png)<br>
 **2.1.2 Mockup**<br>
-![Detail Elektronik](/image/Detail%20Elektronik.png)
-![Edit Profil](/image/Edit%20Profil.png)<br>
-![Help](/image/Help.png)
-![Home](/image/Home.png) <br>
-![Menu Elektronik](/image/Menu%20Elektronik.png)
-![Detail Elektronik](/image/Detail%20Elektronik.png)<br>
-![Peminjaman Uang](/image/Peminjaman%20Uang.png)
-![Login user](/image/Login.png)<br>
+![Home](/image/Home.png)
+![Detail Elektronik](/image/Detail%20Elektronik.png) <br>
 ![Pilihan Angsuran](/image/Pilihan%20Angsuran.png)
-![Personal](/image/Personal.png) <br>
-![Laporan Pembayaran](/image/Laporan%20Pembayaran.png)
-![Daftar Akun](/image/Daftar%20Akun.png) <br>
-![Login admin](/image/Login%20Admin.png)
-![Dashboard admin](/image/Dashboard.png) <br>
-![Data Barang](/image/Data%20Barang.png) 
-![Data Member](/image/Data%20Member.png) <br>
-![Data Order](/image/Data%20Order.png) 
-![Data Pembayaran](/image/Data%20Pembayaran.png) <br>
-![Register](/image/Register.png)
-![Dashboard](/image/Dashboard.png)
+![Login](/image/Login.png) <br>
+![Personal](/image/Personal.png)
+![Laporan Pembayaran](/image/Laporan%20Pembayaran.png) <br>
+![Login Admin](/image/Login%20Admin.png)
+![Dashboard](/image/Dashboard.png) <br>
 **2.1.3 Antarmuka Hardware**<br>
  ![Antarmuka Hardware](/image/Antarmuka%20Hardware.png)<br>
   **2.2 Spesifikasi Kebutuhan Fungsional**<br>
