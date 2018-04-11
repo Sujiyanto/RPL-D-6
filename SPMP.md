@@ -50,6 +50,7 @@ Pada proyek ini ditunjuk masing-masing bertanggung jawab pada dokumen projek yan
 
 **2.1 Model proses**<br>
 Model proses yang diterapkan pada proses pembuatan aplikasi ini ialah model V-Model karena dianggap cukup mudah dalam setiap langkahnya. Model V-Model sendiri memudahkan perancang ketika terjadi suatu perubahan yang memungkinkan kembali ke proses sebelumnya. 
+
 <img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/v%20model.png"><br>
 	
 **2.2 Struktur organisasi**
