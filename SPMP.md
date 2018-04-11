@@ -143,6 +143,7 @@ Dokumentasi seperti piagam proyek, Dokumentasi Kebutuhan Bisnis, Dokumentasi Spe
 <img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Jadwal%20Kegiatan.png">	
 
 **5.3 Alokasi budget sumber daya**<br>
+
 | No. | Perangkat | Kebutuhan |
 |--|--|--|
 | 1. | Perangkat Lunak | Android Studio, Sublime Text, Xampp, dll |
