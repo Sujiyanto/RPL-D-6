@@ -130,6 +130,7 @@ Dokumentasi seperti piagam proyek, Dokumentasi Kebutuhan Bisnis, Dokumentasi Spe
  **5. Paket Pekerjaan, Jadwal dan Budget**<br>
 
 **5.1 Paket pekerjaan**<br>
+
 | No. | Nama | Jabatan | Modul | Pekerjaan |
 |--|--|--|--|--|
 | 1. | Nur Inayatun Mahmuda | Project Manager | Login, Data Barang | Membuat Fungsi Login pada Website, CRUD Data Barang pada Website |
@@ -141,7 +142,7 @@ Dokumentasi seperti piagam proyek, Dokumentasi Kebutuhan Bisnis, Dokumentasi Spe
 **5.2 Jadwal**<br>
 <img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Jadwal%20Kegiatan.png">	
 
-**5.3 Alokasi budget sumber daya**
+**5.3 Alokasi budget sumber daya**<br>
 | No. | Perangkat | Kebutuhan |
 |--|--|--|
 | 1. | Perangkat Lunak | Android Studio, Sublime Text, Xampp, dll |
