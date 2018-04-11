@@ -1,21 +1,22 @@
 
 
 
-## Software Requirements Specification
+## SOFTWARE REQUIREMENT SPESIFICATION
+## APLIKASI KREDIT BARANG KOPERASI KARYAWAN (AKBAR KOPKAR) POLINDRA
 ### Version 1.0
-### 22 Februari 2018
+### 24 Maret 2018
 ![Logo Polindra](/image/polindra.png)
-
-## AKBAR KOPKAR (Aplikasi Kredit Barang Koperasi Karyawan) POLINDRA
 
 Anggota 
  1. Nur Inayatun Mahmuda (1603109)
  2. Muhammad Fauji Al Fariz (1603107)
  3. Sujiyanto (1603112)
  4. Astri Alisah (1603091)
+ Kelompok 5
+ D3TI2D
 
-### Jurusan Teknik Informatika 
-### Polireknik Negeri Indramayu
+###  TEKNIK INFORMATIKA
+### POLITEKNIK NEGERI INDRAMAYU
 
 
 ### 1. Pendahuluan
@@ -25,17 +26,19 @@ Anggota
 		Sistem Perangkat Lunak ini hanya akan menjadi aplikasi lokal, yang artinya aplikasi ini hanya akan dibuat untuk anggota yang terdaftar dalam koperasi karyawan Polindra. Sistem ini akan dirangcang untuk membantu admin koperasi dalam pemantauan penjualan serta angsuran pembayaran serta dapat membantu anggota sebagai user yang menggunakan aplikasi ini untuk mempermudah melakukan transaksi pembelian barang dan peminjaman uang secara online. Dengan memaksimalkan sistem pada aplikasi ini maka akan memenuhi kebutuhan pihak koperasi dan tetap mudah dimengerti dalam hal penggunaan untuk semua user.<br>
 **1.3 Definisi, Akronim, Singkatan**<br>
 
-		| Istilah | Definisi                                       |
-		|---------|------------------------------------------------|
-		| Admin   | Orang yang mengelolah web server dari aplikasi |
-		| User    | Pemakai atau pengguna aplikasi                 |
+		| Istilah | Definisi                                                                                      |
+		|---------|-----------------------------------------------------------------------------------------------|
+		| Kredit  | Melakukan pembayaran dengan cara mengangsur                                                   |
+		| Koperasi| Organisasi ekonomi yang dimiliki dan dioperasikan oleh beberapa orag demi kepentingan bersama |
+		| User    | Pemakai atau pengguna aplikasi                                                                | 
+		| Admin   | Orang yang mengelolah web server dari aplikasi                                                |
 
 **1.4 Referensi** <br>
 https://www.slideshare.net/rivaldysetiawan7/srs-example-webapp-33986122 <br>
 **1.5 Overview**<br>
-Bab 2, bagian Uraian Keseluruhan, dari dokumen ini memberikan sebuah gambaran fungsionalitas produk. Bab 3, Bagian Persyaratan Spesifikasi, dari dokumen ini ditulis terutama untuk menjelaskan secara teknis rinciannya fungsionalitas produk. Kedua bagian dokumen tersebut menggambarkan produk perangkat lunak yang sama secara keseluruhan, namun ditujukan untuk khalayak yang berbeda.
+Dokumen ini dibagi menjadi tiga bagian utama. Bagian pertama. Bagian utama berisi penjelasan dokumen SRS yang mencangkup tujuan pembuatan dokumen ini, lingkup masalah yang diselesaikan yang dikembangkan oleh kami yaitu definisi, referensi dan deskripsi umum. Bagian kedua berisi penjelasan secara umum mengenai aplikasi yang akan dikembangkan meliputi fungsi, karakteristik pengguna, batasan dan asumsi yang diambil dalam pengembang aplikasi. Bagian ke tiga berisi uraian aplikasi secara lebih rinci. 
 
-### 2. DESKRIPSI UMUM PERANGKAT LUNAK
+### 2. GAMBARAN UMUM
 
 **2.1 Perspektif Produk** <br>
 	AKBAR Kopkar Polindra adalah aplikasi kredit barang di Koperasi Karyawan Politeknik Negeri Indramayu. Secara umum aplikasi ini berfungsi sebagai aplikasi penjualan yang berbasis android. Tujuannya untuk mempermudah  pihak koperasi dalam melakukan penjualan barang serta membantu pihak karyawan yang tergabung dalam anggota koperasi untuk melakukan pembelian barang karena pembayarannya dilakukan dengan sistem kredit tanpa menggunakan kartu kredit. Aplikasi ini berpacu pada aplikasi yang sudah ada sebelumnya yaitu aplikasi “Akulaku” namun aplikasi yang kita buat hanya ditujukan khusus untuk penjualan satu toko yaitu kopkar polindra dan hanya karyawan yang terdaftar yang bisa menggunakan aplikasi tersebut, kelebihan dari aplikasi ini mudah dioperasikan dan dipahami Serta aplikasi ini memiliki fungsi tambahan untuk pengajuan peminjaman uang. <br>
@@ -56,10 +59,10 @@ Bab 2, bagian Uraian Keseluruhan, dari dokumen ini memberikan sebuah gambaran fu
   **2.2 Spesifikasi Kebutuhan Fungsional**<br>
 Bagian ini menguraikan use case untuk masing-masing pengguna secara terpisah. Dimana aktor dalam aplikasi ini yaitu admin.
 ![Use case keseluruhan](/image/Use%20case.png)<br>
-**2.2.1 Admin Use Case**<br>
+**2.2.1 Use Case Admin**<br>
 Admin dapat login pada website server dan menambahkan data anggota serta barang yang tersedia kemudian fungsi selanjutnya yaitu admin membuat laporan perkreditan.<br>
 ![Admin Use Case](/image/Use%20Case%20Admin.png)<br>
-**2.2.2 User Use Case**<br>
+**2.2.2 Use Case Member**<br>
 User dapat menggunakan fungsi login pada aplikasi adnroid kemudian melihat barang dan melakukan transaksi.<br>
 ![User Use Case](/image/Use%20Case%20User.png)<br>
 **2.3 Spesifikasi Kebutuhan non-Fungsional**<br>
@@ -82,161 +85,148 @@ Batasan pada produk :
 **3.1 Kebutuhan Antarmuka Eksternal**<br>
 Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk anggota koperasi sebagai user dan menggunakan website untuk admin, untuk pengelolaan user interface digunakan aplikasi sublime text dimana tampilan website didesain sesuai kebutuhan admin dan user interface untuk anggota didesain menggunakan balsamiq dan diimplementasikan dengan android studio dan fungsi yang ada sesuai kebutuhan pengguna. aplikasi ini dilengkapi dengan beberapa fungsi yang disediakan. interaksi antara pengguna dan perangkat lunak dilakukan dengan smartphone dan interaksi antara admin dan website dilakukan baik dengan keyboard dan mouse.<br>
 **3.2 Kebutuhan Fungsional**<br>
-1. Website Admin
-- Admin dapat melakukan login
-- Admin dapat menginputkan, mengedit dan menghapus data barang
-- Admin dapat menginputkan, mengedit dan menghapus data anggota
-- Admin dapat melihat ajuan kredit
-- Admin dapat melihat laporan penjualan 
-3.  Software User
-- Pengguna dapat melakukan login
-- Pengguna dapat melihat data barang yang tersedia
-- Pengguna dapat melakukan pengajuan cicilan dalam pembelian barang
-- Pengguna dapat melihat Bill pembayaran
-- Pengguna dapat melakukan edit profile<br>
-**3.2.1 Home**
+**3.2.1. Home**
 
-| Nama Fungsi |Halaman awal user                           |
-|---------|------------------------------------------------|
-| **Ref** | **Bag 2.1.2** |
-|**Trigger**|**Membuka Home**|
-|**Precondition**|**Tidak ada**|
-|**Basic Path**|**User membuka aplikasi**|
-|**Alternative**|**Tidak ada**|
-|**Post Condition**|**Tanpa login dapat melihat halaman Home**|
-|**Exception Push**|**Tidak ada**|
+|Nama Fungsi  |Halaman Awal User  |
+|--|--|
+| Ref |Bag 2.1.2  |
+| Triger | Membuka Home |
+| Precondition | Tidak ada |
+| Basic Path | User membuka aplikasi |
+| Alternative | Tidak ada |
+| Post Condition | Tanpa login dapat melihat halaman Home |
+| Exception Push | Tidak ada |
+Tabel 3.1
+**3.2.2. Detail Elektronik**
+| Nama Fungsi |Elektronik  |
+|--|--|
+| Ref |Bag 2.1.2  |
+| Trigger | Membuka aplikasi detail elektronik |
+|Precondition | Halaman utama aplikasi |
+|Basic Path | User membuka detail elektronik |
+| Alternative | Tidak ada |
+| Post condition | Tanpa login dapat melihat detail elektronik |
+| Exception Push | Tidak ada |
+Tabel 3.2 Elektronik
 
-**3.2.2 Detail Elektronik**
+**3.2.3. Pilih Angsuran**
+| Nama Fungsi | Pilih Angsuran |
+|--|--|
+| Ref  |Bag 2.1.2  |
+| Trigger | User memilih jangka waktu pembayaran |
+| Precondition | Tampilan detail barang|
+| Basic Path | User memilih tombol waktu/bulan |
+| Post Condition | Tanpa login dapat melihat jumlah harga yang harus dibayar |
+| Exception Push | Tidak ada |
+Tabel 3.3 Pilih Angsuran Pembayaran
 
-| Nama Fungsi |Elektronik                           |
-|---------|------------------------------------------------|
-|**Ref** | **Bag 2.1.2** |
-|**Trigger**|**Membuka aplikasi Detail elektronik**|
-|**Precondition**|**Halaman Utama Aplikasi**|
-|**Basic path**|**User membuka Detail elektronik**|
-|**Alternative**|**Tidak ada**|
-|**Post Condition**|**Tanpa login dapat melihat Detail Elektronik**|
-|**Exception Push**|**Tidak ada**|
+3.2.4. Login
+| Nama Fungsi | Login |
+|--|--|
+| Ref | Bag 2.1.2 |
+| Trigger | User memasukkan akun |
+| Precondition | Tampilan pilihan angsuran |
+| Basic Path | User melakukan transaksi |
+|Alternative | Tidak ada |
+|Post Condition | User mengisi akun login |
+|Exception Push | Tidak ada |
+Tabel 3.4 Login User Android
 
-**3.2.3 Pilihan Angsuran**
+**3.2.5. Personal**
+|Nama Fungsi  |Personal  |
+|--|--|
+| Ref  |Bag 2.1.2  |
+| Trigger | User melihat data profile |
+| Precondition | Tampilan Halaman utama |
+| Basic Path | Mengisi kelengkapan profile |
+| Alternative | Tidak ada |
+| Post Condition | User harus memiliki akun |
+| Exception Push | Tidak ada |
+Tabel 3.5 Account User Android
 
-| Nama Fungsi |Penjualan Cicilan                         |
-|---------|------------------------------------------------|
-| **Ref** | **Bag 2.1.2** |
-|**Trigger**|**User memilih jangka waktu pembayaran**|
-|**Precondition**|**Tampilan Detail barang**|
-|**Basic Path**|**User memilih tombol bulan**|
-|**Alternative**|**Tidak ada**|
-|**Post Condition**|**Tanpa login dapat melihat jumlah harga yang harus dibayar**|
-|**Exception Push**|**Tidak ada**|
+**3.2.6. laporan Pembayaran**
+|Nama Fungsi  |Laporan Pembayaran  |
+|--|--|
+| Ref  | Bag 2.1.2 |
+| Trigger | User melihat tagihan pembayaran |
+|Precondition | Tampilan halaman utama |
+| Basic Path | User mengklik menu laporan pembayaran |
+| Alternative | Tidak ada |
+| Post Condition | Hanya ada saat user melakukan transaksi |
+|Exception Push | Tidak ada |
+Tabel 3.6 Laporan Pembayaran
 
-**3.2.4 Login**
+**3.2.7. Login Admin**
+| Nama Fungsi | Login |
+|--|--|
+|Ref | Bag 2.1.2 |
+|Trigger | Admin memasukkan akun |
+|Precondition | Tidak ada |
+|Basic Path | Admin mengakses website |
+|Alternative | Tidak ada |
+|Post Condition | Masuk ke halaman dashbord admin |
+|Exception Push | Tidak ada |
+Tabel 3.7 Login Admin 
 
-| Nama Fungsi |Login |
-|---------|----------|
-| **Ref** | **Bag 2.1.2** |
-|**Trigger**|**User memasukan akun**|
-|**Precondition**|**Tampilan pilihan angsuran**|
-|**Basic Path**|**User melakukan transaksi**|
-|**Alternative**|**Tidak ada**|
-|**Post Condition**|**User Mengisi akun login**|
-|**Exception Push**|**Tidak ada**|
+**3.2.8. Dashboard Admin**
 
-**3.2.5 Personal**
-
-| Nama Fungsi |Personal |
-|---------|--------------|
-| **Ref** | **Bag 2.1.2** |
-|**Trigger**|**User melihat data profile**|
-|**Precondition**|**Tampilan halaman utama**|
-|**Basic Path**|**Mengisi kelengkapan profile**|
-|**Alternative**|**Tidak ada**|
-|**Post Condition**|**User harus memiliki akun**|
-|**Exception Push**|**Tidak ada**|
-
-**3.2.6 Laporan Pembayaran**
-
-| Nama Fungsi |Laporan Pembayaran |
-|---------|--------------|
-| **Ref** | **Bag 2.1.2** |
-|**Trigger**|**User melihat tagihan pembayaran**|
-|**Precondition**|**Tampilan halaman utama**|
-|**Basic Path**|**User mengklik menu Laporan pembayaran**|
-|**Alternative**|**Tidak ada**|
-|**Post Condition**|**Hanya ada saat user melakukan transaksi**|
-|**Exception Push**|**Tidak ada**|
-
-**3.2.7 Login Admin**
-
-| Nama Fungsi |Login |
-|---------|----------|
-| **Ref** | **Bag 2.1.2** |
-|**Trigger**|**User memasukan akun**|
-|**Precondition**|**Tampilan pilihan angsuran**|
-|**Basic Path**|**User melakukan transaksi**|
-|**Alternative**|**Tidak ada**|
-|**Post Condition**|**User mengisi akun login**|
-|**Exception Push**|**Tidak ada**|
-
-**3.2.8 Dashboard**
-
-| Nama Fungsi |Halaman awal admin |
-|---------|----------|
-| **Ref** | **Bag 2.1.2** |
-|**Trigger**|**Membuka Home**|
-|**Precondition**|**Tidak ada**|
-|**Basic Path**|**User membuka aplikasi**|
-|**Alternative**|**Tidak ada**|
-|**Post Condition**|**Tanpa login dapat melihat halaman dashboard**|
-|**Exception Push**|**Tidak ada**|
+| Nama Fungsi | Halaman awal admin |
+|--|--|
+|Ref | Bag 2.1.2 |
+|Trigger | Membuka halaman dashbord |
+|Precondition | Tidak ada |
+|Basic Path | Membuka aplikasi |
+|Alternative | Tidak ada |
+|Post Condition |Masuk halaman dashbord |
+|Exception Push | Tidak ada |
+Tabel 3.8 Dashbord Admin
 
 **3.3 Detail Persyaratan non-Fungsional** <br>
-			**3.3.1	Struktur data logis**
-			**Struktur data yang ada pada aplikasi Akbar Kopkar**
+			**3.3.1	Logika Struktur data **
 			![ERD](https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/ERD.png)
-			**Anggota**	
-			
-| Data Item | Type | Description | Comment |
-|-----------|------|-------------|---------|
-|Id_Anggota|integer|Identitas pengguna|Digunakan untuk Primary key |
-|No_hp|integer|Contact Person pengguna||
-|NIK|integer|Nomor kependudukan pengguna||
-|J_kelamin|char|Jenis Kelamin pengguna||
-|tgl_lahir|date|Tanggal lahir pengguna||
-|Alamat|string|Alamat pengguna||
 
-**Admin**
+**Tabel Admin**
 
 | Data Item | Type | Description | Comment |
 |-----------|------|-------------|---------|
-|Id_admin|Integer|Identitas admin|Primary key|
-|Nama|String|Nama admin|       |
-|Username|String|Username admin|       |
-|Password|String|Autentikasi|       |
+|Id_admin|Varchar|Identitas admin|Primary key|
+|Nama_admin|Varchar|Nama admin|       |
+|Username|Varchar|Username admin|       |
+|Password|Varchar|Password admin|       |
+Tabel 3.9 Tabel Admin
 
-**Barang**
+** Tabel Member **
+| Data Item | Type | Description | Comment |
+|--|--|--|--|
+|id_member | Varchar | Identitas admin | Primary key |
+|nik | Varchar | Nomor induk kepegawaian | |
+|nama_member | Varchar | Nama member | |
+|ttl | Varchar | Tempat tanggal lahir | |
+|jk| Varchar | jenis kelamin | |
+|alamat | Varchar | Alamat member | |
+|no_hp | Varchar | No hp member | |
+|email | Varchar | No hp member | |
+|username | Varchar | Username member | |
+|Password | Varchar | Password akun member | |
+Tabel 3.10 Tabel Member
+
+**Tabel Barang**
 
 | Data Item | Type | Description | Comment |
 |-----------|------|-------------|---------|
-|Id_barang|Integer|Identitas barang|  |
-|nm_barang|String|nama barang|  |
-|Kategori|String|kategori|  |
-|Harga|Integer|harga|  |
-|Stok|Integer|stok|  |
+|Id_barang|Varchar|Identitas barang| Primary key |
+|nm_barang|Varchar|nama barang|  |
+|Kategori|Varchar|kategori|  |
+|Harga|Varchar|harga|  |
+|Stok|Varchar|stok|  |
+Tabel 3.11 Tabel Barang
 
-**Kategori**
-
+** Tabel Order **
 | Data Item | Type | Description | Comment |
-|-----------|------|-------------|---------|
-|Id_kategori|Integer|Identitas kategori|Foregn key|
-|nm_kategori|String|nama kategori||
-
-**Transaksi**
-
-| Data Item | Type | Description | Comment |
-|-----------|------|-------------|---------|
-|Kd_nota|Integer|Kode nota||
-|nm_barang|String|Nama barang||
-|nm_pembeli|String|Nama pembeli||
-|cicilan|Integer|Ajuan cicilan||
-|jumlah|Integer|Jumlah yang harus dibayar||
+|--|--|--|--|
+|id_nota | Varchar | No nota | Primary key |
+|id_barang | Varchar | Identitas barang | Foreign key |
+|id_member | Varchar | identitas member | Foreign key|
+| Jangka_waktu | Varchar | Jangka waktu angsuran | |
+|jumlah | Varchar | Jumlah uang yang harus dibayar | |
+Tabel 3.12 Tabel Order
