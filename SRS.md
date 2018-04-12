@@ -5,7 +5,8 @@
 ## APLIKASI KREDIT BARANG KOPERASI KARYAWAN (AKBAR KOPKAR) POLINDRA
 ### Version 1.0
 ### 24 Maret 2018
-![Logo Polindra](/image/polindra.png)
+
+![Logo Polindra](https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/POLINDRA.png)
 
 Anggota 
  1. Nur Inayatun Mahmuda (1603109)
@@ -26,12 +27,12 @@ Anggota
 		Sistem Perangkat Lunak ini hanya akan menjadi aplikasi lokal, yang artinya aplikasi ini hanya akan dibuat untuk anggota yang terdaftar dalam koperasi karyawan Polindra. Sistem ini akan dirangcang untuk membantu admin koperasi dalam pemantauan penjualan serta angsuran pembayaran serta dapat membantu anggota sebagai user yang menggunakan aplikasi ini untuk mempermudah melakukan transaksi pembelian barang dan peminjaman uang secara online. Dengan memaksimalkan sistem pada aplikasi ini maka akan memenuhi kebutuhan pihak koperasi dan tetap mudah dimengerti dalam hal penggunaan untuk semua user.<br>
 **1.3 Definisi, Akronim, Singkatan**<br>
 
-		| Istilah | Definisi                                                                                      |
-		|---------|-----------------------------------------------------------------------------------------------|
-		| Kredit  | Melakukan pembayaran dengan cara mengangsur                                                   |
-		| Koperasi| Organisasi ekonomi yang dimiliki dan dioperasikan oleh beberapa orag demi kepentingan bersama |
-		| User    | Pemakai atau pengguna aplikasi                                                                | 
-		| Admin   | Orang yang mengelolah web server dari aplikasi                                                |
+| Istilah | Definisi                                                                                      |
+|---------|-----------------------------------------------------------------------------------------------|
+| Kredit  | Melakukan pembayaran dengan cara mengangsur                                                   |
+| Koperasi| Organisasi ekonomi yang dimiliki dan dioperasikan oleh beberapa orag demi kepentingan bersama |
+| User    | Pemakai atau pengguna aplikasi                                                                | 
+| Admin   | Orang yang mengelolah web server dari aplikasi                                                |
 
 **1.4 Referensi** <br>
 https://www.slideshare.net/rivaldysetiawan7/srs-example-webapp-33986122 <br>
@@ -97,7 +98,9 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 | Post Condition | Tanpa login dapat melihat halaman Home |
 | Exception Push | Tidak ada |
 Tabel 3.1
+
 **3.2.2. Detail Elektronik**
+
 | Nama Fungsi |Elektronik  |
 |--|--|
 | Ref |Bag 2.1.2  |
@@ -110,6 +113,7 @@ Tabel 3.1
 Tabel 3.2 Elektronik
 
 **3.2.3. Pilih Angsuran**
+
 | Nama Fungsi | Pilih Angsuran |
 |--|--|
 | Ref  |Bag 2.1.2  |
@@ -121,6 +125,7 @@ Tabel 3.2 Elektronik
 Tabel 3.3 Pilih Angsuran Pembayaran
 
 3.2.4. Login
+
 | Nama Fungsi | Login |
 |--|--|
 | Ref | Bag 2.1.2 |
@@ -133,6 +138,7 @@ Tabel 3.3 Pilih Angsuran Pembayaran
 Tabel 3.4 Login User Android
 
 **3.2.5. Personal**
+
 |Nama Fungsi  |Personal  |
 |--|--|
 | Ref  |Bag 2.1.2  |
@@ -145,6 +151,7 @@ Tabel 3.4 Login User Android
 Tabel 3.5 Account User Android
 
 **3.2.6. laporan Pembayaran**
+
 |Nama Fungsi  |Laporan Pembayaran  |
 |--|--|
 | Ref  | Bag 2.1.2 |
@@ -157,6 +164,7 @@ Tabel 3.5 Account User Android
 Tabel 3.6 Laporan Pembayaran
 
 **3.2.7. Login Admin**
+
 | Nama Fungsi | Login |
 |--|--|
 |Ref | Bag 2.1.2 |
@@ -182,8 +190,10 @@ Tabel 3.7 Login Admin
 Tabel 3.8 Dashbord Admin
 
 **3.3 Detail Persyaratan non-Fungsional** <br>
-			**3.3.1	Logika Struktur data **
-			![ERD](https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/ERD.png)
+
+**3.3.1	Logika Struktur data **
+
+![erd](https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/ERD.png)
 
 **Tabel Admin**
 
@@ -196,6 +206,7 @@ Tabel 3.8 Dashbord Admin
 Tabel 3.9 Tabel Admin
 
 ** Tabel Member **
+
 | Data Item | Type | Description | Comment |
 |--|--|--|--|
 |id_member | Varchar | Identitas admin | Primary key |
@@ -222,6 +233,7 @@ Tabel 3.10 Tabel Member
 Tabel 3.11 Tabel Barang
 
 ** Tabel Order **
+
 | Data Item | Type | Description | Comment |
 |--|--|--|--|
 |id_nota | Varchar | No nota | Primary key |
