@@ -864,7 +864,7 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 
 **3.3.1 Logika Struktur Data**
 
-<img src=""><br>
+<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/ERD.jpg"><br>
 
  - Tabel Bayar
 
@@ -912,6 +912,7 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 </table>
 
  - Tabel Kredit
+
 <table>
 	<tr>
 		<th>Data Item</th>
@@ -951,6 +952,7 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 </table>
 
  - Tabel Barang
+
 <table>
 	<tr>
 		<th>Data Item</th>
@@ -995,6 +997,7 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 </table>
 
  - Tabel Member
+
 <table>
 	<tr>
 		<th>Data Item</th>
@@ -1049,7 +1052,8 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 </table>
 
  - Tabel Kategori
- <table>
+
+<table>
 	<tr>
 		<th>Data Item</th>
 		<th>Type</th>
@@ -1068,7 +1072,8 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 </table>
 
  - Tabel Admin
- <table>
+
+<table>
 	<tr>
 		<th>Data Item</th>
 		<th>Type</th>
@@ -1087,7 +1092,8 @@ Aplikasi kredit barang koperasi karyawan polindra ini berbasis android untuk ang
 </table>
 
  - Tabel Login
- <table>
+
+<table>
 	<tr>
 		<th>Data Item</th>
 		<th>Type</th>
