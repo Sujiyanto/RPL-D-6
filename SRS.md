@@ -1,6 +1,6 @@
 <html>
-<center><h2>SOFTWARE REQUIREMENT SPESIFICATION</h2>
-<center><h2> APLIKASI KREDIT BARANG KOPERASI KARYAWAN (AKBAR KOPKAR) POLINDRA</h2></center>
+<center><h2>SOFTWARE REQUIREMENT SPESIFICATION
+ APLIKASI KREDIT BARANG KOPERASI KARYAWAN (AKBAR KOPKAR) POLINDRA</h2></center>
 <center><h3>Version 1.0</h3></center>
 <center><h3>14 April 2018</h3></center>
 
@@ -15,11 +15,11 @@
 <center>Kelompok 5</center>
  <center>D3TI2D</center>
 
-<center><h2>TEKNIK INFORMATIKA</h2></center>
-<center><h2> POLITEKNIK NEGERI INDRAMAYU</h2></c
+<center><h2>TEKNIK INFORMATIKA<br>
+ POLITEKNIK NEGERI INDRAMAYU</h2></center>
 
+### 1. PENDAHULUAN
 
-### 1. Pendahuluan
 **1.1 Tujuan**<br>
 
 Tujuan dari dokumen ini adalah untuk memberikan penjelasan rinci tentang persyaratan untuk "Aplikasi Kredit Barang Koperasi Karyawan Polindra" (AKBAR KOPKAR POLINDRA). Ini akan menggambarkan tujuan dan deklarasi lengkap untuk pengembangan sistem. Ini juga akan menjelaskan batasan sistem, antarmuka dan interaksi dengan aplikasi eksternal lainnya. Dokumen ini terutama ditujukan untuk diajukan ke pelanggan untuk persetujuan dan referensi untuk mengembangkan versi pertama dari sistem untuk tim pengembangan.<br>
@@ -61,6 +61,7 @@ Sistem Perangkat Lunak ini hanya akan menjadi aplikasi lokal, yang artinya aplik
  - https://www.google.co.id/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwitpsi807jaAhUHqo8KHS0SAMEQFggoMAA&url=https%3A%2F%2Fwww.utdallas.edu%2F~chung%2FRE%2FPresentations07S%2FTeam_1_Doc%2FDocuments%2FSRS4.0.doc&usg=AOvVaw2zaGGnBB9yNttcKsuBifee
 
 **1.5 Overview**<br>
+
 Bab berikutnya, bagian Uraian Keseluruhan, dari dokumen ini memberikan sebuah ikhtisar fungsionalitas produk. Ini menggambarkan persyaratan informal dan digunakan untuk menetapkan konteks untuk spesifikasi persyaratan teknis di bab berikutnya. Bab ketiga, bagian Spesifikasi Kebutuhan, dari dokumen ini ditulis terutama untuk para pengembang dan menjelaskan dalam istilah teknis rincian fungsionalitas produk. Kedua bagian dokumen menggambarkan produk perangkat lunak yang sama secara keseluruhan.<br>
 
 ### 2. GAMBARAN UMUM
@@ -72,9 +73,40 @@ AKBAR Kopkar Polindra adalah aplikasi kredit barang di Koperasi Karyawan Politek
 **2.1.1 Antarmuka Sistem**<br>
 <img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Antarmuka%20Sistem.png"><br>
 **2.1.2 Mockup**<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Login.png"><br>Mockup Tampilan Login </td>
+		<td><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Dashboard%20Admin.png"><br>Mockup Tampilan Dashboard Admin</td>
+		<td><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Barang%20Masuk.png"><br>Mockup Tampilan Data Barang Masuk</td>
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Barang%20keluar.png"><br>Mockup Tampilan Data Barang Keluar</td>
+		<td><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Supplier.png"><br>Mockup Tampilan Data Supplier</td>
+		<td><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/member.png"><br>Mockup Tampilan Data Member</td>
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/pembayaran.png"><br>Mockup Tampilan Data Pembayaran</td>
+		<td><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Dashboard%20user.png"><br>Mockup Tampilan Dashboard User</td>
+		<td><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Elektronik.png">Mockup Tampilan Barang Elektronik</td>
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Sembako.png"><br>Mockup Tampilan Barang Sembako</td>
+		<td><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Kredit'.png"><br>Mockup Tampilan Pengajuan Kredit</td>
+		<td><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/about.png"><br>Mockup Tampilan About Aplikasi</td>
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Personal.png"><br>Mockup Tampilan Data Pribadi Member</td>
+		<td><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/tagihan.png"><br>Mockup Tampilan Tagihan Pembayaran</td>
+		<td><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Help.png"><br>Mockup Tampilan Bantuan Menggunakan Aplikasi Untuk User</td>
+	</tr>
+</table><br>
 
 **2.1.3 Antarmuka Hardware**<br>
- ![Antarmuka Hardware](/image/Antarmuka%20Hardware.png)<br>
+<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Antarmuka%20Hardware.png"><br>
+
+**2.1.4 Operasi - Operasi**<br>
+
+
   **2.2 Spesifikasi Kebutuhan Fungsional**<br>
 Bagian ini menguraikan use case untuk masing-masing pengguna secara terpisah. Dimana aktor dalam aplikasi ini yaitu admin.
 ![Use case keseluruhan](/image/Use%20case.png)<br>
