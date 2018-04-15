@@ -255,7 +255,7 @@ Karena Aplikasi ini berbasis website dan tidak harus didownload maka tidak ada b
 **2.2.2 Use Case User**<br>
 
  - Login
- <p align="left"><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Use%20Case%20User%20Login.png"></p><br>
+ <img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Use%20Case%20User%20Login.png"><br>
  Langkah-langkah :
 1. Masuk ke halaman login
 2. Masukan Username
