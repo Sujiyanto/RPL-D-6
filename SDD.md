@@ -1,7 +1,7 @@
 
 <html>
-<h2 align="center">Software Design Description (SDD)<br>
-Aplikasi Kredit Barang Koperasi Karyawan POLINDRA</h2>
+<h2 align="center">Software Design Description<br>
+APLIKASI KREDIT BARANG KOPERASI KARYAWAN (AKBAR KOPKAR) POLINDRA</h2>
 <h3 align="center">Version 1.0</h3>
 <h3 align="center">15 April 2018</h3>
 <br>
