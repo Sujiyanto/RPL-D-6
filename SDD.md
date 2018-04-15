@@ -1,9 +1,9 @@
 
 <html>
-<h2 align="center">Software Design Description (SDD)</h2>
-<h2 align="center">Aplikasi Kredit Barang Koperasi Karyawan POLINDRA</h2>
+<h2 align="center">Software Design Description (SDD)<br>
+Aplikasi Kredit Barang Koperasi Karyawan POLINDRA</h2>
 <h3 align="center">Version 1.0</h3>
-<h3 align="center">24 Maret 2018</h3>
+<h3 align="center">15 April 2018</h3>
 <br>
 <p align="center"><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/POLINDRA.png"></p>
 <br>
