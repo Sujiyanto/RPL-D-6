@@ -3,7 +3,7 @@
 <h2 align="center">APLIKASI KREDIT BARANG KOPERASI KARYAWAN (AKBAR KOPKAR) POLINDRA</h2>
 <h3 align="center">Version 1.0</h3>
 <h3 align="center">14 April 2018</h3>
-
+<br>
 <p align="center"><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/c57b058e837a1b18b1c8bef3a68767f1c5d0e4eb/image/polindra.png"></p>
 <br>
 <h4 align="center">Anggota :<br>
