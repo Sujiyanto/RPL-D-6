@@ -1,6 +1,6 @@
 <html>
-<h2 align="center">SOFTWARE REQUIREMENT SPESIFICATION</h2>
-<h2 align="center">APLIKASI KREDIT BARANG KOPERASI KARYAWAN (AKBAR KOPKAR) POLINDRA</h2>
+<h2 align="center">SOFTWARE REQUIREMENT SPESIFICATION<br>
+APLIKASI KREDIT BARANG KOPERASI KARYAWAN (AKBAR KOPKAR) POLINDRA</h2>
 <h3 align="center">Version 1.0</h3>
 <h3 align="center">14 April 2018</h3>
 <br>
@@ -15,8 +15,8 @@ Sujiyanto (1603112)</h4>
 <h4 align="center">Kelompok 5<br>
 D3TI2D</h4>
 
-<h2 align="center">TEKNIK INFORMATIKA</h2>
-<h2 align="center">POLITEKNIK NEGERI INDRAMAYU</h2>
+<h2 align="center">TEKNIK INFORMATIKA<br>
+POLITEKNIK NEGERI INDRAMAYU</h2>
 
 ### 1. PENDAHULUAN
 
