@@ -1,18 +1,20 @@
 
 <html>
-<h1 align="center">Software Design Description (SDD)</h1>
+<h2 align="center">Software Design Description (SDD)</h2>
 <h2 align="center">Aplikasi Kredit Barang Koperasi Karyawan POLINDRA</h2>
-<center><b>Version 1.0</b></center>
-<center><b>24 Maret 2018</b></center>
+<h3 align="center">Version 1.0</h3>
+<h3 align="center">24 Maret 2018</h3>
 <br>
 <p align="center"><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/POLINDRA.png"></p>
 <br>
-<center><b>Kelompok 5</b></center><br>
-<center><b> - Nur Inayatun Mahmuda (1603109)<br>
- - Muhammad Fauji Al Fariz (1603107)<br>
- - Sujiyanto (1603112)<br>
- - Astri Alisah (1603091)<br></b></center>
-<br><br>
+<h4 align="center">Anggota<br>
+- Nur Inayatun Mahmuda (1603109)<br>
+- Astri Alisah (1603091)<br>
+- Muhammad Fauji Al Fariz (1603107)<br>
+- Sujiyanto (1603112)</h4>
+<br>
+<h4 align="center">Kelompok 5<br>
+D3TI2D</h4>
 <h2 align="center">TEKNIK INFORMATIKA<br>
 POLITEKNIK NEGERI INDRAMAYU</h2>
 
