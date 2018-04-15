@@ -1,21 +1,22 @@
-
-
-
 <html>
-<div align="center">
-<h1 align="center">Software Project Management Plan</h1>
-<h2 align="center">Aplikasi Kredit Barang berbasis Android</h2>
- <center><b>Version 2.0</b></center>
- <center><b>15 April 2018</b></center><br>
- <center><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/POLINDRA.png"></center><br>
-<center><b> - Nur Inayatun Mahmuda (1603109)<br>
- - Muhammad Fauji Al Fariz (1603107)<br>
- - Sujiyanto (1603112)<br>
- - Astri Alisah (1603091)<br></b></center>
- <br>
- <center><h2>TEKNIK INFORMATIKA</h2></center>
- <center><h2>POLITEKNIK NEGERI INDRAMAYU</h2></center>
- </div>
+<h2 align="center">SOFTWARE PROJECT MANAGEMENT PLAN<br>
+APLIKASI KREDIT BARANG KOPERASI KARYAWAN (AKBAR KOPKAR) POLINDRA</h2>
+<h3 align="center">Version 1.0</h3>
+<h3 align="center">14 April 2018</h3>
+<br>
+<p align="center"><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/c57b058e837a1b18b1c8bef3a68767f1c5d0e4eb/image/polindra.png"></p>
+<br>
+<h4 align="center">Anggota :<br>
+Nur Inayatun Mahmuda (1603109)<br>
+Astri Alisah (1603091)<br>
+Muhammad Fauji Al Fariz (1603107)<br>
+Sujiyanto (1603112)</h4>
+
+<h4 align="center">Kelompok 5<br>
+D3TI2D</h4>
+
+<h2 align="center">TEKNIK INFORMATIKA<br>
+POLITEKNIK NEGERI INDRAMAYU</h2>
  
 **1. Pendahuluan**<br>
 
