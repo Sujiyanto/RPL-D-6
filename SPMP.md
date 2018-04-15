@@ -64,11 +64,11 @@ Pada proyek ini ditunjuk masing-masing bertanggung jawab pada dokumen projek yan
 **2.1 Model proses**<br>
 Model proses yang diterapkan pada proses pembuatan aplikasi ini ialah model V-Model. Model V-Model sendiri memudahkan perancang ketika terjadi suatu perubahan yang memungkinkan kembali ke proses sebelumnya. 
 
-<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/v%20model.png" heigh="200px" width="50%"><br>
+<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/v%20model.png"><br>
 	
 **2.2 Struktur organisasi**
 
-![enter image description here](/image/bagan.jpg)
+<img src="file:///C:/Users/Nohara%20Shinnosuke/Documents/GitHub/RPL-D-6/image/bagan.jpg" heigh="200px" width="50%"><br>
 
 **2.3 Batasan dan Antarmuka Organisasi**<br>
 
@@ -85,7 +85,7 @@ Model proses yang diterapkan pada proses pembuatan aplikasi ini ialah model V-Mo
 | ---  |------------------------|-----------------------|
 | 1.   |Nur Inayatun Mahmuda	|  Project Manager	|
 | 2.   |Muhammad Fauji Al Fariz	|  Web Development	|
-| 3.   |Sujiyanto		|  Web Development	|
+| 3.   |Sujiyanto		|  User Interface	|
 | 4.   |Astri Alisah		|  Database Administrator		|
 		
 **3. Proses Manajerial**<br>
@@ -115,16 +115,15 @@ Batasannya yaitu hanya menangani kredit penjualan barang atau peminjaman uang pa
     </tr>
     <tr>
     	<td>Web Developer</td>
-        <td>Nur Inayatun Mahmuda, Sujiyanto dan Muhammad Fauji Al Fariz </td>
-    </tr>
-    <tr>
-    	<td>System Analyst</td>
-        <td>Astri Alisah</td>
+        <td>Sujiyanto </td>
     </tr>
    <tr>
     	<td>system analyst</td>
-        <td>Astri Alisah & Muhammad Fauji Al Fariz</td>
+        <td>Astri Alisah</td>
     </tr>
+	<tr>
+		<td>User Interface</td>
+	</tr>
 </table>
 
 **4. Proses Teknis**<br>
