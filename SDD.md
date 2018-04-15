@@ -99,6 +99,480 @@ Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kr
 
 **2.2 Deskripsi Data**<br>
 
+- Tabel Bayar
+<table>
+	<tr>
+		<th>Nama Field</th>
+		<th>Jenis</th>
+		<th>Volume</th>
+		<th>Laju</th>
+		<th>Primary Key</th>
+		<th>Constraint Integrity</th>
+		<th>Deskripsi</th>
+	</tr>
+	<tr>
+		<td>id_bayar</td>
+		<td>integer</td>
+		<td>3</td>
+		<td>Primary Key</td>
+		<td>Iya</td>
+		<td>Auto_Increment</td>
+		<td>Identitas pembayaran</td>
+	</tr>
+	<tr>
+		<td>id_credit</td>
+		<td>int</td>
+		<td>3</td>
+		<td>Foreign_key</td>
+		<td>Tidak</td>
+		<td>-</td>
+		<td>Identitas kredit</td>
+	</tr>
+	<tr>
+		<td>tgl_bayar</td>
+		<td>date</td>
+		<td>-</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>-</td>
+		<td>Tanggal pembayaran</td>
+	</tr>
+	<tr>
+		<td>cicilan</td>
+		<td>varchar</td>
+		<td>15</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>-</td>	
+		<td>Nominal yang dibayar</td>
+	</tr>
+	<tr>
+		<td>jumlah</td>
+		<td>varchar</td>
+		<td>15</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>-</td>
+		<td>Total kredit</td>
+	</tr>
+	<tr>
+		<td>sisa</td>
+		<td>varchar</td>
+		<td>15</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>-</td>
+		<td>Sisa yang belum dibayar</td>
+	</tr>
+	<tr>
+		<td>keterangan</td>
+		<td>varchar</td>
+		<td>15</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>-</td>
+		<td>Lunas/Belum</td>
+	</tr>
+</table>
+
+- Tabel Kredit
+<table>
+	<tr>
+		<th>Nama Field</th>
+		<th>Jenis</th>
+		<th>Volume</th>
+		<th>Laju</th>
+		<th>Primary Key</th>
+		<th>Constraint Integrity</th>
+		<th>Deskripsi</th>
+	</tr>
+	<tr>
+		<td>id</td>
+		<td>integer</td>
+		<td>3</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>Auto_increment</td>
+		<td>Identitas penomoran</td>
+	</tr>
+	<tr>
+		<td>id_credit</td>
+		<td>int</td>
+		<td>3</td>
+		<td>Primary Key</td>
+		<td>Iya</td>
+		<td>Auto_Increment</td>
+		<td>Identitas kredit</td>
+	</tr>
+	<tr>
+		<td>id_member</td>
+		<td>int</td>
+		<td>3</td>
+		<td>Foreign Key</td>
+		<td>Tidak</td>
+		<td>Auto_increment</td>
+		<td>Identitas member</td>
+	</tr>
+	<tr>
+		<td>id_barang</td>
+		<td>int</td>
+		<td>3</td>
+		<td>Foreign Key</td>
+		<td>Tidak</td>
+		<td>Auto_increment</td>
+		<td>Identitas barang</td>
+	</tr>
+	<tr>
+		<td>tgl</td>
+		<td>date</td>
+		<td>-</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>-</td>
+		<td>Tanggal melakukan pengambilan kredit</td>
+	</tr>
+	<tr>
+		<td>jangka</td>
+		<td>varchar</td>
+		<td>10</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>-</td>
+		<td>Jangka waktu pembayaran</td>
+	</tr>
+</table>
+
+- Tabel Barang
+<table>
+	<tr>
+		<th>Nama Field</th>
+		<th>Jenis</th>
+		<th>Volume</th>
+		<th>Laju</th>
+		<th>Primary Key</th>
+		<th>Constraint Integrity</th>
+		<th>Deskripsi</th>
+	</tr>
+	<tr>
+		<td>id</td>
+		<td>integer</td>
+		<td>3</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>Auto_increment</td>
+		<td>Identitas penomoran</td>
+	</tr>
+	<tr>
+		<td>id_barang</td>
+		<td>int</td>
+		<td>3</td>
+		<td>Primary Key</td>
+		<td>Iya</td>
+		<td>Auto_increment</td>
+		<td>Identitas kredit</td>
+	</tr>
+	<tr>
+		<td>nama_barang</td>
+		<td>varchar</td>
+		<td>50</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>-</td>
+		<td>Nama barang</td>
+	</tr>
+	<tr>
+		<td>harga</td>
+		<td>varchar</td>
+		<td>15</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>-</td>
+		<td>Harga barang</td>
+	</tr>
+	<tr>
+		<td>uang_muka</td>
+		<td>vharchar</td>
+		<td>15</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>-</td>
+		<td>Uang muka yang harus dibayar</td>
+	</tr>
+	<tr>
+		<td>stok</td>
+		<td>int</td>
+		<td>3</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>-</td>
+		<td>Stok barang</td>
+	</tr>
+	<tr>
+		<td>kategori</td>
+		<td>varchar</td>
+		<td>15</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>-</td>
+		<td>Kategori barang</td>
+	</tr>
+</table>
+
+- Tabel Member
+<table>
+	<tr>
+		<th>Nama Field</th>
+		<th>Jenis</th>
+		<th>Volume</th>
+		<th>Laju</th>
+		<th>Primary Key</th>
+		<th>Constraint Integrity</th>
+		<th>Deskripsi</th>
+	</tr>
+	<tr>
+		<td>id_member</td>
+		<td>integer</td>
+		<td>3</td>
+		<td>Primary Key</td>
+		<td>Iya</td>
+		<td>Auto_increment</td>
+		<td>Identitas member</td>
+	</tr>
+	<tr>
+		<td>nik</td>
+		<td>int</td>
+		<td>10</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>-</td>
+		<td>Nomor Induk Kepegawaian</td>
+	</tr>
+	<tr>
+		<td>nama_member</td>
+		<td>varchar</td>
+		<td>50</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>-</td>
+		<td>Nama member</td>
+	</tr>
+	<tr>
+		<td>jk</td>
+		<td>varchar</td>
+		<td>15</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>-</td>
+		<td>Jenis kelamin</td>
+	</tr>
+	<tr>
+		<td>tmp_lahir</td>
+		<td>vharchar</td>
+		<td>15</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>-</td>
+		<td>Tempat lahir</td>
+	</tr>
+	<tr>
+		<td>tgl_lahir</td>
+		<td>date</td>
+		<td>-</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>-</td>
+		<td>Tanggal lahir</td>
+	</tr>
+	<tr>
+		<td>alamat</td>
+		<td>varchar</td>
+		<td>50</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>-</td>
+		<td>Alamat member</td>
+	</tr>
+	<tr>
+		<td>no_telp</td>
+		<td>varchar</td>
+		<td>15</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>-</td>
+		<td>Info Kontak</td>
+	</tr>
+	<tr>
+		<td>email</td>
+		<td>varchar</td>
+		<td>25</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>-</td>
+		<td>Email</td>
+	</tr>
+</table>
+
+- Tabel Kategori
+<table>
+	<tr>
+		<th>Nama Field</th>
+		<th>Jenis</th>
+		<th>Volume</th>
+		<th>Laju</th>
+		<th>Primary Key</th>
+		<th>Constraint Integrity</th>
+		<th>Deskripsi</th>
+	</tr>
+	<tr>
+		<td>id</td>
+		<td>integer</td>
+		<td>3</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>Auto_increment</td>
+		<td>Identitas kategori</td>
+	</tr>
+	<tr>
+		<td>nama_kategori</td>
+		<td>varchar</td>
+		<td>15</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>-</td>
+		<td>Nama Kategori</td>
+	</tr>
+</table>
+
+- Tabel Admin
+<table>
+	<tr>
+		<th>Nama Field</th>
+		<th>Jenis</th>
+		<th>Volume</th>
+		<th>Laju</th>
+		<th>Primary Key</th>
+		<th>Constraint Integrity</th>
+		<th>Deskripsi</th>
+	</tr>
+	<tr>
+		<td>id_admin</td>
+		<td>integer</td>
+		<td>3</td>
+		<td>Primary Key</td>
+		<td>Iya</td>
+		<td>Auto_increment</td>
+		<td>Identitas admin</td>
+	</tr>
+	<tr>
+		<td>nama_nadmin</td>
+		<td>varchar</td>
+		<td>50</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>-</td>
+		<td>Nama Admin</td>
+	</tr>
+</table>
+
+- Tabel Login
+<table>
+	<tr>
+		<th>Nama Field</th>
+		<th>Jenis</th>
+		<th>Volume</th>
+		<th>Laju</th>
+		<th>Primary Key</th>
+		<th>Constraint Integrity</th>
+		<th>Deskripsi</th>
+	</tr>
+	<tr>
+		<td>id_login</td>
+		<td>integer</td>
+		<td>3</td>
+		<td>Primary Key</td>
+		<td>Iya</td>
+		<td>Auto_increment</td>
+		<td>Identitas login</td>
+	</tr>
+	<tr>
+		<td>username</td>
+		<td>varchar</td>
+		<td>15</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>-</td>
+		<td>Username</td>
+	</tr>
+	<tr>
+		<td>password</td>
+		<td>varchar</td>
+		<td>6</td>
+		<td>Tidak</td>
+		<td>Tidak</td>
+		<td>-</td>
+		<td>Password</td>
+	</tr>
+</table>
+
+**2.2.1 Definisi Domain/Type**
+
+**2.2.2 Conceptual Data Model**
+
+**2.2.3 Physical Data Model**
+
+**2.2.4 Daftar Tabel Aplikasi**
+
+**2.3 Deskripsi Modul**
+
+<table>
+	<tr>
+		<th>No.</th>
+		<th>Nama Modul</th>
+		<th>Keterangan</th>
+	</tr>
+	<tr>
+		<td>1.</td>
+		<td>Otentikasi</td>
+		<td>Modul yang di gunakan untuk vailidasi akses masuk ke sistem</td>
+	</tr>
+	<tr>
+		<td>2.</td>
+		<td>Barang</td>
+		<td>Modul yang mencakup input, edit, delete dan update semua data barang</td>
+	</tr>
+	<tr>
+		<td>3.</td>
+		<td>Supplier</td>
+		<td>Modul yang mencakup input, edit, delete dan update semua data supplier</td>
+	</tr>
+	<tr>
+		<td>4.</td>
+		<td>Member</td>
+		<td>Modul yang mencakup input, edit, delete dan update semua data member</td>
+	</tr>
+	<tr>
+		<td>5.</td>
+		<td>Transaksi Pembelian</td>
+		<td>Modul yang digunakan untuk mencatat pembelian barang dari supplier</td>
+	</tr>
+	<tr>
+		<td>6.</td>
+		<td>Transaksi Penjualan</td>
+		<td>Modul yang digunakan untuk menerima transaki dari user</td>
+	</tr>
+	<tr>
+		<td>7.</td>
+		<td>Cicilan Pembayaran</td>
+		<td>Modul yang digunakan untuk melihat cicilan pembayaran untuk user</td>
+	</tr>
+	<tr>
+		<td>8.</td>
+		<td>Laporan Keuntungan</td>
+		<td>Modul yang digunakan untuk melihat laporan keuntungan bagi admin</td>
+	</tr>
+</table>
+
+
 **3. Penjelasan dekomposisi**<br>
 
 **3.1 Diagram Konteks**<br>
