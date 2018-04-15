@@ -22,7 +22,7 @@ POLITEKNIK NEGERI INDRAMAYU</h2>
 
 **1.1 Tujuan Penulisan Dokumen**
 
-Tujuan pembuatan SDD (Software Design Description) ini adalah untuk menjelaskan langkah langkah desain dan proses-proses dalam pembuatan sistem yang akan diterapkan pada aplikasi Kredit Barang Koperasi Karyawan (AKBAR KOPKAR) POLINDRA, dan juga memberi definisi kebutuhan untuk sistem dan spesifikasi kebutuhan fungsional. Fungsi utama dari AKBAR KOPKAR ini adalah membantu pihak koperasi dalam melakukan sistem penjualan kredit barang.
+Tujuan pembuatan SDD (Software Design Description) ini adalah untuk menjelaskan langkah langkah desain dan proses-proses dalam pembuatan sistem yang akan diterapkan pada aplikasi Kredit Barang Koperasi Karyawan (AKBAR KOPKAR) POLINDRA, dan juga memberi definisi kebutuhan untuk sistem dan spesifikasi kebutuhan fungsional. Fungsi utama dari AKBAR KOPKAR ini adalah membantu pihak koperasi dalam melakukan sistem penjualan kredit barang. Aplikasi ini hanya digunakan oleh member yang terdaftar pada koperasi karyawan polindra.
 
 **1.2 Lingkup Masalah**
 		
@@ -30,18 +30,38 @@ Sistem Perangkat Lunak ini hanya akan menjadi aplikasi lokal, yang artinya aplik
 		
 **1.3 Definisi dan Istilah**
 		
-| Istilah | Definisi                                       |
-|---------|------------------------------------------------|
-| Admin   | Orang yang mengelolah web server dari aplikasi |
-| User    | Pemakai atau pengguna aplikasi                 |
-| Koperasi | Organisasi ekonomi yang dimiliki dan dioperasikan oleh beberapa orang demi kepentingan bersama
+<table>
+	<tr>
+		<th>Istilah</th>
+		<th>Definisi</th>
+	</tr>
+	<tr>
+		<td>Kredit</td>
+		<td>Melakukan pembayaran dengan cara mengangsur</td>
+	</tr>
+	<tr>
+		<td>Koperasi</td>
+		<td>Organisasi ekonomi yang dimiliki dan dioperasikan oleh beberapa orag demi kepentingan bersama</td>
+	</tr>
+	<tr>
+		<td>User</td>
+		<td>Pemakai atau pengguna aplikasi</td>
+	</tr>
+	<tr>
+		<td>Admin</td>
+		<td>Orang yang mengelolah web server dari aplikasi</td>
+	</tr>
+</table>
 
-**1. 4 Referensi**<br>
+**1.4 Aturan Penamaan dan penomoran**
 
-https://www.slideshare.net/rivaldysetiawan7/srs-example-webapp-33986122 <br>
-http://www.san.uri.br/~pbetencourt/engsoftII/IEEE-P1016-d50.PDF
+**1.5 Referensi**<br>
 
-**1.5 Iktisar Dokumen**<br>
+- https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjd7pWs6LvaAhUFto8KHShUDGsQFggoMAA&url=http%3A%2F%2Fwww.san.uri.br%2F~pbetencourt%2FengsoftII%2FIEEE-P1016-d50.PDF&usg=AOvVaw0-Aa9INJSSPZeNBCHHyNms
+- https://www.slideshare.net/rivaldysetiawan7/srs-example-webapp-33986122
+- http://www.san.uri.br/~pbetencourt/engsoftII/IEEE-P1016-d50.PDF
+
+**1.6 Iktisar Dokumen**<br>
 
 SDD ini berisikan penjabaran rancangan dari perangkat lunak yang akan dibuat, sehingga pada tahap implementasi perangkat lunak tersebut memiliki spesifikasi yang jelas dengan tetap menjadikan dokumen ini sebagai acuan.
 
@@ -56,10 +76,26 @@ SDD ini berisikan penjabaran rancangan dari perangkat lunak yang akan dibuat, se
 **2.1 Rancangan Lingkungan Implementasi**<br>
 
 Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kredit Barang Koperasi Karyawan Polindra ini adalah :
-Sistem Operasi				: Windows 10
-DBMS								: MySQL
-Development Tools		: Sublime Text, Android Studio, Balsamiq, Xampp
-Bahasa Pemrograman	: HTML, PHP, Java <br>
+<br>
+<table>
+	<tr>
+		<td>Sistem Operasi</td>
+		<td>Windows 10</td>
+	</tr>
+	<tr>
+		<td>DBMS</td>
+		<td>MySQL</td>
+	</tr>
+	<tr>
+		<td>Development Tools</td>
+		<td>Sublime Text, Android Studio, Balsamiq, Xampp</td>
+	</tr>
+	<tr>
+		<td>Bahasa Pemrograman</td>
+		<td>HTML, PHP, Java</td>
+	</tr>
+</table>
+
 
 **2.2 Deskripsi Data**<br>
 
