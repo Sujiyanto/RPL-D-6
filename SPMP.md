@@ -21,7 +21,7 @@
 
 **1.1 Gambaran Proyek**<br>
 
-Koperasi merupakan suatu organisasi nirlaba yang cukup kompleks, satu organisasi yang menjalankan beberapa unit usaha yang dikelola dengan tujuan meningkatkan kesejahteraan anggotanya. Dengan semakin berkembang pesatnya organisasi ini, sudah saatnya memanfaatkan kemajuan teknologi yang ada sehingga dapat mempermudah pengelolaan program dalam koperasi tersebut. Pemanfaatan teknologi yang dimaksud adalah dengan adanya pembuatan Aplikasi Kredit Barang berbasis Android karena teknologi mobile sedang dalam perkembangan yang sangat maju maka kami rasa Aplikasi ini cukup untuk membantu seluruh anggota koperasi dalam memajukan kesejahteraan bersama.  Aplikasi Kredit Barang Berbasis Android adalah sebuah aplikasi yang ditujunkan untuk mempermudah dan meringankan karyawan dalam melakukan pembelian barang di Koperasi Karyawan POLINDRA. Karyawan/Anggota Koperasi dapat membeli sebuah barang di Koperasi dengan sistem pembayaran Kredit/Cicilan. Barang yang dapat dibayar dengan kredit berupa Barang Elektronik, Sembako, dan juga dapat berupa pinjaman uang.<br>
+Koperasi merupakan suatu organisasi nirlaba yang cukup kompleks, satu organisasi yang menjalankan beberapa unit usaha yang dikelola dengan tujuan meningkatkan kesejahteraan anggotanya. Dengan semakin berkembang pesatnya organisasi ini, sudah saatnya memanfaatkan kemajuan teknologi yang ada sehingga dapat mempermudah pengelolaan program dalam koperasi tersebut. Pemanfaatan teknologi yang dimaksud adalah dengan adanya pembuatan Aplikasi Kredit Barang berbasis Website karena teknologi mobile sedang dalam perkembangan yang sangat maju maka kami rasa Aplikasi ini cukup untuk membantu seluruh anggota koperasi dalam memajukan kesejahteraan bersama.  Aplikasi Kredit Barang Berbasis Website adalah sebuah aplikasi yang ditujunkan untuk mempermudah dan meringankan karyawan dalam melakukan pembelian barang di Koperasi Karyawan POLINDRA. Karyawan/Anggota Koperasi dapat membeli sebuah barang di Koperasi dengan sistem pembayaran Kredit/Cicilan. Barang yang dapat dibayar dengan kredit berupa Barang Elektronik, Sembako, dan juga dapat berupa pinjaman uang.<br>
 
 **1.2 Dokumen-dokumen dalam proyek**<br>
 
@@ -36,7 +36,7 @@ Pada proyek ini ditunjuk masing-masing bertanggung jawab pada dokumen projek yan
 **1.4 Material proyek**<br>
 	
 -   IEEE Std 610.12-1990, IEEE Standard Glossary of Software Engineering Terminology
-- 1058.1-1987 - IEEE Standard for Software Project Management Plans
+-   1058.1-1987 - IEEE Standard for Software Project Management Plans
 
 **1.5 Definisi dan akronim (singkatan)**
 
@@ -64,7 +64,7 @@ Pada proyek ini ditunjuk masing-masing bertanggung jawab pada dokumen projek yan
 **2.1 Model proses**<br>
 Model proses yang diterapkan pada proses pembuatan aplikasi ini ialah model V-Model. Model V-Model sendiri memudahkan perancang ketika terjadi suatu perubahan yang memungkinkan kembali ke proses sebelumnya. 
 
-<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/v%20model.png"><br>
+<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/v%20model.png" heigh="200px" width="50%"><br>
 	
 **2.2 Struktur organisasi**
 
@@ -75,7 +75,7 @@ Model proses yang diterapkan pada proses pembuatan aplikasi ini ialah model V-Mo
 |Tugas| Penjelasan |
 |--|--|
 | Project Plan |Mengatur Perancangan Sistem (Alur Mockup,Flowchart, dan DFD)|
-|Android Development|Penerapan Mockup Ke halaman Interface dan proses fungsi lain di Android Java|
+|Penerapan Mockup Ke halaman Interface|
 |Web Development|Penerapan Mockup Ke halaman Interface dan proses fungsi lain di PHP, HTML, CSS|
 |Database Administrator|Pengguna yang memiliki kewenangan sebagai pusat pengendali seluruh sistem baik basis data maupun program-program yang mengaksesnya, menentukan pola struktur basis data, memodifikasi, membagi tugas pengolahan dan memberikan orientasi tertentu, dan sebagainya|
 
@@ -85,7 +85,7 @@ Model proses yang diterapkan pada proses pembuatan aplikasi ini ialah model V-Mo
 | ---  |------------------------|-----------------------|
 | 1.   |Nur Inayatun Mahmuda	|  Project Manager	|
 | 2.   |Muhammad Fauji Al Fariz	|  Web Development	|
-| 3.   |Sujiyanto		|  Android Development	|
+| 3.   |Sujiyanto		|  Web Development	|
 | 4.   |Astri Alisah		|  Database Administrator		|
 		
 **3. Proses Manajerial**<br>
@@ -100,7 +100,7 @@ Batasannya yaitu hanya menangani kredit penjualan barang atau peminjaman uang pa
 
 **3.3 Manajemen resiko**<br>
 
-- 
+- Barang yang tersedia terbatas, jadi jika kita memesan barang ada waktu tunggu.
 		
 **3.4 Mekanisme monitoring dan kontroling**<br>
 
@@ -114,15 +114,11 @@ Batasannya yaitu hanya menangani kredit penjualan barang atau peminjaman uang pa
         <td>Nur Inayatun Mahmuda</td>
     </tr>
     <tr>
-    	<td>Mobile Developer</td>
-        <td>Sujiyanto</td>
-    </tr>
-    <tr>
     	<td>Web Developer</td>
-        <td>Nur Inayatun Mahmuda & Muhammad Fauji Al Fariz </td>
+        <td>Nur Inayatun Mahmuda, Sujiyanto dan Muhammad Fauji Al Fariz </td>
     </tr>
     <tr>
-    	<td>Database</td>
+    	<td>System Analyst</td>
         <td>Astri Alisah</td>
     </tr>
    <tr>
@@ -152,7 +148,7 @@ Dokumentasi seperti piagam proyek, Dokumentasi Kebutuhan Bisnis, Dokumentasi Spe
 | 1. | Nur Inayatun Mahmuda | Project Manager, Web Development  |  Web Development: Modul Login, CRUD  |
 | 2. | Astri Alisah | Database, System Analyst | Modul Database, Modul Dokumen |
 | 3. | Muhammad Fauji Al Fariz | Web Development, System Analyst| Modul UI Design Web |
-| 4. | Sujiayanto | Mobile Development | Modul Login, Dashboard User, Account, Bill, Data Barang  |
+| 4. | Sujiayanto | Web Development | Modul Login, Dashboard User, Account, Bill, Data Barang  |
 
 	
 **5.2 Jadwal**<br>
@@ -162,7 +158,7 @@ Dokumentasi seperti piagam proyek, Dokumentasi Kebutuhan Bisnis, Dokumentasi Spe
 
 | No. | Perangkat | Kebutuhan |
 |--|--|--|
-| 1. | Perangkat Lunak | Android Studio, Sublime Text, Xampp, dll |
+| 1. | Perangkat Lunak | Sublime Text, Xampp, dll |
 | 2. | Perangkat Keras | Laptop |
 | 3. | Other | Koneksi Internet |
 <br>
