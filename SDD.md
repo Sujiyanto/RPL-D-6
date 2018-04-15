@@ -515,12 +515,276 @@ Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kr
 </table>
 
 **2.2.1 Definisi Domain/Type**
+ - Tabel Bayar
+
+<table>
+	<tr>
+		<th>Domain Name</th>
+		<th>Power Designer Type</th>
+	</tr>
+	<tr>
+		<td>id_bayar</td>
+		<td>integer</td>
+	</tr>
+	<tr>
+		<td>id_credit</td>
+		<td>integer</td>
+	</tr>
+	<tr>
+		<td>tgl_bayar</td>
+		<td>date</td>
+	</tr>
+	<tr>
+		<td>cicilan</td>
+		<td>varchar</td>
+	</tr>
+	<tr>
+		<td>jumlah</td>
+		<td>varchar</td>
+	</tr>
+	<tr>
+		<td>sisa</td>
+		<td>varchar</td>
+	</tr>
+	<tr>
+		<td>keterangan</td>
+		<td>varchar</td>
+	</tr>
+</table>
+
+ - Tabel Kredit
+
+<table>
+	<tr>
+		<th>Domain Name</th>
+		<th>Power Designer Type</th>
+	</tr>
+	<tr>
+		<td>id</td>
+		<td>integer</td>
+	</tr>
+	<tr>
+		<td>id_credit</td>
+		<td>integer</td>
+	</tr>
+	<tr>
+		<td>id_member</td>
+		<td>integer</td>
+	</tr>
+	<tr>
+		<td>id_barang</td>
+		<td>integer</td>
+	</tr>
+	<tr>
+		<td>tgl</td>
+		<td>date</td>
+	</tr>
+	<tr>
+		<td>jangka</td>
+		<td>varchar</td>
+	</tr>
+</table>
+
+ - Tabel Barang
+
+<table>
+	<tr>
+		<th>Domain Name</th>
+		<th>Power Designer Type</th>
+	</tr>
+	<tr>
+		<td>id</td>
+		<td>integer</td>
+	</tr>
+	<tr>
+		<td>id_barang</td>
+		<td>integer</td>
+	</tr>
+	<tr>
+		<td>nama_barang</td>
+		<td>varchar</td>
+	</tr>
+	<tr>
+		<td>harga</td>
+		<td>varchar</td>
+	</tr>
+	<tr>
+		<td>uang_muka</td>
+		<td>vharchar</td>
+	</tr>
+	<tr>
+		<td>stok</td>
+		<td>integer</td>
+	</tr>
+	<tr>
+		<td>kategori</td>
+		<td>varchar</td>
+	</tr>
+</table>
+
+ - Tabel Member
+
+<table>
+	<tr>
+		<th>Domain Name</th>
+		<th>Power Designer Type</th>
+	</tr>
+	<tr>
+		<td>id_member</td>
+		<td>integer</td>
+	</tr>
+	<tr>
+		<td>nik</td>
+		<td>integer</td>
+	</tr>
+	<tr>
+		<td>nama_member</td>
+		<td>varchar</td>
+	</tr>
+	<tr>
+		<td>jk</td>
+		<td>varchar</td>
+	</tr>
+	<tr>
+		<td>tmp_lahir</td>
+		<td>vharchar</td>
+	</tr>
+	<tr>
+		<td>tgl_lahir</td>
+		<td>date</td>
+	</tr>
+	<tr>
+		<td>alamat</td>
+		<td>varchar</td>
+	</tr>
+	<tr>
+		<td>no_telp</td>
+		<td>varchar</td>
+	</tr>
+	<tr>
+		<td>email</td>
+		<td>varchar</td>
+	</tr>
+</table>
+
+ - Tabel Kategori
+
+<table>
+	<tr>
+		<th>Domain Name</th>
+		<th>Power Designer Type</th>
+	</tr>
+	<tr>
+		<td>id</td>
+		<td>integer</td>
+	</tr>
+	<tr>
+		<td>nama_kategori</td>
+		<td>varchar</td>
+	</tr>
+</table>
+
+ - Tabel Admin
+
+<table>
+	<tr>
+		<th>Domain Name</th>
+		<th>Power Designer Type</th>
+	</tr>
+	<tr>
+		<td>id_admin</td>
+		<td>integer</td>
+	</tr>
+	<tr>
+		<td>nama_nadmin</td>
+		<td>varchar</td>
+	</tr>
+</table>
+
+ - Tabel Login
+
+<table>
+	<tr>
+		<th>Domain Name</th>
+		<th>Power Designer Type</th>
+	</tr>
+	<tr>
+		<td>id_login</td>
+		<td>integer</td>
+	</tr>
+	<tr>
+		<td>username</td>
+		<td>varchar</td>
+	</tr>
+	<tr>
+		<td>password</td>
+		<td>varchar</td>
+	</tr>
+</table>
 
 **2.2.2 Conceptual Data Model**
 
 **2.2.3 Physical Data Model**
 
 **2.2.4 Daftar Tabel Aplikasi**
+<table>
+	<tr>
+		<th>Nama Tabel</th>
+		<th>Primary Key</th>
+		<th>Data Store</th>
+		<th>E/R</th>
+		<th>Deskripsi Isi</th>
+	</tr>
+	<tr>
+		<td>Bayar</td>
+		<td>id_bayar</td>
+		<td>D1</td>
+		<td>auto_increment</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Kredit</td>
+		<td>id_kredit</td>
+		<td>D2</td>
+		<td>auto_increment</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Barang</td>
+		<td>id_barang</td>
+		<td>D3</td>
+		<td>auto_increment</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Member</td>
+		<td>id_member</td>
+		<td>D4</td>
+		<td>auto_increment</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Kategori</td>
+		<td>id_kategori</td>
+		<td>D5</td>
+		<td>auto_increment</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Admin</td>
+		<td>id_admin</td>
+		<td>D6</td>
+		<td>auto_increment</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Login</td>
+		<td>id_login</td>
+		<td>D7</td>
+		<td>auto_increment</td>
+		<td></td>
+	</tr>
+</table>
 
 **2.3 Deskripsi Modul**
 
