@@ -1,22 +1,22 @@
 <html>
-<center><h2>SOFTWARE REQUIREMENT SPESIFICATION<br>
- APLIKASI KREDIT BARANG KOPERASI KARYAWAN (AKBAR KOPKAR) POLINDRA</h2></center>
-<center><h3>Version 1.0</h3></center>
-<center><h3>14 April 2018</h3></center>
+	<h2 align="center">SOFTWARE REQUIREMENT SPESIFICATION</h2><br>
+<h2 align="center">APLIKASI KREDIT BARANG KOPERASI KARYAWAN (AKBAR KOPKAR) POLINDRA</h2>
+<h3 align="center">Version 1.0</h3><br>
+<h3 align="center">14 April 2018</h3>
 
 <center><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/c57b058e837a1b18b1c8bef3a68767f1c5d0e4eb/image/polindra.png"></center>
 <br>
-<center>Anggota :</center> 
- <center>Nur Inayatun Mahmuda (1603109)</center>
- <center>Astri Alisah (1603091)</center>
-<center>Muhammad Fauji Al Fariz (1603107)</center>
-<center>Sujiyanto (1603112)</center>
+<h4 align="center">Anggota :<br>
+Nur Inayatun Mahmuda (1603109)<br>
+Astri Alisah (1603091)<br>
+Muhammad Fauji Al Fariz (1603107)<br>
+Sujiyanto (1603112)</h4>
 <br>
-<center>Kelompok 5</center>
- <center>D3TI2D</center>
+<h4 align="center">Kelompok 5<br>
+D3TI2D</h4>
 
-<center><h2>TEKNIK INFORMATIKA<br>
- POLITEKNIK NEGERI INDRAMAYU</h2></center>
+<h2 align="center">TEKNIK INFORMATIKA</h2><br>
+<h2 align="center">POLITEKNIK NEGERI INDRAMAYU</h2>
 
 ### 1. PENDAHULUAN
 
