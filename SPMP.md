@@ -16,6 +16,7 @@
  <center><h2>TEKNIK INFORMATIKA</h2></center>
  <center><h2>POLITEKNIK NEGERI INDRAMAYU</h2></center>
  </div>
+ 
 **1. Pendahuluan**<br>
 
 **1.1 Gambaran Proyek**<br>
@@ -67,13 +68,8 @@ Model proses yang diterapkan pada proses pembuatan aplikasi ini ialah model V-Mo
 	
 **2.2 Struktur organisasi**
 
-| No. |Nama|Jabatan|
-| ---  |------------------------|-----------------------|
-| 1.   |Nur Inayatun Mahmuda	|  Project Manager	|
-| 2.   |Muhammad Fauji Al Fariz	|  Web Development	|
-| 3.   |Sujiyanto		|  Android Development	|
-| 4.   |Astri Alisah		|  Database Administrator		|
-  
+![enter image description here](/image/bagan.jpg)
+
 **2.3 Batasan dan Antarmuka Organisasi**<br>
 
 |Tugas| Penjelasan |
@@ -82,7 +78,15 @@ Model proses yang diterapkan pada proses pembuatan aplikasi ini ialah model V-Mo
 |Android Development|Penerapan Mockup Ke halaman Interface dan proses fungsi lain di Android Java|
 |Web Development|Penerapan Mockup Ke halaman Interface dan proses fungsi lain di PHP, HTML, CSS|
 |Database Administrator|Pengguna yang memiliki kewenangan sebagai pusat pengendali seluruh sistem baik basis data maupun program-program yang mengaksesnya, menentukan pola struktur basis data, memodifikasi, membagi tugas pengolahan dan memberikan orientasi tertentu, dan sebagainya|
+
 **2.4 Likungan tanggung jawab**<br>
+
+| No. |Nama|Jabatan|
+| ---  |------------------------|-----------------------|
+| 1.   |Nur Inayatun Mahmuda	|  Project Manager	|
+| 2.   |Muhammad Fauji Al Fariz	|  Web Development	|
+| 3.   |Sujiyanto		|  Android Development	|
+| 4.   |Astri Alisah		|  Database Administrator		|
 		
 **3. Proses Manajerial**<br>
 
