@@ -1,7 +1,7 @@
 <html>
-	<h2 align="center">SOFTWARE REQUIREMENT SPESIFICATION</h2><br>
+<h2 align="center">SOFTWARE REQUIREMENT SPESIFICATION</h2>
 <h2 align="center">APLIKASI KREDIT BARANG KOPERASI KARYAWAN (AKBAR KOPKAR) POLINDRA</h2>
-<h3 align="center">Version 1.0</h3><br>
+<h3 align="center">Version 1.0</h3>
 <h3 align="center">14 April 2018</h3>
 
 <center><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/c57b058e837a1b18b1c8bef3a68767f1c5d0e4eb/image/polindra.png"></center>
@@ -15,7 +15,7 @@ Sujiyanto (1603112)</h4>
 <h4 align="center">Kelompok 5<br>
 D3TI2D</h4>
 
-<h2 align="center">TEKNIK INFORMATIKA</h2><br>
+<h2 align="center">TEKNIK INFORMATIKA</h2>
 <h2 align="center">POLITEKNIK NEGERI INDRAMAYU</h2>
 
 ### 1. PENDAHULUAN
