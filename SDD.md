@@ -573,31 +573,40 @@ Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kr
 </table>
 
 
-**3. Penjelasan dekomposisi**<br>
+**3. Penjelasan dekomposisi**
 
-**3.1 Diagram Konteks**<br>
+**3.1 Diagram Konteks**
 
-<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Diagram%20konteks.png"><br>
+**3.1.1 DFD Level 0**
 
-**3.2 DFD Level 0**<br>
+**3.1.2 DFD Level 1 Prosen ..**
 
-<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/DFD%20level%200.JPG"><br>
+**3.1.3 DFD Level 1 Prosen ..**
 
-**3.3 DFD Level 1**<br>
+**3.1.4 DFD Level 1 Prosen ..**
 
-**3.3.1 DFD Level 1 Data Member**<br>
+**3.1.5 DFD Level 1 Prosen ..**
 
-<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/DFD%20lvl%201%20Data%20Member.png">
+**3.1.6 DFD Level 1 Prosen ..**
 
-**3.3.2 DFD Level 1 Data Barang**<br>
+**3.1.7 DFD Level 1 Prosen ..**
 
-<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/DFD%20lvl%201%20Data%20Barang.png">
+**3.1.8 DFD Level 1 Prosen ..**
 
-**3.3.3 DFD Level 1 Data Order**<br>
+**3.2 Deskripsi Rinci Tabel**
 
-<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/DFD%20Level%201%20Data%20Order.jpg">
+**3.2.1 Data User Admin dan Member**
+<table>
+	<tr>
+		<th>Data</th>
+		<th>Keterangan</th>
+	</tr>
+	<tr>
+		<td>NIK</td>
+		<td>Digunakan untuk Login</td>
+	</tr>
+</table>
 
-**3.3.4 DFD Level 1 Data Admin** <br>
-<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/DFD%20lvl1%20data%20admin.png">
-</html>
+**3.3 Deskripsi Rinci Modul**
 
+**3.4 Matriks Keturunan**
