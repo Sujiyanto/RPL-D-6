@@ -68,7 +68,7 @@ Model proses yang diterapkan pada proses pembuatan aplikasi ini ialah model V-Mo
 	
 **2.2 Struktur organisasi**
 
-<img src="file:///C:/Users/Nohara%20Shinnosuke/Documents/GitHub/RPL-D-6/image/bagan.jpg" heigh="200px" width="50%"><br>
+<img src="file:///C:/Users/Nohara%20Shinnosuke/Documents/GitHub/RPL-D-6/image/bagan.jpg"><br>
 
 **2.3 Batasan dan Antarmuka Organisasi**<br>
 
