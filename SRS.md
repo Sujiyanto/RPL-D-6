@@ -256,6 +256,14 @@ Karena Aplikasi ini berbasis website dan tidak harus didownload maka tidak ada b
 
 **2.2.2 Use Case User**<br>
 
+ - Registrasi
+ <img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Use%20Case%20User%20Registrasi.png"><br>
+ Langkah-langkah :
+1. Masuk ke halaman login
+2. Klik Create Account
+3. Isi Semua Data Dalam Form
+4. Klik Register
+
  - Login
  <img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Use%20Case%20User%20Login.png"><br>
  Langkah-langkah :
