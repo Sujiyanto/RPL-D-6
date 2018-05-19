@@ -71,7 +71,7 @@ Bab berikutnya, bagian Uraian Keseluruhan, dari dokumen ini memberikan sebuah ik
 AKBAR Kopkar Polindra adalah aplikasi kredit barang di Koperasi Karyawan Politeknik Negeri Indramayu. Secara umum aplikasi ini berfungsi sebagai aplikasi penjualan yang berbasis android. Tujuannya untuk mempermudah  pihak koperasi dalam melakukan penjualan barang serta membantu pihak karyawan yang tergabung dalam anggota koperasi untuk melakukan pembelian barang karena pembayarannya dilakukan dengan sistem kredit tanpa menggunakan kartu kredit. Aplikasi ini berpacu pada aplikasi yang sudah ada sebelumnya yaitu aplikasi “Akulaku” namun aplikasi yang kita buat hanya ditujukan khusus untuk penjualan satu toko yaitu kopkar polindra dan hanya karyawan yang terdaftar yang bisa menggunakan aplikasi tersebut, kelebihan dari aplikasi ini mudah dioperasikan dan dipahami Serta aplikasi ini memiliki fungsi tambahan untuk pengajuan peminjaman uang. <br>
 	
 **2.1.1 Antarmuka Sistem**<br>
-<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Antarmuka%20Sistem.png"><br>
+<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/d74525e3fc3fb5db286801c34a9e99385d9f542f/image/Antarmuka%20Sistem.png"><br>
 **2.1.2 Mockup**<br>
 <table>
 	<tr>
