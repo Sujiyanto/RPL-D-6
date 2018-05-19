@@ -1,3 +1,4 @@
+
 <html>
 <h2 align="center">SOFTWARE TESTING DOCUMENT</h2>
 <h3 align="center">APLIKASI KREDIT BARANG KOPERASI KARYAWAN POLITEKNIK NEGERI INDRAMAYU<br>
@@ -34,7 +35,7 @@ Perangkat lunak yang akan diuji adalah “Aplikasi Kredit Barang Koperasi Karyaw
 Dalam dokumen ini berisi 3 bagian utama yaitu Pendahuluan, Identifikasi dan Rencana Pengujian, Deskripsi dan Uji Hasil.
 
 <h4>1.4. Daftar Singkatan </h4>
-<table border="1">
+<table>
 <tr>
 <td>Istilah</td>
 <td>Definisi</td>
@@ -64,11 +65,12 @@ Dalam dokumen ini berisi 3 bagian utama yaitu Pendahuluan, Identifikasi dan Renc
 <td>Software Requirement Specification merupakan dokumen perangkat lunak yang berisi tentang requirement spesifikasi atau spesifikasi yang ada pada perangkat lunak yang akan dibangun atau dirancang.</td><br>
 
 <h4> 1.5. Dokumen Referensi </h4>
-- http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjd7pWs6LvaAhUFto8KHShUDGsQFggoMAA&url=http%3A%2F%2Fwww.san.uri.br%2F~pbetencourt%2FengsoftII%2FIEEE-P1016-d50.PDF&usg=AOvVaw0-Aa9INJSSPZeNBCHHyNms<br>
-- http://www.slideshare.net/rivaldysetiawan7/[srs-example-webapp-33986122<br>
-- IEEE Software Engineering Standards Committee, “IEEE Std 830-1998, IEEE  Recommended Practice for Software Requirements Specifications”, October 20, 1998.<br>
-- https://www.google.co.id/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&ved=0ahUKEwitpsi807jaAhUHqo8KHS0SAMEQFghLMAM&url=http%3A%2F%2Fwww.cse.chalmers.se%2F~feldt%2Fcourses%2Freqeng%2Fexamples%2Fsrs_example_2010_group2.pdf&usg=AOvVaw1sbUrO_cREj3g8sqm8driM<br>
-- https://www.google.co.id/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwitpsi807jaAhUHqo8KHS0SAMEQFggoMAA&url=https%3A%2F%2Fwww.utdallas.edu%2F~chung%2FRE%2FPresentations07S%2FTeam_1_Doc%2FDocuments%2FSRS4.0.doc&usg=AOvVaw2zaGGnBB9yNttcKsuBifee<br>
+
+ - http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjd7pWs6LvaAhUFto8KHShUDGsQFggoMAA&url=http%3A%2F%2Fwww.san.uri.br%2F~pbetencourt%2FengsoftII%2FIEEE-P1016-d50.PDF&usg=AOvVaw0-Aa9INJSSPZeNBCHHyNms
+ - http://www.slideshare.net/rivaldysetiawan7/srs-example-webapp-33986122
+ - IEEE Software Engineering Standards Committee, “IEEE Std 830-1998, IEEE  Recommended Practice for Software Requirements Specifications”, October 20, 1998.<br>
+ - https://www.google.co.id/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&ved=0ahUKEwitpsi807jaAhUHqo8KHS0SAMEQFghLMAM&url=http%3A%2F%2Fwww.cse.chalmers.se%2F~feldt%2Fcourses%2Freqeng%2Fexamples%2Fsrs_example_2010_group2.pdf&usg=AOvVaw1sbUrO_cREj3g8sqm8driM<br>
+ - https://www.google.co.id/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwitpsi807jaAhUHqo8KHS0SAMEQFggoMAA&url=https%3A%2F%2Fwww.utdallas.edu%2F~chung%2FRE%2FPresentations07S%2FTeam_1_Doc%2FDocuments%2FSRS4.0.doc&usg=AOvVaw2zaGGnBB9yNttcKsuBifee<br>
 
 <h3 align="center">BAB II <br> LINGKUNGAN PENGUJIAN PERANGKAT LUNAK</h3>
 
@@ -110,4 +112,6 @@ Persiapan yang harus dilakukan untuk menyiapkan perangkat lunak untuk diuji di l
 Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan mengikuti scenario tertentu yang dibuat berdasarkan scenario yang terdapat pada dokumen SPMP dan SRS.
 <h4> Pelaporan Hasil </h4>
  Dokumen hasil uji dari aplikasi ini akan diberikan kepada anggota kelompok dan dievaluasi oleh anggota kelompok lain yang bertindak sebagai klien dari kelompok kami. Sehingga aplikasi mendapatkan umpan balik dalam pengembangan perangkat lunak ini selanjunya.
+ 
+<h3 align="center">BAB III <br>IDENTIFIKASI DAN RENCANA PENGUJIAN</h3>
 </html>
