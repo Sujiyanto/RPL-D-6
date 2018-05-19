@@ -19,7 +19,8 @@
 D3TI2D</h4>
 <h2 align="center">TEKNIK INFORMATIKA<br>
 POLITEKNIK NEGERI INDRAMAYU</h2>
-<h3 align="center">BAB 1<br> PENDAHULUAN</h3>
+
+<h3 align="center">BAB I<br>PENDAHULUAN</h3>
 
 <h4> 1.1. Tujuan Pembuatan Dokumen</h4>
 - Untuk mengidentifikasi dan mengungkapkan sebagai kesalahan sebanyak mungkin dalam perangkat lunak yang diuji.<br>
@@ -83,7 +84,7 @@ Dalam dokumen ini berisi 3 bagian utama yaitu Pendahuluan, Identifikasi dan Renc
  - https://www.google.co.id/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&ved=0ahUKEwitpsi807jaAhUHqo8KHS0SAMEQFghLMAM&url=http%3A%2F%2Fwww.cse.chalmers.se%2F~feldt%2Fcourses%2Freqeng%2Fexamples%2Fsrs_example_2010_group2.pdf&usg=AOvVaw1sbUrO_cREj3g8sqm8driM<br>
  - https://www.google.co.id/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwitpsi807jaAhUHqo8KHS0SAMEQFggoMAA&url=https%3A%2F%2Fwww.utdallas.edu%2F~chung%2FRE%2FPresentations07S%2FTeam_1_Doc%2FDocuments%2FSRS4.0.doc&usg=AOvVaw2zaGGnBB9yNttcKsuBifee<br>
 
-<h3 align="center">BAB II <br> LINGKUNGAN PENGUJIAN PERANGKAT LUNAK</h3>
+<h3 align="center">BAB II <br>LINGKUNGAN PENGUJIAN PERANGKAT LUNAK</h3>
 
 <h4> 2.1 Perangkat Lunak Pengujian</h4>
 Perangkat lunak ini diujikan dengan beberapa perangkat lunak lain, yaitu:<br>
@@ -1502,4 +1503,7 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 		<td colspan="4"><br><br></td>
 	</tr>
 </table>
+
+<h3 align="center">BAB IV<br>DESKRIPSI HASIL UJI</h3>
+
 </html>
