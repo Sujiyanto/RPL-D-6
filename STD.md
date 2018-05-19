@@ -1519,9 +1519,6 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 		<td width="100px" align="center">SRS/SDD</td>
 		<td width="100px" align="center">STD</td>
 	</tr>
-
-	<!-- ======================================================================== -->
-
 	<tr>
 		<td rowspan="3">Pengujian login admin</td>
 		<td>Pengujian login dengan akun yang sudah terdaftar didatabase</td>
@@ -1544,10 +1541,7 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 		<td align="center">STD - 03</td>
 		<td align="center">Pengujian Sistem</td>
 		<td align="center">Black Box</td>
-	</tr>
-
-	<!-- ======================================================================== -->
-
+	</tr>	
 	<tr>
 		<td rowspan="3">Pengujian tambah barang</td>
 		<td>Pengujian input data barang dengan data yang lengkap</td>
@@ -1571,9 +1565,6 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 		<td align="center">Pengujian Sistem</td>
 		<td align="center">Black Box</td>
 	</tr>
-
-	<!-- ======================================================================== -->
-
 	<tr>
 		<td rowspan="3">Pengujian tambah data member</td>
 		<td>Pengujian input data member dengan data yang lengkap</td>
@@ -1597,9 +1588,6 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 		<td align="center">Pengujian Sistem</td>
 		<td align="center">Black Box</td>
 	</tr>
-
-	<!-- ======================================================================== -->
-
 	<tr>
 		<td rowspan="3">Pengujian tambah data supplier</td>
 		<td>Pengujian input data supplier dengan data yang lengkap</td>
@@ -1623,9 +1611,6 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 		<td align="center">Pengujian Sistem</td>
 		<td align="center">Black Box</td>
 	</tr>
-
-	<!-- ======================================================================== -->
-
 	<tr>
 		<td rowspan="3">Pengujian register</td>
 		<td>Pengujian registrasi dengan data yang lengkap</td>
@@ -1649,9 +1634,6 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 		<td align="center">Pengujian Sistem</td>
 		<td align="center">Black Box</td>
 	</tr>
-
-	<!-- ======================================================================== -->
-
 	<tr>
 		<td rowspan="3">Pengujian login member</td>
 		<td>Pengujian login dengan akun yang sudah terdaftar didatabase</td>
@@ -1675,9 +1657,6 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 		<td align="center">Pengujian Sistem</td>
 		<td align="center">Black Box</td>
 	</tr>
-
-	<!-- ======================================================================== -->
-
 	<tr>
 		<td rowspan="3">Pengujian transaksi pembelian barang dari member</td>
 		<td>Pengujian mengisis form pembelian dengan data yang sesuai</td>
@@ -1701,8 +1680,6 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 		<td align="center">Pengujian Sistem</td>
 		<td align="center">Black Box</td>
 	</tr>
-
-	<!-- ======================================================================== -->
 </table>
 
 </html>
