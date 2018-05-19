@@ -36,6 +36,44 @@ Dalam dokumen ini berisi 3 bagian utama yaitu Pendahuluan, Identifikasi dan Renc
 
 <h4>1.4. Daftar Singkatan </h4>
 
+<table>
+<tr>
+<td>Istilah</td>
+<td>Definisi</td>
+</tr>
+<tr>
+<td>Kredit</td>
+<td>Melakukan pembayaran dengan cara mengangsur</td>
+</tr>
+<tr>
+<td>Koperasi</td>
+<td>Organisasi ekonomi yang dimiliki dan dioperasikan oleh bebeapa orang demi kepentingan bersama.</td>
+</tr>
+<tr>
+<td>User</td>
+<td>Pemakai atau pengguna aplikasi</td>
+</tr>
+<tr>
+<td>Admin</td>
+<td>Orang yang mengelola web server dari aplikasi</td>
+</tr>
+<tr>
+<td>AKBAR KOPKAR</td>
+<td>(Aplikasi Kredit Barang ) merupakan aplikasi yang digunakan untuk kredit barang.</td>
+</tr>
+<tr>
+<td>SDD</td>
+<td>Software Design Description merupakan dokumen project software yang berisi tentang deskripsi design software yang akan dirancang/dibuat.</td>
+</tr>
+<tr>
+<td>SPMP</td>
+<td>Software Project Manajemen Plan merupakan dokumen projek software yang berisi tentang perancangan pembangunan atau pengembangan software aplikasi secara umum.</td>
+</tr>
+<tr>
+<td>SRS</td>
+<td>Software Requirement Specification merupakan dokumen perangkat lunak yang berisi tentang requirement spesifikasi atau spesifikasi yang ada pada perangkat lunak yang akan dibangun atau dirancang.</td>
+</tr>
+</table>
 
 <h4> 1.5. Dokumen Referensi </h4>
 
