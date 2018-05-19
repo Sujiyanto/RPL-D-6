@@ -126,6 +126,183 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
  Dokumen hasil uji dari aplikasi ini akan diberikan kepada anggota kelompok dan dievaluasi oleh anggota kelompok lain yang bertindak sebagai klien dari kelompok kami. Sehingga aplikasi mendapatkan umpan balik dalam pengembangan perangkat lunak ini selanjunya.
  
 <h3 align="center">BAB III <br>IDENTIFIKASI DAN RENCANA PENGUJIAN</h3>
+
+<table border="1" align="center" width="1000px">
+	<tr>
+		<td align="center" rowspan="2" width="150px">Kelas Uji</td>
+		<td align="center" rowspan="2" width="250px">Butir Uji</td>
+		<td align="center" colspan="2">Identifikasi</td>
+		<td align="center" rowspan="2" width="130px">Tingkat Pengujian</td>
+		<td align="center" rowspan="2">Jenis Pengujian</td>
+		<td align="center" rowspan="2">Penguji</td>
+	</tr>
+	<tr>
+		<td width="100px" align="center">SRS/SDD</td>
+		<td width="100px" align="center">STD</td>
+	</tr>
+	<tr>
+		<td rowspan="3">Pengujian login admin</td>
+		<td>Pengujian login dengan akun yang sudah terdaftar didatabase</td>
+		<td align="center">SRS - 2.2.1</td>
+		<td align="center">STD - 01</td>
+		<td align="center">Pengujian Sistem</td>
+		<td align="center">Black Box</td>
+		<td rowspan="3" align="center">Nur Inayatun Mahmuda</td>
+	</tr>
+	<tr>
+		<td>Pengujian login dengan akun yang belum terdaftar didatabase</td>
+		<td align="center">SRS - 2.2.1</td>
+		<td align="center">STD - 02</td>
+		<td align="center">Pengujian Sistem</td>
+		<td align="center">Black Box</td>
+	</tr>
+	<tr>
+		<td>Pengujian login dengan mengosongkan username dan password</td>
+		<td align="center">SRS - 2.2.1</td>
+		<td align="center">STD - 03</td>
+		<td align="center">Pengujian Sistem</td>
+		<td align="center">Black Box</td>
+	</tr>	
+	<tr>
+		<td rowspan="3">Pengujian tambah barang</td>
+		<td>Pengujian input data barang dengan data yang lengkap</td>
+		<td align="center">SRS - 2.2.1</td>
+		<td align="center">STD - 04</td>
+		<td align="center">Pengujian Sistem</td>
+		<td align="center">Black Box</td>
+		<td rowspan="3" align="center">Nur Inayatun Mahmuda</td>
+	</tr>
+	<tr>
+		<td>Pengujian input data barang dengan data kosong</td>
+		<td align="center">SRS - 2.2.1</td>
+		<td align="center">STD - 05</td>
+		<td align="center">Pengujian Sistem</td>
+		<td align="center">Black Box</td>
+	</tr>
+	<tr>
+		<td>Pengujian input data barang dengan data yang sudah terdapat dalam database</td>
+		<td align="center">SRS - 2.2.1</td>
+		<td align="center">STD - 06</td>
+		<td align="center">Pengujian Sistem</td>
+		<td align="center">Black Box</td>
+	</tr>
+	<tr>
+		<td rowspan="3">Pengujian tambah data member</td>
+		<td>Pengujian input data member dengan data yang lengkap</td>
+		<td align="center">SRS - 2.2.1</td>
+		<td align="center">STD - 07</td>
+		<td align="center">Pengujian Sistem</td>
+		<td align="center">Black Box</td>
+		<td rowspan="3" align="center">Astri Alisah</td>
+	</tr>
+	<tr>
+		<td>Pengujian input data member dengan data kosong</td>
+		<td align="center">SRS - 2.2.1</td>
+		<td align="center">STD - 08</td>
+		<td align="center">Pengujian Sistem</td>
+		<td align="center">Black Box</td>
+	</tr>
+	<tr>
+		<td>Pengujian input data member dengan data yang sudah terdapat dalam database</td>
+		<td align="center">SRS - 2.2.1</td>
+		<td align="center">STD - 09</td>
+		<td align="center">Pengujian Sistem</td>
+		<td align="center">Black Box</td>
+	</tr>
+	<tr>
+		<td rowspan="3">Pengujian tambah data supplier</td>
+		<td>Pengujian input data supplier dengan data yang lengkap</td>
+		<td align="center">SRS - 2.2.1</td>
+		<td align="center">STD - 10</td>
+		<td align="center">Pengujian Sistem</td>
+		<td align="center">Black Box</td>
+		<td rowspan="3" align="center">Astri Alisah</td>
+	</tr>
+	<tr>
+		<td>Pengujian input data supplier dengan data kosong</td>
+		<td align="center">SRS - 2.2.1</td>
+		<td align="center">STD - 11</td>
+		<td align="center">Pengujian Sistem</td>
+		<td align="center">Black Box</td>
+	</tr>
+	<tr>
+		<td>Pengujian input data supplier dengan data yang sudah terdapat dalam database</td>
+		<td align="center">SRS - 2.2.1</td>
+		<td align="center">STD - 12</td>
+		<td align="center">Pengujian Sistem</td>
+		<td align="center">Black Box</td>
+	</tr>
+	<tr>
+		<td rowspan="3">Pengujian register</td>
+		<td>Pengujian registrasi dengan data yang lengkap</td>
+		<td align="center">SRS - 2.2.2</td>
+		<td align="center">STD - 13</td>
+		<td align="center">Pengujian Sistem</td>
+		<td align="center">Black Box</td>
+		<td rowspan="3" align="center">M. Fauji Al Faris</td>
+	</tr>
+	<tr>
+		<td>Pengujian registrasi dengan data yang kosong</td>
+		<td align="center">SRS - 2.2.2</td>
+		<td align="center">STD - 14</td>
+		<td align="center">Pengujian Sistem</td>
+		<td align="center">Black Box</td>
+	</tr>
+	<tr>
+		<td>Pengujian registrasi dengan data yang sudah teregistrasi</td>
+		<td align="center">SRS - 2.2.2</td>
+		<td align="center">STD - 15</td>
+		<td align="center">Pengujian Sistem</td>
+		<td align="center">Black Box</td>
+	</tr>
+	<tr>
+		<td rowspan="3">Pengujian login member</td>
+		<td>Pengujian login dengan akun yang sudah terdaftar didatabase</td>
+		<td align="center">SRS - 2.2.2</td>
+		<td align="center">STD - 16</td>
+		<td align="center">Pengujian Sistem</td>
+		<td align="center">Black Box</td>
+		<td rowspan="3" align="center">M. Fauji Al Faris</td>
+	</tr>
+	<tr>
+		<td>Pengujian login dengan akun yang belum terdaftar didatabase</td>
+		<td align="center">SRS - 2.2.2</td>
+		<td align="center">STD - 17</td>
+		<td align="center">Pengujian Sistem</td>
+		<td align="center">Black Box</td>
+	</tr>
+	<tr>
+		<td>Pengujian login dengan mengosongkan username dan password</td>
+		<td align="center">SRS - 2.2.2</td>
+		<td align="center">STD - 18</td>
+		<td align="center">Pengujian Sistem</td>
+		<td align="center">Black Box</td>
+	</tr>
+	<tr>
+		<td rowspan="3">Pengujian transaksi pembelian barang dari member</td>
+		<td>Pengujian mengisis form pembelian dengan data yang sesuai</td>
+		<td align="center">SRS - 2.2.2</td>
+		<td align="center">STD - 19</td>
+		<td align="center">Pengujian Sistem</td>
+		<td align="center">Black Box</td>
+		<td rowspan="3" align="center">Sujiyanto</td>
+	</tr>
+	<tr>
+		<td>Pengujian mengisi form pembelian dengan data kosong</td>
+		<td align="center">SRS - 2.2.2</td>
+		<td align="center">STD - 20</td>
+		<td align="center">Pengujian Sistem</td>
+		<td align="center">Black Box</td>
+	</tr>
+	<tr>
+		<td>Pengujian mengisi form pembelian dengan data yang sama</td>
+		<td align="center">SRS - 2.2.2</td>
+		<td align="center">STD - 21</td>
+		<td align="center">Pengujian Sistem</td>
+		<td align="center">Black Box</td>
+	</tr>
+</table>
+
 <table border="1" align="center" width="1000px">
 	<tr>
 		<td>Identifikasi</td>
@@ -186,6 +363,8 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 		<td colspan="4"><br><br></td>
 	</tr>
 </table>
+
+<h3 align="center">BAB IV<br>DESKRIPSI HASIL UJI</h3>
 
 <!-- ===================================================================================================================================================== -->
 
@@ -1503,183 +1682,4 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 		<td colspan="4"><br><br></td>
 	</tr>
 </table>
-
-<h3 align="center">BAB IV<br>DESKRIPSI HASIL UJI</h3>
-
-<table border="1" align="center" width="1000px">
-	<tr>
-		<td align="center" rowspan="2" width="150px">Kelas Uji</td>
-		<td align="center" rowspan="2" width="250px">Butir Uji</td>
-		<td align="center" colspan="2">Identifikasi</td>
-		<td align="center" rowspan="2" width="130px">Tingkat Pengujian</td>
-		<td align="center" rowspan="2">Jenis Pengujian</td>
-		<td align="center" rowspan="2">Penguji</td>
-	</tr>
-	<tr>
-		<td width="100px" align="center">SRS/SDD</td>
-		<td width="100px" align="center">STD</td>
-	</tr>
-	<tr>
-		<td rowspan="3">Pengujian login admin</td>
-		<td>Pengujian login dengan akun yang sudah terdaftar didatabase</td>
-		<td align="center">SRS - 2.2.1</td>
-		<td align="center">STD - 01</td>
-		<td align="center">Pengujian Sistem</td>
-		<td align="center">Black Box</td>
-		<td rowspan="3" align="center">Nur Inayatun Mahmuda</td>
-	</tr>
-	<tr>
-		<td>Pengujian login dengan akun yang belum terdaftar didatabase</td>
-		<td align="center">SRS - 2.2.1</td>
-		<td align="center">STD - 02</td>
-		<td align="center">Pengujian Sistem</td>
-		<td align="center">Black Box</td>
-	</tr>
-	<tr>
-		<td>Pengujian login dengan mengosongkan username dan password</td>
-		<td align="center">SRS - 2.2.1</td>
-		<td align="center">STD - 03</td>
-		<td align="center">Pengujian Sistem</td>
-		<td align="center">Black Box</td>
-	</tr>	
-	<tr>
-		<td rowspan="3">Pengujian tambah barang</td>
-		<td>Pengujian input data barang dengan data yang lengkap</td>
-		<td align="center">SRS - 2.2.1</td>
-		<td align="center">STD - 04</td>
-		<td align="center">Pengujian Sistem</td>
-		<td align="center">Black Box</td>
-		<td rowspan="3" align="center">Nur Inayatun Mahmuda</td>
-	</tr>
-	<tr>
-		<td>Pengujian input data barang dengan data kosong</td>
-		<td align="center">SRS - 2.2.1</td>
-		<td align="center">STD - 05</td>
-		<td align="center">Pengujian Sistem</td>
-		<td align="center">Black Box</td>
-	</tr>
-	<tr>
-		<td>Pengujian input data barang dengan data yang sudah terdapat dalam database</td>
-		<td align="center">SRS - 2.2.1</td>
-		<td align="center">STD - 06</td>
-		<td align="center">Pengujian Sistem</td>
-		<td align="center">Black Box</td>
-	</tr>
-	<tr>
-		<td rowspan="3">Pengujian tambah data member</td>
-		<td>Pengujian input data member dengan data yang lengkap</td>
-		<td align="center">SRS - 2.2.1</td>
-		<td align="center">STD - 07</td>
-		<td align="center">Pengujian Sistem</td>
-		<td align="center">Black Box</td>
-		<td rowspan="3" align="center">Astri Alisah</td>
-	</tr>
-	<tr>
-		<td>Pengujian input data member dengan data kosong</td>
-		<td align="center">SRS - 2.2.1</td>
-		<td align="center">STD - 08</td>
-		<td align="center">Pengujian Sistem</td>
-		<td align="center">Black Box</td>
-	</tr>
-	<tr>
-		<td>Pengujian input data member dengan data yang sudah terdapat dalam database</td>
-		<td align="center">SRS - 2.2.1</td>
-		<td align="center">STD - 09</td>
-		<td align="center">Pengujian Sistem</td>
-		<td align="center">Black Box</td>
-	</tr>
-	<tr>
-		<td rowspan="3">Pengujian tambah data supplier</td>
-		<td>Pengujian input data supplier dengan data yang lengkap</td>
-		<td align="center">SRS - 2.2.1</td>
-		<td align="center">STD - 10</td>
-		<td align="center">Pengujian Sistem</td>
-		<td align="center">Black Box</td>
-		<td rowspan="3" align="center">Astri Alisah</td>
-	</tr>
-	<tr>
-		<td>Pengujian input data supplier dengan data kosong</td>
-		<td align="center">SRS - 2.2.1</td>
-		<td align="center">STD - 11</td>
-		<td align="center">Pengujian Sistem</td>
-		<td align="center">Black Box</td>
-	</tr>
-	<tr>
-		<td>Pengujian input data supplier dengan data yang sudah terdapat dalam database</td>
-		<td align="center">SRS - 2.2.1</td>
-		<td align="center">STD - 12</td>
-		<td align="center">Pengujian Sistem</td>
-		<td align="center">Black Box</td>
-	</tr>
-	<tr>
-		<td rowspan="3">Pengujian register</td>
-		<td>Pengujian registrasi dengan data yang lengkap</td>
-		<td align="center">SRS - 2.2.2</td>
-		<td align="center">STD - 13</td>
-		<td align="center">Pengujian Sistem</td>
-		<td align="center">Black Box</td>
-		<td rowspan="3" align="center">M. Fauji Al Faris</td>
-	</tr>
-	<tr>
-		<td>Pengujian registrasi dengan data yang kosong</td>
-		<td align="center">SRS - 2.2.2</td>
-		<td align="center">STD - 14</td>
-		<td align="center">Pengujian Sistem</td>
-		<td align="center">Black Box</td>
-	</tr>
-	<tr>
-		<td>Pengujian registrasi dengan data yang sudah teregistrasi</td>
-		<td align="center">SRS - 2.2.2</td>
-		<td align="center">STD - 15</td>
-		<td align="center">Pengujian Sistem</td>
-		<td align="center">Black Box</td>
-	</tr>
-	<tr>
-		<td rowspan="3">Pengujian login member</td>
-		<td>Pengujian login dengan akun yang sudah terdaftar didatabase</td>
-		<td align="center">SRS - 2.2.2</td>
-		<td align="center">STD - 16</td>
-		<td align="center">Pengujian Sistem</td>
-		<td align="center">Black Box</td>
-		<td rowspan="3" align="center">M. Fauji Al Faris</td>
-	</tr>
-	<tr>
-		<td>Pengujian login dengan akun yang belum terdaftar didatabase</td>
-		<td align="center">SRS - 2.2.2</td>
-		<td align="center">STD - 17</td>
-		<td align="center">Pengujian Sistem</td>
-		<td align="center">Black Box</td>
-	</tr>
-	<tr>
-		<td>Pengujian login dengan mengosongkan username dan password</td>
-		<td align="center">SRS - 2.2.2</td>
-		<td align="center">STD - 18</td>
-		<td align="center">Pengujian Sistem</td>
-		<td align="center">Black Box</td>
-	</tr>
-	<tr>
-		<td rowspan="3">Pengujian transaksi pembelian barang dari member</td>
-		<td>Pengujian mengisis form pembelian dengan data yang sesuai</td>
-		<td align="center">SRS - 2.2.2</td>
-		<td align="center">STD - 19</td>
-		<td align="center">Pengujian Sistem</td>
-		<td align="center">Black Box</td>
-		<td rowspan="3" align="center">Sujiyanto</td>
-	</tr>
-	<tr>
-		<td>Pengujian mengisi form pembelian dengan data kosong</td>
-		<td align="center">SRS - 2.2.2</td>
-		<td align="center">STD - 20</td>
-		<td align="center">Pengujian Sistem</td>
-		<td align="center">Black Box</td>
-	</tr>
-	<tr>
-		<td>Pengujian mengisi form pembelian dengan data yang sama</td>
-		<td align="center">SRS - 2.2.2</td>
-		<td align="center">STD - 21</td>
-		<td align="center">Pengujian Sistem</td>
-		<td align="center">Black Box</td>
-	</tr>
-</table>
-
 </html>
