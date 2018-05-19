@@ -248,9 +248,11 @@ Karena Aplikasi ini berbasis website dan tidak harus didownload maka tidak ada b
  - Mengelola Data Supplier
  <img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Use%20Case%20Admin%20Mengelola%20Data%20Supplier.png"><br>
  Langkah-langkah :
- 1. Masuk ke halaman dashboard 
- 2. Sistem menampilkan laporan keuntungan
- 3. Admin melihat laporan keuntungan
+ 1. Masuk ke halaman data supplier
+ 2. Klik Tambah Supplier untuk menambahkan supplier baru
+ 3. Klik Edit untuk mengubah data yang telah diinputkan
+ 4. Klik Hapus untuk menghapus data yang sudah ada
+ 5. Sistem menyimpan ke database
 
 **2.2.2 Use Case User**<br>
 
