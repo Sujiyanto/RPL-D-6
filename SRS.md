@@ -245,8 +245,8 @@ Karena Aplikasi ini berbasis website dan tidak harus didownload maka tidak ada b
  4. Klik Hapus untuk menghapus data yang sudah ada
  5. Sistem menyimpan ke database
 
- - Lihat laporan keuntungan
- <img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Use%20Case%20Admin%20Lihat%20Laporan%20Keuntungan.png"><br>
+ - Mengelola Data Supplier
+ <img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Use%20Case%20Admin%20Mengelola%20Data%20Supplier.png"><br>
  Langkah-langkah :
  1. Masuk ke halaman dashboard 
  2. Sistem menampilkan laporan keuntungan
