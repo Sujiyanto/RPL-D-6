@@ -35,7 +35,34 @@ Perangkat lunak yang akan diuji adalah “Aplikasi Kredit Barang Koperasi Karyaw
 Dalam dokumen ini berisi 3 bagian utama yaitu Pendahuluan, Identifikasi dan Rencana Pengujian, Deskripsi dan Uji Hasil.
 
 <h4>1.4. Daftar Singkatan </h4>
-
+<table>
+<tr>
+<td>Istilah</td>
+<td>Definisi</td>
+<tr>
+<td>Kredit</td>
+<td>Melakukan pembayaran dengan cara mengangsur</td>
+<tr>
+<td>Koperasi</td>
+<td>Organisasi ekonomi yang dimiliki dan dioperasikan oleh bebeapa orang demi kepentingan bersama.</td>
+<tr>
+<td>User</td>
+<td>Pemakai atau pengguna aplikasi</td>
+<tr>
+<td>Admin</td>
+<td>Orang yang mengelola web server dari aplikasi</td>
+<tr>
+<td>AKBAR KOPKAR</td>
+<td>(Aplikasi Kredit Barang ) merupakan aplikasi yang digunakan untuk kredit barang.</td>
+<tr>
+<td>SDD</td>
+<td>Software Design Description merupakan dokumen project software yang berisi tentang deskripsi design software yang akan dirancang/dibuat.</td>
+<tr>
+<td>SPMP</td>
+<td>Software Project Manajemen Plan merupakan dokumen projek software yang berisi tentang perancangan pembangunan atau pengembangan software aplikasi secara umum.</td>
+<tr>
+<td>SRS</td>
+<td>Software Requirement Specification merupakan dokumen perangkat lunak yang berisi tentang requirement spesifikasi atau spesifikasi yang ada pada perangkat lunak yang akan dibangun atau dirancang.</td><br>
 
 <h4> 1.5. Dokumen Referensi </h4>
 
@@ -87,4 +114,1381 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
  Dokumen hasil uji dari aplikasi ini akan diberikan kepada anggota kelompok dan dievaluasi oleh anggota kelompok lain yang bertindak sebagai klien dari kelompok kami. Sehingga aplikasi mendapatkan umpan balik dalam pengembangan perangkat lunak ini selanjunya.
  
 <h3 align="center">BAB III <br>IDENTIFIKASI DAN RENCANA PENGUJIAN</h3>
+<table border="1" align="center" width="1000px">
+	<tr>
+		<td>Identifikasi</td>
+		<td colspan="3">STD - 01</td>
+	</tr>
+	<tr>
+		<td>Nama Butir Uji</td>
+		<td colspan="3">Pengujian login dengan akun yang sudah terdaftar didatabase</td>
+	</tr>
+	<tr>
+		<td>Tujuan</td>
+		<td colspan="3">Memeriksa apakah user bisa masuk ke sistem aplikasi</td>
+	</tr>
+	<tr>
+		<td>Kondisi Awal</td>
+		<td colspan="3">Membuka halaman login pada website</td>
+	</tr>
+	<tr>
+		<td>Tanggal pengujian</td>
+		<td colspan="3">19 - 05 - 2018</td>
+	</tr>
+	<tr>
+		<td>Penguji</td>
+		<td colspan="3">Nur Inayatun Mahmuda</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Skenario</td>
+	</tr>
+	<tr>
+		<td colspan="4">
+		1. Masukan Username<br>
+		2. Masukan Password<br>
+		3. Klik Login
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Hasil</td>
+	</tr>
+	<tr>
+		<td align="center" width="250px">Data yang diberikan</td>
+		<td align="center" width="250px">Yang diharapkan</td>
+		<td align="center" width="250px">Pengamatan</td>
+		<td align="center" width="250px">Kesimpulan</td>
+	</tr>
+	<tr>
+		<td>
+		Username : admin <br>
+		Password : admin
+		</td>
+		<td>Masuk ke halaman dashboard admin</td>
+		<td>Username dan password harus sesuai dengan akun yang telah terdaftar di database</td>
+		<td>Berhasil masuk ke halaman dashboard admin</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Catatan</td>
+	</tr>
+	<tr>
+		<td colspan="4"><br><br></td>
+	</tr>
+</table>
+
+<!-- ===================================================================================================================================================== -->
+
+<table border="1" align="center" width="1000px">
+	<tr>
+		<td>Identifikasi</td>
+		<td colspan="3">STD - 02</td>
+	</tr>
+	<tr>
+		<td>Nama Butir Uji</td>
+		<td colspan="3">Pengujian login dengan akun yang belum terdaftar didatabase</td>
+	</tr>
+	<tr>
+		<td>Tujuan</td>
+		<td colspan="3">Memeriksa apakah user bisa masuk ke sistem aplikasi</td>
+	</tr>
+	<tr>
+		<td>Kondisi Awal</td>
+		<td colspan="3">Membuka halaman login pada website</td>
+	</tr>
+	<tr>
+		<td>Tanggal pengujian</td>
+		<td colspan="3">19 - 05 - 2018</td>
+	</tr>
+	<tr>
+		<td>Penguji</td>
+		<td colspan="3">Nur Inayatun Mahmuda</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Skenario</td>
+	</tr>
+	<tr>
+		<td colspan="4">
+		1. Masukan Username<br>
+		2. Masukan Password<br>
+		3. Klik Login
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Hasil</td>
+	</tr>
+	<tr>
+		<td align="center" width="250px">Data yang diberikan</td>
+		<td align="center" width="250px">Yang diharapkan</td>
+		<td align="center" width="250px">Pengamatan</td>
+		<td align="center" width="250px">Kesimpulan</td>
+	</tr>
+	<tr>
+		<td>
+		Username : adminah <br>
+		Password : adminah
+		</td>
+		<td>Tidak dapat masuk ke halaman dashboard admin</td>
+		<td>Username dan password harus sesuai dengan akun yang telah terdaftar di database</td>
+		<td>Gagal masuk ke halaman dashboard admin</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Catatan</td>
+	</tr>
+	<tr>
+		<td colspan="4"><br><br></td>
+	</tr>
+</table>
+
+<!-- ===================================================================================================================================================== -->
+
+<table border="1" align="center" width="1000px">
+	<tr>
+		<td>Identifikasi</td>
+		<td colspan="3">STD - 03</td>
+	</tr>
+	<tr>
+		<td>Nama Butir Uji</td>
+		<td colspan="3">Pengujian login dengan mengosongkan username dan password</td>
+	</tr>
+	<tr>
+		<td>Tujuan</td>
+		<td colspan="3">Memeriksa apakah user bisa masuk ke sistem aplikasi</td>
+	</tr>
+	<tr>
+		<td>Kondisi Awal</td>
+		<td colspan="3">Membuka halaman login pada website</td>
+	</tr>
+	<tr>
+		<td>Tanggal pengujian</td>
+		<td colspan="3">19 - 05 - 2018</td>
+	</tr>
+	<tr>
+		<td>Penguji</td>
+		<td colspan="3">Nur Inayatun Mahmuda</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Skenario</td>
+	</tr>
+	<tr>
+		<td colspan="4">
+		1. Masukan Username<br>
+		2. Masukan Password<br>
+		3. Klik Login
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Hasil</td>
+	</tr>
+	<tr>
+		<td align="center" width="250px">Data yang diberikan</td>
+		<td align="center" width="250px">Yang diharapkan</td>
+		<td align="center" width="250px">Pengamatan</td>
+		<td align="center" width="250px">Kesimpulan</td>
+	</tr>
+	<tr>
+		<td>
+		Username :  <br>
+		Password : 
+		</td>
+		<td>Tidak dapat masuk ke halaman dashboard admin</td>
+		<td>Username dan password harus dilengkapi</td>
+		<td>Gagal masuk ke halaman dashboard admin</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Catatan</td>
+	</tr>
+	<tr>
+		<td colspan="4"><br><br></td>
+	</tr>
+</table>
+
+<!-- ===================================================================================================================================================== -->
+
+<table border="1" align="center" width="1000px">
+	<tr>
+		<td>Identifikasi</td>
+		<td colspan="3">STD - 04</td>
+	</tr>
+	<tr>
+		<td>Nama Butir Uji</td>
+		<td colspan="3">Pengujian input data barang dengan data yang lengkap</td>
+	</tr>
+	<tr>
+		<td>Tujuan</td>
+		<td colspan="3">Memeriksa apakah data baru yang ditambahkan terekam ke tabel barang</td>
+	</tr>
+	<tr>
+		<td>Kondisi Awal</td>
+		<td colspan="3">- Halaman Data Barang <br> - Masuk ke halaman form tambah barang</td>
+	</tr>
+	<tr>
+		<td>Tanggal pengujian</td>
+		<td colspan="3">19 - 05 - 2018</td>
+	</tr>
+	<tr>
+		<td>Penguji</td>
+		<td colspan="3">Nur Inayatun Mahmuda</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Skenario</td>
+	</tr>
+	<tr>
+		<td colspan="4">
+		1. Isi semua data pada form tambah barang<br>
+		3. Klik tombol simpan jika data sudah diinputkan
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Hasil</td>
+	</tr>
+	<tr>
+		<td align="center" width="250px">Data yang diberikan</td>
+		<td align="center" width="250px">Yang diharapkan</td>
+		<td align="center" width="250px">Pengamatan</td>
+		<td align="center" width="250px">Kesimpulan</td>
+	</tr>
+	<tr>
+		<td>
+		ID Barang 		: Tidak Perlu Diisi <br>
+		Nama Barang 	: Samsung WW65J3033LW Mesin Cuci 6.5 Kg Front Loading <br>
+		Supplier 		: -- Pilih Supplier -- <br>
+		Harga			: 3899000 <br>
+		Uang muka 		: 399000 <br>
+		Stok			: 1 <br>
+		Satuan			: Unit <br>
+		Keterangan		: PO 
+		</td>
+		<td>Data yang telah diinputkan berhasil masuk ke tabel Data Barang</td>
+		<td>Semua data yang diinputkan harus sesuai dengan format yang ditentukan</td>
+		<td>Berhasil menyimpan data</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Catatan</td>
+	</tr>
+	<tr>
+		<td colspan="4"><br><br></td>
+	</tr>
+</table>
+
+<!-- ===================================================================================================================================================== -->
+
+<table border="1" align="center" width="1000px">
+	<tr>
+		<td>Identifikasi</td>
+		<td colspan="3">STD - 05</td>
+	</tr>
+	<tr>
+		<td>Nama Butir Uji</td>
+		<td colspan="3">Pengujian input data barang dengan data kosong</td>
+	</tr>
+	<tr>
+		<td>Tujuan</td>
+		<td colspan="3">Memeriksa apakah data baru yang ditambahkan terekam ke tabel barang</td>
+	</tr>
+	<tr>
+		<td>Kondisi Awal</td>
+		<td colspan="3">- Halaman Data Barang <br> - Masuk ke halaman form tambah barang</td>
+	</tr>
+	<tr>
+		<td>Tanggal pengujian</td>
+		<td colspan="3">19 - 05 - 2018</td>
+	</tr>
+	<tr>
+		<td>Penguji</td>
+		<td colspan="3">Nur Inayatun Mahmuda</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Skenario</td>
+	</tr>
+	<tr>
+		<td colspan="4">
+		1. Isi semua data pada form tambah barang<br>
+		3. Klik tombol simpan jika data sudah diinputkan
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Hasil</td>
+	</tr>
+	<tr>
+		<td align="center" width="250px">Data yang diberikan</td>
+		<td align="center" width="250px">Yang diharapkan</td>
+		<td align="center" width="250px">Pengamatan</td>
+		<td align="center" width="250px">Kesimpulan</td>
+	</tr>
+	<tr>
+		<td>
+		ID Barang 		: Tidak Perlu Diisi <br>
+		Nama Barang 	: <br>
+		Supplier 		: <br>
+		Harga			: <br>
+		Uang muka 		: <br>
+		Stok			: <br>
+		Satuan			: <br>
+		Keterangan		:  
+		</td>
+		<td>Muncul pesan error dan memberikan keterangan bahwa data harus dilengkapi</td>
+		<td>Semua data yang diinputkan harus dilengkapi</td>
+		<td>Gagal menyimpan data</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Catatan</td>
+	</tr>
+	<tr>
+		<td colspan="4"><br><br></td>
+	</tr>
+</table>
+
+<!-- ===================================================================================================================================================== -->
+
+<table border="1" align="center" width="1000px">
+	<tr>
+		<td>Identifikasi</td>
+		<td colspan="3">STD - 06</td>
+	</tr>
+	<tr>
+		<td>Nama Butir Uji</td>
+		<td colspan="3">Pengujian input data barang dengan data yang sudah terdapat dalam database</td>
+	</tr>
+	<tr>
+		<td>Tujuan</td>
+		<td colspan="3">Memeriksa apakah data baru yang ditambahkan terekam ke tabel barang</td>
+	</tr>
+	<tr>
+		<td>Kondisi Awal</td>
+		<td colspan="3">- Halaman Data Barang <br> - Masuk ke halaman form tambah barang</td>
+	</tr>
+	<tr>
+		<td>Tanggal pengujian</td>
+		<td colspan="3">19 - 05 - 2018</td>
+	</tr>
+	<tr>
+		<td>Penguji</td>
+		<td colspan="3">Nur Inayatun Mahmuda</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Skenario</td>
+	</tr>
+	<tr>
+		<td colspan="4">
+		1. Isi semua data pada form tambah barang<br>
+		3. Klik tombol simpan jika data sudah diinputkan
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Hasil</td>
+	</tr>
+	<tr>
+		<td align="center" width="250px">Data yang diberikan</td>
+		<td align="center" width="250px">Yang diharapkan</td>
+		<td align="center" width="250px">Pengamatan</td>
+		<td align="center" width="250px">Kesimpulan</td>
+	</tr>
+	<tr>
+		<td>
+		ID Barang 		: Tidak Perlu Diisi <br>
+		Nama Barang 	: Samsung WW65J3033LW Mesin Cuci 6.5 Kg Front Loading <br>
+		Supplier 		: -- Pilih Supplier -- <br>
+		Harga			: 3899000 <br>
+		Uang muka 		: 399000 <br>
+		Stok			: 1 <br>
+		Satuan			: Unit <br>
+		Keterangan		: PO 
+		</td>
+		<td>Data yang telah diinputkan gagal masuk ke tabel Data Barang</td>
+		<td>Semua data yang diinputkan tidak boleh sama dengan data yang telah terdaftar sebelumnya</td>
+		<td>Gagal menyimpan data</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Catatan</td>
+	</tr>
+	<tr>
+		<td colspan="4"><br><br></td>
+	</tr>
+</table>
+
+<!-- ===================================================================================================================================================== -->
+
+<table border="1" align="center" width="1000px">
+	<tr>
+		<td>Identifikasi</td>
+		<td colspan="3">STD - 07</td>
+	</tr>
+	<tr>
+		<td>Nama Butir Uji</td>
+		<td colspan="3">Pengujian input data member dengan data yang lengkap</td>
+	</tr>
+	<tr>
+		<td>Tujuan</td>
+		<td colspan="3">Memeriksa apakah data baru yang ditambahkan terekam ke tabel member</td>
+	</tr>
+	<tr>
+		<td>Kondisi Awal</td>
+		<td colspan="3">- Halaman Data Member <br> - Masuk ke halaman form tambah member</td>
+	</tr>
+	<tr>
+		<td>Tanggal pengujian</td>
+		<td colspan="3">19 - 05 - 2018</td>
+	</tr>
+	<tr>
+		<td>Penguji</td>
+		<td colspan="3">Astri Alisah</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Skenario</td>
+	</tr>
+	<tr>
+		<td colspan="4">
+		1. Isi semua data pada form tambah member<br>
+		3. Klik tombol simpan jika data sudah diinputkan
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Hasil</td>
+	</tr>
+	<tr>
+		<td align="center" width="250px">Data yang diberikan</td>
+		<td align="center" width="250px">Yang diharapkan</td>
+		<td align="center" width="250px">Pengamatan</td>
+		<td align="center" width="250px">Kesimpulan</td>
+	</tr>
+	<tr>
+		<td>
+		ID Member 	: Tidak perlu diisi <br>
+		NIK 		: 1603091 <br>
+		Nama 		: Astri Alisah <br>
+		No. Hp 		: 089123456789 <br>
+		Email		: astrialisah@gmail.com <br>
+		Alamat		: Indramayu <br>
+		Username 	: astri <br>
+		Password 	: 123
+		</td>
+		<td>Data yang telah diinputkan berhasil masuk ke tabel Data Member</td>
+		<td>Semua data yang diinputkan harus sesuai dengan format yang ditentukan</td>
+		<td>Berhasil menyimpan data</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Catatan</td>
+	</tr>
+	<tr>
+		<td colspan="4"><br><br></td>
+	</tr>
+</table>
+
+<!-- ===================================================================================================================================================== -->
+
+<table border="1" align="center" width="1000px">
+	<tr>
+		<td>Identifikasi</td>
+		<td colspan="3">STD - 08</td>
+	</tr>
+	<tr>
+		<td>Nama Butir Uji</td>
+		<td colspan="3">Pengujian input data member dengan data kosong</td>
+	</tr>
+	<tr>
+		<td>Tujuan</td>
+		<td colspan="3">Memeriksa apakah data baru yang ditambahkan terekam ke tabel member</td>
+	</tr>
+	<tr>
+		<td>Kondisi Awal</td>
+		<td colspan="3">- Halaman Data Member <br> - Masuk ke halaman form tambah member</td>
+	</tr>
+	<tr>
+		<td>Tanggal pengujian</td>
+		<td colspan="3">19 - 05 - 2018</td>
+	</tr>
+	<tr>
+		<td>Penguji</td>
+		<td colspan="3">Astri Alisah</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Skenario</td>
+	</tr>
+	<tr>
+		<td colspan="4">
+		1. Isi semua data pada form tambah member<br>
+		3. Klik tombol simpan jika data sudah diinputkan
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Hasil</td>
+	</tr>
+	<tr>
+		<td align="center" width="250px">Data yang diberikan</td>
+		<td align="center" width="250px">Yang diharapkan</td>
+		<td align="center" width="250px">Pengamatan</td>
+		<td align="center" width="250px">Kesimpulan</td>
+	</tr>
+	<tr>
+		<td>
+		ID Member 	: Tidak perlu diisi <br>
+		NIK 		: <br>
+		Nama 		: <br>
+		No. Hp 		: <br>
+		Email		: <br>
+		Alamat		: <br>
+		Username 	: <br>
+		Password 	: 
+		</td>
+		<td>Muncul pesan error dan memberikan keterangan bahwa data harus dilengkapi</td>
+		<td>Semua data yang diinputkan harus diisi sesuai dengan format yang ditentukan</td>
+		<td>Gagal menyimpan data</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Catatan</td>
+	</tr>
+	<tr>
+		<td colspan="4"><br><br></td>
+	</tr>
+</table>
+
+<!-- ===================================================================================================================================================== -->
+
+<table border="1" align="center" width="1000px">
+	<tr>
+		<td>Identifikasi</td>
+		<td colspan="3">STD - 09</td>
+	</tr>
+	<tr>
+		<td>Nama Butir Uji</td>
+		<td colspan="3">Pengujian input data member dengan data yang sudah terdapat dalam database</td>
+	</tr>
+	<tr>
+		<td>Tujuan</td>
+		<td colspan="3">Memeriksa apakah data baru yang ditambahkan terekam ke tabel member</td>
+	</tr>
+	<tr>
+		<td>Kondisi Awal</td>
+		<td colspan="3">- Halaman Data Member <br> - Masuk ke halaman form tambah member</td>
+	</tr>
+	<tr>
+		<td>Tanggal pengujian</td>
+		<td colspan="3">19 - 05 - 2018</td>
+	</tr>
+	<tr>
+		<td>Penguji</td>
+		<td colspan="3">Astri Alisah</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Skenario</td>
+	</tr>
+	<tr>
+		<td colspan="4">
+		1. Isi semua data pada form tambah member<br>
+		3. Klik tombol simpan jika data sudah diinputkan
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Hasil</td>
+	</tr>
+	<tr>
+		<td align="center" width="250px">Data yang diberikan</td>
+		<td align="center" width="250px">Yang diharapkan</td>
+		<td align="center" width="250px">Pengamatan</td>
+		<td align="center" width="250px">Kesimpulan</td>
+	</tr>
+	<tr>
+		<td>
+		ID Member 	: Tidak perlu diisi <br>
+		NIK 		: 1603091 <br>
+		Nama 		: Astri Alisah <br>
+		No. Hp 		: 089123456789 <br>
+		Email		: astrialisah@gmail.com <br>
+		Alamat		: Indramayu <br>
+		Username 	: astri <br>
+		Password 	: 123
+		</td>
+		<td>Data yang telah diinputkan gagal masuk ke tabel Data Member</td>
+		<td>Semua data yang diinputkan tidak boleh sama dengan data yang telah terdaftar sebelumnya</td>
+		<td>Gagal menyimpan data</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Catatan</td>
+	</tr>
+	<tr>
+		<td colspan="4"><br><br></td>
+	</tr>
+</table>
+
+<!-- ===================================================================================================================================================== -->
+
+<table border="1" align="center" width="1000px">
+	<tr>
+		<td>Identifikasi</td>
+		<td colspan="3">STD - 10</td>
+	</tr>
+	<tr>
+		<td>Nama Butir Uji</td>
+		<td colspan="3">Pengujian input data supplier dengan data yang lengkap</td>
+	</tr>
+	<tr>
+		<td>Tujuan</td>
+		<td colspan="3">Memeriksa apakah data baru yang ditambahkan terekam ke tabel supplier</td>
+	</tr>
+	<tr>
+		<td>Kondisi Awal</td>
+		<td colspan="3">- Halaman Data Supplier <br> - Masuk ke halaman form tambah supplier</td>
+	</tr>
+	<tr>
+		<td>Tanggal pengujian</td>
+		<td colspan="3">19 - 05 - 2018</td>
+	</tr>
+	<tr>
+		<td>Penguji</td>
+		<td colspan="3">Astri Alisah</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Skenario</td>
+	</tr>
+	<tr>
+		<td colspan="4">
+		1. Isi semua data pada form tambah supplier<br>
+		3. Klik tombol simpan jika data sudah diinputkan
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Hasil</td>
+	</tr>
+	<tr>
+		<td align="center" width="250px">Data yang diberikan</td>
+		<td align="center" width="250px">Yang diharapkan</td>
+		<td align="center" width="250px">Pengamatan</td>
+		<td align="center" width="250px">Kesimpulan</td>
+	</tr>
+	<tr>
+		<td>
+		ID Supplier 	: Tidak perlu diisi <br>
+		Nama 			: PT Samsung Electronics Indonesia <br>
+		No. Telp 		: (021) 89837114 <br>
+		Alamat 			: Jl. Jababeka Raya Blok F. 29 No.31, Harja Mekar, Cikarang Utara, Bekasi, Jawa Barat 17530 
+		</td>
+		<td>Data yang telah diinputkan berhasil masuk ke tabel Data Supplier</td>
+		<td>Semua data yang diinputkan harus sesuai dengan format yang ditentukan</td>
+		<td>Berhasil menyimpan data</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Catatan</td>
+	</tr>
+	<tr>
+		<td colspan="4"><br><br></td>
+	</tr>
+</table>
+
+<!-- ===================================================================================================================================================== -->
+
+<table border="1" align="center" width="1000px">
+	<tr>
+		<td>Identifikasi</td>
+		<td colspan="3">STD - 11</td>
+	</tr>
+	<tr>
+		<td>Nama Butir Uji</td>
+		<td colspan="3">Pengujian input data supplier dengan data kosong</td>
+	</tr>
+	<tr>
+		<td>Tujuan</td>
+		<td colspan="3">Memeriksa apakah data baru yang ditambahkan terekam ke tabel supplier</td>
+	</tr>
+	<tr>
+		<td>Kondisi Awal</td>
+		<td colspan="3">- Halaman Data Supplier <br> - Masuk ke halaman form tambah supplier</td>
+	</tr>
+	<tr>
+		<td>Tanggal pengujian</td>
+		<td colspan="3">19 - 05 - 2018</td>
+	</tr>
+	<tr>
+		<td>Penguji</td>
+		<td colspan="3">Astri Alisah</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Skenario</td>
+	</tr>
+	<tr>
+		<td colspan="4">
+		1. Isi semua data pada form tambah supplier<br>
+		3. Klik tombol simpan jika data sudah diinputkan
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Hasil</td>
+	</tr>
+	<tr>
+		<td align="center" width="250px">Data yang diberikan</td>
+		<td align="center" width="250px">Yang diharapkan</td>
+		<td align="center" width="250px">Pengamatan</td>
+		<td align="center" width="250px">Kesimpulan</td>
+	</tr>
+	<tr>
+		<td>
+		ID Supplier 	: Tidak perlu diisi <br>
+		Nama 			: <br>
+		No. Telp 		: <br>
+		Alamat 			:  
+		</td>
+		<td>Muncul pesan error dan memberikan keterangan bahwa data harus dilengkapi</td>
+		<td>Semua data yang diinputkan harus diisi sesuai dengan format yang ditentukan</td>
+		<td>Gagal menyimpan data</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Catatan</td>
+	</tr>
+	<tr>
+		<td colspan="4"><br><br></td>
+	</tr>
+</table>
+
+<!-- ===================================================================================================================================================== -->
+
+<table border="1" align="center" width="1000px">
+	<tr>
+		<td>Identifikasi</td>
+		<td colspan="3">STD - 12</td>
+	</tr>
+	<tr>
+		<td>Nama Butir Uji</td>
+		<td colspan="3">Pengujian input data supplier dengan data yang sudah terdapat dalam database</td>
+	</tr>
+	<tr>
+		<td>Tujuan</td>
+		<td colspan="3">Memeriksa apakah data baru yang ditambahkan terekam ke tabel supplier</td>
+	</tr>
+	<tr>
+		<td>Kondisi Awal</td>
+		<td colspan="3">- Halaman Data Supplier <br> - Masuk ke halaman form tambah supplier</td>
+	</tr>
+	<tr>
+		<td>Tanggal pengujian</td>
+		<td colspan="3">19 - 05 - 2018</td>
+	</tr>
+	<tr>
+		<td>Penguji</td>
+		<td colspan="3">Astri Alisah</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Skenario</td>
+	</tr>
+	<tr>
+		<td colspan="4">
+		1. Isi semua data pada form tambah supplier<br>
+		3. Klik tombol simpan jika data sudah diinputkan
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Hasil</td>
+	</tr>
+	<tr>
+		<td align="center" width="250px">Data yang diberikan</td>
+		<td align="center" width="250px">Yang diharapkan</td>
+		<td align="center" width="250px">Pengamatan</td>
+		<td align="center" width="250px">Kesimpulan</td>
+	</tr>
+	<tr>
+		<td>
+		ID Supplier 	: Tidak perlu diisi <br>
+		Nama 			: PT Samsung Electronics Indonesia <br>
+		No. Telp 		: (021) 89837114 <br>
+		Alamat 			: Jl. Jababeka Raya Blok F. 29 No.31, Harja Mekar, Cikarang Utara, Bekasi, Jawa Barat 17530 
+		</td>
+		<td>Data yang telah diinputkan gagal masuk ke tabel Data Supplier</td>
+		<td>Semua data yang diinputkan tidak boleh sama dengan data yang telah terdaftar sebelumnya</td>
+		<td>Gagal menyimpan data</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Catatan</td>
+	</tr>
+	<tr>
+		<td colspan="4"><br><br></td>
+	</tr>
+</table>
+
+<!-- ===================================================================================================================================================== -->
+
+<table border="1" align="center" width="1000px">
+	<tr>
+		<td>Identifikasi</td>
+		<td colspan="3">STD - 13</td>
+	</tr>
+	<tr>
+		<td>Nama Butir Uji</td>
+		<td colspan="3">Pengujian registrasi member dengan data yang lengkap</td>
+	</tr>
+	<tr>
+		<td>Tujuan</td>
+		<td colspan="3">Memeriksa apakah registrasi terekam ke tabel member</td>
+	</tr>
+	<tr>
+		<td>Kondisi Awal</td>
+		<td colspan="3">- Halaman Login <br> - Masuk ke halaman Create Acount</td>
+	</tr>
+	<tr>
+		<td>Tanggal pengujian</td>
+		<td colspan="3">19 - 05 - 2018</td>
+	</tr>
+	<tr>
+		<td>Penguji</td>
+		<td colspan="3">M. Fauji Al Faris</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Skenario</td>
+	</tr>
+	<tr>
+		<td colspan="4">
+		1. Isi semua data pada form registrasi member<br>
+		3. Klik tombol register jika data sudah diinputkan
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Hasil</td>
+	</tr>
+	<tr>
+		<td align="center" width="250px">Data yang diberikan</td>
+		<td align="center" width="250px">Yang diharapkan</td>
+		<td align="center" width="250px">Pengamatan</td>
+		<td align="center" width="250px">Kesimpulan</td>
+	</tr>
+	<tr>
+		<td>
+		NIK 		: 1603107 <br>
+		Nama 		: M. Fauji Al Faris <br>
+		No. Hp 		: 081987654321 <br>
+		Email		: alfaris@gmail.com <br>
+		Alamat		: Indramayu <br>
+		Username 	: faris <br>
+		Password 	: qwe
+		</td>
+		<td>Data yang telah diinputkan berhasil masuk ke tabel Data Member</td>
+		<td>Semua data yang diinputkan harus sesuai dengan format yang ditentukan</td>
+		<td>Berhasil melakukan registrasi</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Catatan</td>
+	</tr>
+	<tr>
+		<td colspan="4"><br><br></td>
+	</tr>
+</table>
+
+<!-- ===================================================================================================================================================== -->
+
+<table border="1" align="center" width="1000px">
+	<tr>
+		<td>Identifikasi</td>
+		<td colspan="3">STD - 14</td>
+	</tr>
+	<tr>
+		<td>Nama Butir Uji</td>
+		<td colspan="3">Pengujian registrasi dengan data yang kosong</td>
+	</tr>
+	<tr>
+		<td>Tujuan</td>
+		<td colspan="3">Memeriksa apakah registrasi terekam ke tabel member</td>
+	</tr>
+	<tr>
+		<td>Kondisi Awal</td>
+		<td colspan="3">- Halaman Login <br> - Masuk ke halaman Create Acount</td>
+	</tr>
+	<tr>
+		<td>Tanggal pengujian</td>
+		<td colspan="3">19 - 05 - 2018</td>
+	</tr>
+	<tr>
+		<td>Penguji</td>
+		<td colspan="3">M. Fauji Al Faris</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Skenario</td>
+	</tr>
+	<tr>
+		<td colspan="4">
+		1. Isi semua data pada form registrasi member<br>
+		3. Klik tombol register jika data sudah diinputkan
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Hasil</td>
+	</tr>
+	<tr>
+		<td align="center" width="250px">Data yang diberikan</td>
+		<td align="center" width="250px">Yang diharapkan</td>
+		<td align="center" width="250px">Pengamatan</td>
+		<td align="center" width="250px">Kesimpulan</td>
+	</tr>
+	<tr>
+		<td>
+		NIK 		: <br>
+		Nama 		: <br>
+		No. Hp 		: <br>
+		Email		: <br>
+		Alamat		: <br>
+		Username 	: <br>
+		Password 	: 
+		</td>
+		<td>Muncul pesan error dan memberikan keterangan bahwa data harus dilengkapi</td>
+		<td>Semua data yang diinputkan harus diisi sesuai dengan format yang ditentukan</td>
+		<td>Gagal registrasi</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Catatan</td>
+	</tr>
+	<tr>
+		<td colspan="4"><br><br></td>
+	</tr>
+</table>
+
+<!-- ===================================================================================================================================================== -->
+
+<table border="1" align="center" width="1000px">
+	<tr>
+		<td>Identifikasi</td>
+		<td colspan="3">STD - 15</td>
+	</tr>
+	<tr>
+		<td>Nama Butir Uji</td>
+		<td colspan="3">Pengujian registrasi dengan data yang sudah teregistrasi</td>
+	</tr>
+	<tr>
+		<td>Tujuan</td>
+		<td colspan="3">Memeriksa apakah registrasi terekam ke tabel member</td>
+	</tr>
+	<tr>
+		<td>Kondisi Awal</td>
+		<td colspan="3">- Halaman Login <br> - Masuk ke halaman Create Acount</td>
+	</tr>
+	<tr>
+		<td>Tanggal pengujian</td>
+		<td colspan="3">19 - 05 - 2018</td>
+	</tr>
+	<tr>
+		<td>Penguji</td>
+		<td colspan="3">M. Fauji Al Faris</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Skenario</td>
+	</tr>
+	<tr>
+		<td colspan="4">
+		1. Isi semua data pada form registrasi member<br>
+		3. Klik tombol register jika data sudah diinputkan
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Hasil</td>
+	</tr>
+	<tr>
+		<td align="center" width="250px">Data yang diberikan</td>
+		<td align="center" width="250px">Yang diharapkan</td>
+		<td align="center" width="250px">Pengamatan</td>
+		<td align="center" width="250px">Kesimpulan</td>
+	</tr>
+	<tr>
+		<td>
+		NIK 		: 1603107 <br>
+		Nama 		: M. Fauji Al Faris <br>
+		No. Hp 		: 081987654321 <br>
+		Email		: alfaris@gmail.com <br>
+		Alamat		: Indramayu <br>
+		Username 	: faris <br>
+		Password 	: qwe
+		</td>
+		<td>Data yang telah diinputkan gagal masuk ke tabel Data Member</td>
+		<td>Semua data yang diinputkan tidak boleh sama dengan data yang telah teregistrasi</td>
+		<td>Gagal registrasi</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Catatan</td>
+	</tr>
+	<tr>
+		<td colspan="4"><br><br></td>
+	</tr>
+</table>
+
+<!-- ===================================================================================================================================================== -->
+
+<table border="1" align="center" width="1000px">
+	<tr>
+		<td>Identifikasi</td>
+		<td colspan="3">STD - 16</td>
+	</tr>
+	<tr>
+		<td>Nama Butir Uji</td>
+		<td colspan="3">Pengujian login dengan akun yang sudah terdaftar didatabase</td>
+	</tr>
+	<tr>
+		<td>Tujuan</td>
+		<td colspan="3">Memeriksa apakah user bisa masuk ke sistem aplikasi</td>
+	</tr>
+	<tr>
+		<td>Kondisi Awal</td>
+		<td colspan="3">Membuka halaman login pada website</td>
+	</tr>
+	<tr>
+		<td>Tanggal pengujian</td>
+		<td colspan="3">19 - 05 - 2018</td>
+	</tr>
+	<tr>
+		<td>Penguji</td>
+		<td colspan="3">M. Fauji Al Faris</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Skenario</td>
+	</tr>
+	<tr>
+		<td colspan="4">
+		1. Masukan Username<br>
+		2. Masukan Password<br>
+		3. Klik Login
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Hasil</td>
+	</tr>
+	<tr>
+		<td align="center" width="250px">Data yang diberikan</td>
+		<td align="center" width="250px">Yang diharapkan</td>
+		<td align="center" width="250px">Pengamatan</td>
+		<td align="center" width="250px">Kesimpulan</td>
+	</tr>
+	<tr>
+		<td>
+		Username : faris <br>
+		Password : qwe
+		</td>
+		<td>Masuk ke halaman dashboard member</td>
+		<td>Username dan password harus sesuai dengan akun yang telah terdaftar di database</td>
+		<td>Berhasil masuk ke halaman dashboard member</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Catatan</td>
+	</tr>
+	<tr>
+		<td colspan="4"><br><br></td>
+	</tr>
+</table>
+
+<!-- ===================================================================================================================================================== -->
+
+<table border="1" align="center" width="1000px">
+	<tr>
+		<td>Identifikasi</td>
+		<td colspan="3">STD - 17</td>
+	</tr>
+	<tr>
+		<td>Nama Butir Uji</td>
+		<td colspan="3">Pengujian login dengan akun yang belum terdaftar didatabase</td>
+	</tr>
+	<tr>
+		<td>Tujuan</td>
+		<td colspan="3">Memeriksa apakah user bisa masuk ke sistem aplikasi</td>
+	</tr>
+	<tr>
+		<td>Kondisi Awal</td>
+		<td colspan="3">Membuka halaman login pada website</td>
+	</tr>
+	<tr>
+		<td>Tanggal pengujian</td>
+		<td colspan="3">19 - 05 - 2018</td>
+	</tr>
+	<tr>
+		<td>Penguji</td>
+		<td colspan="3">M. Fauji Al Faris</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Skenario</td>
+	</tr>
+	<tr>
+		<td colspan="4">
+		1. Masukan Username<br>
+		2. Masukan Password<br>
+		3. Klik Login
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Hasil</td>
+	</tr>
+	<tr>
+		<td align="center" width="250px">Data yang diberikan</td>
+		<td align="center" width="250px">Yang diharapkan</td>
+		<td align="center" width="250px">Pengamatan</td>
+		<td align="center" width="250px">Kesimpulan</td>
+	</tr>
+	<tr>
+		<td>
+		Username : farises <br>
+		Password : 123
+		</td>
+		<td>Tidak dapat masuk ke halaman dashboard member</td>
+		<td>Username dan password harus sesuai dengan akun yang telah terdaftar di database</td>
+		<td>Gagal masuk ke halaman dashboard member</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Catatan</td>
+	</tr>
+	<tr>
+		<td colspan="4"><br><br></td>
+	</tr>
+</table>
+
+<!-- ===================================================================================================================================================== -->
+
+<table border="1" align="center" width="1000px">
+	<tr>
+		<td>Identifikasi</td>
+		<td colspan="3">STD - 18</td>
+	</tr>
+	<tr>
+		<td>Nama Butir Uji</td>
+		<td colspan="3">Pengujian login dengan mengosongkan username dan password</td>
+	</tr>
+	<tr>
+		<td>Tujuan</td>
+		<td colspan="3">Memeriksa apakah user bisa masuk ke sistem aplikasi</td>
+	</tr>
+	<tr>
+		<td>Kondisi Awal</td>
+		<td colspan="3">Membuka halaman login pada website</td>
+	</tr>
+	<tr>
+		<td>Tanggal pengujian</td>
+		<td colspan="3">19 - 05 - 2018</td>
+	</tr>
+	<tr>
+		<td>Penguji</td>
+		<td colspan="3">M. Fauji Al Faris</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Skenario</td>
+	</tr>
+	<tr>
+		<td colspan="4">
+		1. Masukan Username<br>
+		2. Masukan Password<br>
+		3. Klik Login
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Hasil</td>
+	</tr>
+	<tr>
+		<td align="center" width="250px">Data yang diberikan</td>
+		<td align="center" width="250px">Yang diharapkan</td>
+		<td align="center" width="250px">Pengamatan</td>
+		<td align="center" width="250px">Kesimpulan</td>
+	</tr>
+	<tr>
+		<td>
+		Username :  <br>
+		Password : 
+		</td>
+		<td>Tidak dapat masuk ke halaman dashboard member</td>
+		<td>Username dan password harus dilengkapi</td>
+		<td>Gagal masuk ke halaman dashboard member</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Catatan</td>
+	</tr>
+	<tr>
+		<td colspan="4"><br><br></td>
+	</tr>
+</table>
+
+<!-- ===================================================================================================================================================== -->
+
+<table border="1" align="center" width="1000px">
+	<tr>
+		<td>Identifikasi</td>
+		<td colspan="3">STD - 19</td>
+	</tr>
+	<tr>
+		<td>Nama Butir Uji</td>
+		<td colspan="3">Pengujian mengisis form pembelian dengan data yang sesuai</td>
+	</tr>
+	<tr>
+		<td>Tujuan</td>
+		<td colspan="3">Memeriksa apakah transaksi terekam ke tabel penjualan</td>
+	</tr>
+	<tr>
+		<td>Kondisi Awal</td>
+		<td colspan="3">- Halaman Kategori Barang <br> - Masuk ke halaman Order</td>
+	</tr>
+	<tr>
+		<td>Tanggal pengujian</td>
+		<td colspan="3">19 - 05 - 2018</td>
+	</tr>
+	<tr>
+		<td>Penguji</td>
+		<td colspan="3">Sujiyanto</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Skenario</td>
+	</tr>
+	<tr>
+		<td colspan="4">
+		1. Isi semua data pada form order barang<br>
+		3. Klik tombol simpan jika data sudah diinputkan
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Hasil</td>
+	</tr>
+	<tr>
+		<td align="center" width="250px">Data yang diberikan</td>
+		<td align="center" width="250px">Yang diharapkan</td>
+		<td align="center" width="250px">Pengamatan</td>
+		<td align="center" width="250px">Kesimpulan</td>
+	</tr>
+	<tr>
+		<td>
+		NIK 				: -- Pilih NIK -- <br>
+		Nama Barang			: -- Pilih Barang -- <br>
+		Harga 				: (akan muncul ketika Nama Barang sudah dipilih) <br>
+		Uang Muka 			: (akan muncul ketika Nama Barang sudah dipilih) <br>
+		Jangka Waktu/bln 	: 3 <br>
+		Angsuran 			: (akan muncul ketika jangka waktu sudah diinputkan) <br>
+		Total Harga 		: (akan muncul ketika harga, uang muka, jangka waktu, angsuran telah terisi) 
+		</td>
+		<td>Data yang telah diinputkan berhasil masuk ke tabel penjualan</td>
+		<td>Semua data yang diinputkan harus sesuai dengan format yang ditentukan</td>
+		<td>Berhasil melakukan Transaksi Order Barang</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Catatan</td>
+	</tr>
+	<tr>
+		<td colspan="4"><br><br></td>
+	</tr>
+</table>
+
+<!-- ===================================================================================================================================================== -->
+
+<table border="1" align="center" width="1000px">
+	<tr>
+		<td>Identifikasi</td>
+		<td colspan="3">STD - 20</td>
+	</tr>
+	<tr>
+		<td>Nama Butir Uji</td>
+		<td colspan="3">Pengujian mengisi form pembelian dengan data kosong</td>
+	</tr>
+	<tr>
+		<td>Tujuan</td>
+		<td colspan="3">Memeriksa apakah transaksi terekam ke tabel penjualan</td>
+	</tr>
+	<tr>
+		<td>Kondisi Awal</td>
+		<td colspan="3">- Halaman Kategori Barang <br> - Masuk ke halaman Order</td>
+	</tr>
+	<tr>
+		<td>Tanggal pengujian</td>
+		<td colspan="3">19 - 05 - 2018</td>
+	</tr>
+	<tr>
+		<td>Penguji</td>
+		<td colspan="3">Sujiyanto</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Skenario</td>
+	</tr>
+	<tr>
+		<td colspan="4">
+		1. Isi semua data pada form order barang<br>
+		3. Klik tombol simpan jika data sudah diinputkan
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Hasil</td>
+	</tr>
+	<tr>
+		<td align="center" width="250px">Data yang diberikan</td>
+		<td align="center" width="250px">Yang diharapkan</td>
+		<td align="center" width="250px">Pengamatan</td>
+		<td align="center" width="250px">Kesimpulan</td>
+	</tr>
+	<tr>
+		<td>
+		NIK 				: <br>
+		Nama Barang			: <br>
+		Harga 				: <br>
+		Uang Muka 			: <br>
+		Jangka Waktu/bln 	: <br>
+		Angsuran 			: <br>
+		Total Harga 		:  
+		</td>
+		<td>Muncul pesan error dan memberikan keterangan bahwa data harus dilengkapi</td>
+		<td>Semua data yang diinputkan harus diisi sesuai dengan format yang ditentukan</td>
+		<td>Gagal melakukan Transaksi Order Barang</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Catatan</td>
+	</tr>
+	<tr>
+		<td colspan="4"><br><br></td>
+	</tr>
+</table>
+
+<!-- ===================================================================================================================================================== -->
+
+<table border="1" align="center" width="1000px">
+	<tr>
+		<td>Identifikasi</td>
+		<td colspan="3">STD - 21</td>
+	</tr>
+	<tr>
+		<td>Nama Butir Uji</td>
+		<td colspan="3">Pengujian mengisi form pembelian dengan data yang sama</td>
+	</tr>
+	<tr>
+		<td>Tujuan</td>
+		<td colspan="3">Memeriksa apakah transaksi terekam ke tabel penjualan</td>
+	</tr>
+	<tr>
+		<td>Kondisi Awal</td>
+		<td colspan="3">- Halaman Kategori Barang <br> - Masuk ke halaman Order</td>
+	</tr>
+	<tr>
+		<td>Tanggal pengujian</td>
+		<td colspan="3">19 - 05 - 2018</td>
+	</tr>
+	<tr>
+		<td>Penguji</td>
+		<td colspan="3">Sujiyanto</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Skenario</td>
+	</tr>
+	<tr>
+		<td colspan="4">
+		1. Isi semua data pada form order barang<br>
+		3. Klik tombol simpan jika data sudah diinputkan
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Hasil</td>
+	</tr>
+	<tr>
+		<td align="center" width="250px">Data yang diberikan</td>
+		<td align="center" width="250px">Yang diharapkan</td>
+		<td align="center" width="250px">Pengamatan</td>
+		<td align="center" width="250px">Kesimpulan</td>
+	</tr>
+	<tr>
+		<td>
+		NIK 				: -- Pilih NIK -- <br>
+		Nama Barang			: -- Pilih Barang -- <br>
+		Harga 				: (akan muncul ketika Nama Barang sudah dipilih) <br>
+		Uang Muka 			: (akan muncul ketika Nama Barang sudah dipilih) <br>
+		Jangka Waktu/bln 	: 3 <br>
+		Angsuran 			: (akan muncul ketika jangka waktu sudah diinputkan) <br>
+		Total Harga 		: (akan muncul ketika harga, uang muka, jangka waktu, angsuran telah terisi) 
+		</td>
+		<td>Data yang telah diinputkan gagal masuk ke tabel penjualan</td>
+		<td>Semua data yang diinputkan tidak boleh sama dengan data yang telah terdaftar sebelumnya</td>
+		<td>Gagal melakukan Transaksi Order Barang</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">Catatan</td>
+	</tr>
+	<tr>
+		<td colspan="4"><br><br></td>
+	</tr>
+</table>
 </html>
