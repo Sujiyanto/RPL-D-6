@@ -19,14 +19,20 @@ D3TI2D</h4>
 <h2 align="center">TEKNIK INFORMATIKA<br>
 POLITEKNIK NEGERI INDRAMAYU</h2>
 <h3 align="center">BAB 1<br> PENDAHULUAN</h3>
+
 <h4> 1.1. Tujuan Pembuatan Dokumen</h4>
 - Untuk mengidentifikasi dan mengungkapkan sebagai kesalahan sebanyak mungkin dalam perangkat lunak yang diuji.<br>
 - Untuk membawa perangkat lunak diuji, setelah memperbaiki kesalahan yang diidentifikasi dan melakukan pengujian ulang, pada tingkat kualitas yang memadai.<br>
 - Untuk melakukan tes yang diperlakukan secara efisien dan efektif, dalam keterbatasan penjadwalan. <br>
+
+
 <h4>1.2. Deskripsi Umum SIstem</h4>
 Perangkat lunak yang akan diuji adalah “Aplikasi Kredit Barang Koperasi Karyawan Polindra”. Perangkat lunak ini adalah perangkat lunak yang digunakan untuk melakukan transaksi kredit barang maupun uang di koperasi POLINDRA. Sistem ini diimplementasikan melalui komunikasi dan di media antara User dan admin dengan sistem.
+
+
 <h4>1.3. Deskripsi Dokumen</h4>
 Dalam dokumen ini berisi 3 bagian utama yaitu Pendahuluan, Identifikasi dan Rencana Pengujian, Deskripsi dan Uji Hasil.
+
 <h4>1.4. Daftar Singkatan </h4>
 <table border="1">
 <tr>
@@ -56,13 +62,16 @@ Dalam dokumen ini berisi 3 bagian utama yaitu Pendahuluan, Identifikasi dan Renc
 <tr>
 <td>SRS</td>
 <td>Software Requirement Specification merupakan dokumen perangkat lunak yang berisi tentang requirement spesifikasi atau spesifikasi yang ada pada perangkat lunak yang akan dibangun atau dirancang.</td><br>
+
 <h4> 1.5. Dokumen Referensi </h4>
-- http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjd7pWs6LvaAhUFto8KHShUDGsQFggoMAA&url=http%3A%2F%2Fwww.san.uri.br%2F~pbetencourt%2FengsoftII%2FIEEE-P1016-d50.PDF&usg=AOvVaw0-Aa9INJSSPZeNBCHHyNms
-- http://www.<slideshare.net/rivaldysetiawan7/[srs-example-webapp-33986122
-- IEEE Software Engineering Standards Committee, “IEEE Std 830-1998, IEEE  Recommended Practice for Software Requirements Specifications”, October 20, 1998.
-- https://www.google.co.id/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&ved=0ahUKEwitpsi807jaAhUHqo8KHS0SAMEQFghLMAM&url=http%3A%2F%2Fwww.cse.chalmers.se%2F~feldt%2Fcourses%2Freqeng%2Fexamples%2Fsrs_example_2010_group2.pdf&usg=AOvVaw1sbUrO_cREj3g8sqm8driM
-- https://www.google.co.id/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwitpsi807jaAhUHqo8KHS0SAMEQFggoMAA&url=https%3A%2F%2Fwww.utdallas.edu%2F~chung%2FRE%2FPresentations07S%2FTeam_1_Doc%2FDocuments%2FSRS4.0.doc&usg=AOvVaw2zaGGnBB9yNttcKsuBifee
+- http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjd7pWs6LvaAhUFto8KHShUDGsQFggoMAA&url=http%3A%2F%2Fwww.san.uri.br%2F~pbetencourt%2FengsoftII%2FIEEE-P1016-d50.PDF&usg=AOvVaw0-Aa9INJSSPZeNBCHHyNms<br>
+- http://www.slideshare.net/rivaldysetiawan7/[srs-example-webapp-33986122<br>
+- IEEE Software Engineering Standards Committee, “IEEE Std 830-1998, IEEE  Recommended Practice for Software Requirements Specifications”, October 20, 1998.<br>
+- https://www.google.co.id/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&ved=0ahUKEwitpsi807jaAhUHqo8KHS0SAMEQFghLMAM&url=http%3A%2F%2Fwww.cse.chalmers.se%2F~feldt%2Fcourses%2Freqeng%2Fexamples%2Fsrs_example_2010_group2.pdf&usg=AOvVaw1sbUrO_cREj3g8sqm8driM<br>
+- https://www.google.co.id/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwitpsi807jaAhUHqo8KHS0SAMEQFggoMAA&url=https%3A%2F%2Fwww.utdallas.edu%2F~chung%2FRE%2FPresentations07S%2FTeam_1_Doc%2FDocuments%2FSRS4.0.doc&usg=AOvVaw2zaGGnBB9yNttcKsuBifee<br>
+
 <h3 align="center">BAB II <br> LINGKUNGAN PENGUJIAN PERANGKAT LUNAK</h3>
+
 <h4> 2.1 Perangkat Lunak Pengujian</h4>
 Perangkat lunak ini diujikan dengan beberapa perangkat lunak lain, yaitu:<br>
 - Sistem Operasi Windows 8<br>
