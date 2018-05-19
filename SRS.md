@@ -103,7 +103,7 @@ AKBAR Kopkar Polindra adalah aplikasi kredit barang di Koperasi Karyawan Politek
 
 **2.1.3 Antarmuka Hardware**<br>
 
-<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Antarmuka%20Hardware.png"><br>
+<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Antarmuka%20hardware.png"><br>
 
 **2.1.4 Antarmuka Perangkat Lunak**<br>
 
