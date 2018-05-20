@@ -1162,6 +1162,36 @@ Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kr
 
 **3.3 Deskripsi Rinci Modul**
 
+**3.3.1 Modul Otentikasi**
+
+**3.3.1.1 Fungsi Modul**
+
+<table>
+	<tr>
+		<td align="center">No</td>
+		<td align="center">Fungsi</td>
+		<td align="center">Jenis</td>
+		<td align="center">Tabel Terkait</td>
+	</tr>
+	<tr>
+		<td align="center">1.</td>
+		<td>Login Admin</td>
+		<td>Form Login</td>
+		<td>login</td>
+	</tr>
+	<tr>
+		<td align="center">2.</td>
+		<td>Register Member</td>
+		<td>Register Activity</td>
+		<td>member</td>
+	</tr><tr>
+		<td align="center">3.</td>
+		<td>Login Member</td>
+		<td>Form Login</td>
+		<td>member</td>
+	</tr>
+</table>
+
 **3.4 Matriks Keturunan**
 
 <table>
