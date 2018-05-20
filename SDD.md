@@ -1192,6 +1192,12 @@ Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kr
 	</tr>
 </table>
 
+**3.3.1.2 Spesifikasi Layar Utama**
+
+<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/e567ace5c77b8fe3bff554fb3aed94b95971c78d/image/login%20admin.png">
+<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/e567ace5c77b8fe3bff554fb3aed94b95971c78d/image/register%20member.png">
+<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/e567ace5c77b8fe3bff554fb3aed94b95971c78d/image/login%20member.png">
+
 **3.4 Matriks Keturunan**
 
 <table>
