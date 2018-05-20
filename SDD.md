@@ -1202,7 +1202,7 @@ Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kr
 
 <table>
 	<tr>
-		<td align="center">ID Query</td>
+		<td align="center">ID-Query</td>
 		<td align="center">Deskripsi</td>
 		<td align="center">Ekspresi Query</td>
 	</tr>
