@@ -1194,9 +1194,34 @@ Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kr
 
 **3.3.1.2 Spesifikasi Layar Utama**
 
-<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/e567ace5c77b8fe3bff554fb3aed94b95971c78d/image/login%20admin.png">
-<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/e567ace5c77b8fe3bff554fb3aed94b95971c78d/image/register%20member.png">
-<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/e567ace5c77b8fe3bff554fb3aed94b95971c78d/image/login%20member.png">
+<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/e567ace5c77b8fe3bff554fb3aed94b95971c78d/image/login%20admin.png" width="400px">
+<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/e567ace5c77b8fe3bff554fb3aed94b95971c78d/image/register%20member.png" width="400px">
+<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/e567ace5c77b8fe3bff554fb3aed94b95971c78d/image/login%20member.png" width="400px">
+
+**3.3.1.3 Spesifikasi Query**
+
+<table>
+	<tr>
+		<td align="center">ID Query</td>
+		<td align="center">Deskripsi</td>
+		<td align="center">Ekspresi Query</td>
+	</tr>
+	<tr>
+		<td>QRY - 01</td>
+		<td>Login Admin</td>
+		<td>SELECT * FROM login WHERE username="$username" AND password="$password";</td>
+	</tr>
+	<tr>
+		<td>QRY - 02</td>
+		<td>Register Member</td>
+		<td>INSERT INTO member SET id="$id_member", username="$username", password="$password";</td>
+	</tr>
+	<tr>
+		<td>QRY - 03</td>
+		<td>Login Member</td>
+		<td>SELECT * FROM member WHERE username="$username" AND password="$password";</td>
+	</tr>
+</table>
 
 **3.4 Matriks Keturunan**
 
