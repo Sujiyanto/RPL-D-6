@@ -1194,9 +1194,9 @@ Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kr
 
 **3.3.1.2 Spesifikasi Layar Utama**
 
-<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/e567ace5c77b8fe3bff554fb3aed94b95971c78d/image/login%20admin.png" width="400px">
-<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/e567ace5c77b8fe3bff554fb3aed94b95971c78d/image/register%20member.png" width="400px">
-<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/e567ace5c77b8fe3bff554fb3aed94b95971c78d/image/login%20member.png" width="400px">
+<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/e567ace5c77b8fe3bff554fb3aed94b95971c78d/image/login%20admin.png" width="500px">
+<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/e567ace5c77b8fe3bff554fb3aed94b95971c78d/image/register%20member.png" width="500px">
+<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/e567ace5c77b8fe3bff554fb3aed94b95971c78d/image/login%20member.png" width="500px">
 
 **3.3.1.3 Spesifikasi Query**
 
@@ -1207,19 +1207,59 @@ Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kr
 		<td align="center">Ekspresi Query</td>
 	</tr>
 	<tr>
-		<td>QRY - 01</td>
+		<td>QRY-01</td>
 		<td>Login Admin</td>
 		<td>SELECT * FROM login WHERE username="$username" AND password="$password";</td>
 	</tr>
 	<tr>
-		<td>QRY - 02</td>
+		<td>QRY-02</td>
 		<td>Register Member</td>
 		<td>INSERT INTO member SET id="$id_member", username="$username", password="$password";</td>
 	</tr>
 	<tr>
-		<td>QRY - 03</td>
+		<td>QRY-03</td>
 		<td>Login Member</td>
 		<td>SELECT * FROM member WHERE username="$username" AND password="$password";</td>
+	</tr>
+</table>
+
+**3.3.1.4 Spesifikasi Field Data Layar**
+
+<table>
+	<tr>
+		<td>Label</td>
+		<td>Field</td>
+		<td>Tabel/Query</td>
+		<td>Validasi</td>
+		<td>Keterangan</td>
+	</tr>
+	<tr>
+		<td>username</td>
+		<td>username</td>
+		<td>login</td>
+		<td>required</td>
+		<td>username untuk admin</td>
+	</tr>
+	<tr>
+		<td>password</td>
+		<td>password</td>
+		<td>login</td>
+		<td>required</td>
+		<td>password untuk admin</td>
+	</tr>
+	<tr>
+		<td>username</td>
+		<td>username</td>
+		<td>member</td>
+		<td>required</td>
+		<td>username untuk member</td>
+	</tr>
+	<tr>
+		<td>password</td>
+		<td>password</td>
+		<td>member</td>
+		<td>required</td>
+		<td>password untuk member</td>
 	</tr>
 </table>
 
