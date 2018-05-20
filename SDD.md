@@ -871,7 +871,7 @@ Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kr
 
 **3.2.1 Tabel Barang**
 
-<table border="1">
+<table>
 	<tr>
 		<td align="center">Id Field</td>
 		<td align="center">Deskripsi</td>
@@ -939,7 +939,7 @@ Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kr
 
 **3.2.2 Tabel Supplier**
 
-<table border="1">
+<table>
 	<tr>
 		<td align="center">Id Field</td>
 		<td align="center">Deskripsi</td>
@@ -979,7 +979,7 @@ Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kr
 
 **3.2.3 Tabel Member**
 
-<table border="1">
+<table>
 	<tr>
 		<td align="center">Id Field</td>
 		<td align="center">Deskripsi</td>
@@ -1040,6 +1040,74 @@ Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kr
 		<td>password</td>
 		<td>Password Akun</td>
 		<td>varchar(8)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+</table>
+
+**3.2.4 Tabel Transaksi**
+
+<table>
+	<tr>
+		<td align="center">Id Field</td>
+		<td align="center">Deskripsi</td>
+		<td align="center">Type & Length</td>
+		<td align="center">Null</td>
+		<td align="center">Keterangan</td>
+	</tr>
+	<tr>
+		<td>id_order</td>
+		<td>Id Transaksi</td>
+		<td>int(3)</td>
+		<td align="center">Not Null</td>
+		<td align="center">Auto Increment</td>
+	</tr>
+	<tr>
+		<td>nik</td>
+		<td>NIK Member</td>
+		<td>int(15)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+	<tr>
+		<td>nama_barang</td>
+		<td>Nama Barang</td>
+		<td>varchar(50</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+	<tr>
+		<td>harga</td>
+		<td>Harga Barang</td>
+		<td>int(10)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+	<tr>
+		<td>uang_muka</td>
+		<td>Uang Muka</td>
+		<td>int(10)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+	<tr>
+		<td>jangka_waktu</td>
+		<td>Jangka Waktu Pembayaran</td>
+		<td>int(2)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+	<tr>
+		<td>angsuran</td>
+		<td>Angsuran yang harus dibayar/bln</td>
+		<td>int(10)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+	<tr>
+		<td>total_harga</td>
+		<td>Total Harga Barang</td>
+		<td>int(10)</td>
 		<td align="center">Not Null</td>
 		<td align="center">-</td>
 	</tr>
