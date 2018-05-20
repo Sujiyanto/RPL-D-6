@@ -841,21 +841,31 @@ Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kr
 
 **3.1 Diagram Konteks**
 
+<img src="">
+
 **3.1.1 DFD Level 0**
 
-**3.1.2 DFD Level 1 Prosen ..**
+<img src="">
 
-**3.1.3 DFD Level 1 Prosen ..**
+**3.1.2 DFD Level 1 Proses Mengelolah Data Barang**
 
-**3.1.4 DFD Level 1 Prosen ..**
+<img src="">
 
-**3.1.5 DFD Level 1 Prosen ..**
+**3.1.3 DFD Level 1 Proses Mengelolah Data Supplier**
 
-**3.1.6 DFD Level 1 Prosen ..**
+<img src="">
 
-**3.1.7 DFD Level 1 Prosen ..**
+**3.1.4 DFD Level 1 Proses Mengelolah Data Member**
 
-**3.1.8 DFD Level 1 Prosen ..**
+<img src="">
+
+**3.1.5 DFD Level 1 Proses Mengelolah Data Transaksi**
+
+<img src="">
+
+**3.1.6 DFD Level 1 Proses Mengelolah Data Pembayaran**
+
+<img src="">
 
 **3.2 Deskripsi Rinci Tabel**
 
