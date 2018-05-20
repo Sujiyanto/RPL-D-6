@@ -1113,6 +1113,53 @@ Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kr
 	</tr>
 </table>
 
+**3.2.5 Tabel Pembayaran**
+
+<table>
+	<tr>
+		<td align="center">Id Field</td>
+		<td align="center">Deskripsi</td>
+		<td align="center">Type & Length</td>
+		<td align="center">Null</td>
+		<td align="center">Keterangan</td>
+	</tr>
+	<tr>
+		<td>id_pembayarn</td>
+		<td>Id Pembayarn</td>
+		<td>int(3)</td>
+		<td align="center">Not Null</td>
+		<td align="center">Auto Increment</td>
+	</tr>
+	<tr>
+		<td>nik</td>
+		<td>NIK Member</td>
+		<td>int(15)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+	<tr>
+		<td>nama_barang</td>
+		<td>Nama Barang</td>
+		<td>varchar(50)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+	<tr>
+		<td>total_harga</td>
+		<td>Total Harga</td>
+		<td>int(10)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+	<tr>
+		<td>angsuran</td>
+		<td>Angsuran yang dibayar</td>
+		<td>int(10)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+</table>
+
 **3.3 Deskripsi Rinci Modul**
 
 **3.4 Matriks Keturunan**
