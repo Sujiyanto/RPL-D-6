@@ -841,27 +841,27 @@ Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kr
 
 **3.1 Diagram Konteks**
 
-<img src="">
+<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/Diagram%20konteks.png">
 
 **3.1.1 DFD Level 0**
 
-<img src="">
+<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/DFD%20Level%200%20Fix.png">
 
 **3.1.2 DFD Level 1 Proses Mengelolah Data Barang**
 
-<img src="">
+<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/DFD%20Level%201%20Data%20Barang.png">
 
 **3.1.3 DFD Level 1 Proses Mengelolah Data Supplier**
 
-<img src="">
+<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/DFD%20Level%201%20Data%20Supplier.png">
 
 **3.1.4 DFD Level 1 Proses Mengelolah Data Member**
 
-<img src="">
+<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/DFD%20Level%201%20Data%20Member.png">
 
 **3.1.5 DFD Level 1 Proses Mengelolah Data Transaksi**
 
-<img src="">
+<img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/DFD%20Level%201%20Data%20Transaksi.png">
 
 **3.1.6 DFD Level 1 Proses Mengelolah Data Pembayaran**
 
