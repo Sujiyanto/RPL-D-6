@@ -871,7 +871,7 @@ Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kr
 
 **3.2.1 Tabel Barang**
 
-<table border="1" align="center" width="800px">
+<table border="1" align="center">
 	<tr>
 		<td align="center">Id Field</td>
 		<td align="center">Deskripsi</td>
@@ -937,15 +937,43 @@ Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kr
 	</tr>
 </table>
 
-**3.2.1 Data User Admin dan Member**
-<table>
+**3.2.2 Tabel Supplier**
+
+<table border="1" align="center">
 	<tr>
-		<th>Data</th>
-		<th>Keterangan</th>
+		<td align="center">Id Field</td>
+		<td align="center">Deskripsi</td>
+		<td align="center">Type & Length</td>
+		<td align="center">Null</td>
+		<td align="center">Keterangan</td>
 	</tr>
 	<tr>
-		<td>NIK</td>
-		<td>Digunakan untuk Login</td>
+		<td>id_supplier</td>
+		<td>Id Supplier</td>
+		<td>int(3)</td>
+		<td align="center">Not Null</td>
+		<td align="center">Auto Increment</td>
+	</tr>
+	<tr>
+		<td>nama_supplier</td>
+		<td>Nama Supplier</td>
+		<td>varchar(50)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+	<tr>
+		<td>no_telp</td>
+		<td>Kontak Supplier</td>
+		<td>int(15)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+	<tr>
+		<td>alamat</td>
+		<td>Alamat Supplier</td>
+		<td>varchar(50)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
 	</tr>
 </table>
 
