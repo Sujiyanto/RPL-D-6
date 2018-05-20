@@ -4,6 +4,9 @@
 <h3 align="center">APLIKASI KREDIT BARANG KOPERASI KARYAWAN POLITEKNIK NEGERI INDRAMAYU<br>
 (AKBAR KOPKAR POLINDRA)</h3>
 
+<h4 align="center">Version 1.0</h4>
+<h4 align="center">20 Mei 2018</h4>
+
 <br>
 <p align="center"><img src="https://raw.githubusercontent.com/Sujiyanto/RPL-D-6/master/image/POLINDRA.png"></p>
 <br>
@@ -366,6 +369,8 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 	</tr>
 </table>
 
+<br><br>
+
 <!-- ===================================================================================================================================================== -->
 
 <table border="1" align="center" width="1000px">
@@ -429,6 +434,8 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 	</tr>
 </table>
 
+<br><br>
+
 <!-- ===================================================================================================================================================== -->
 
 <table border="1" align="center" width="1000px">
@@ -491,6 +498,8 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 		<td colspan="4"><br><br></td>
 	</tr>
 </table>
+
+<br><br>
 
 <!-- ===================================================================================================================================================== -->
 
@@ -560,6 +569,8 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 	</tr>
 </table>
 
+<br><br>
+
 <!-- ===================================================================================================================================================== -->
 
 <table border="1" align="center" width="1000px">
@@ -627,6 +638,8 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 		<td colspan="4"><br><br></td>
 	</tr>
 </table>
+
+<br><br>
 
 <!-- ===================================================================================================================================================== -->
 
@@ -696,6 +709,8 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 	</tr>
 </table>
 
+<br><br>
+
 <!-- ===================================================================================================================================================== -->
 
 <table border="1" align="center" width="1000px">
@@ -763,6 +778,8 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 		<td colspan="4"><br><br></td>
 	</tr>
 </table>
+
+<br><br>
 
 <!-- ===================================================================================================================================================== -->
 
@@ -832,6 +849,8 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 	</tr>
 </table>
 
+<br><br>
+
 <!-- ===================================================================================================================================================== -->
 
 <table border="1" align="center" width="1000px">
@@ -900,6 +919,8 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 	</tr>
 </table>
 
+<br><br>
+
 <!-- ===================================================================================================================================================== -->
 
 <table border="1" align="center" width="1000px">
@@ -963,6 +984,8 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 		<td colspan="4"><br><br></td>
 	</tr>
 </table>
+
+<br><br>
 
 <!-- ===================================================================================================================================================== -->
 
@@ -1028,6 +1051,8 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 	</tr>
 </table>
 
+<br><br>
+
 <!-- ===================================================================================================================================================== -->
 
 <table border="1" align="center" width="1000px">
@@ -1091,6 +1116,8 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 		<td colspan="4"><br><br></td>
 	</tr>
 </table>
+
+<br><br>
 
 <!-- ===================================================================================================================================================== -->
 
@@ -1159,6 +1186,8 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 	</tr>
 </table>
 
+<br><br>
+
 <!-- ===================================================================================================================================================== -->
 
 <table border="1" align="center" width="1000px">
@@ -1225,6 +1254,8 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 		<td colspan="4"><br><br></td>
 	</tr>
 </table>
+
+<br><br>
 
 <!-- ===================================================================================================================================================== -->
 
@@ -1293,6 +1324,8 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 	</tr>
 </table>
 
+<br><br>
+
 <!-- ===================================================================================================================================================== -->
 
 <table border="1" align="center" width="1000px">
@@ -1355,6 +1388,8 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 		<td colspan="4"><br><br></td>
 	</tr>
 </table>
+
+<br><br>
 
 <!-- ===================================================================================================================================================== -->
 
@@ -1419,6 +1454,8 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 	</tr>
 </table>
 
+<br><br>
+
 <!-- ===================================================================================================================================================== -->
 
 <table border="1" align="center" width="1000px">
@@ -1481,6 +1518,8 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 		<td colspan="4"><br><br></td>
 	</tr>
 </table>
+
+<br><br>
 
 <!-- ===================================================================================================================================================== -->
 
@@ -1549,6 +1588,8 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 	</tr>
 </table>
 
+<br><br>
+
 <!-- ===================================================================================================================================================== -->
 
 <table border="1" align="center" width="1000px">
@@ -1615,6 +1656,8 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 		<td colspan="4"><br><br></td>
 	</tr>
 </table>
+
+<br><br>
 
 <!-- ===================================================================================================================================================== -->
 
