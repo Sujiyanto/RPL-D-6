@@ -303,6 +303,8 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 	</tr>
 </table>
 
+<h3 align="center">BAB IV<br>DESKRIPSI HASIL UJI</h3>
+
 <table border="1" align="center" width="1000px">
 	<tr>
 		<td>Identifikasi</td>
@@ -363,8 +365,6 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SPEK dengan 
 		<td colspan="4"><br><br></td>
 	</tr>
 </table>
-
-<h3 align="center">BAB IV<br>DESKRIPSI HASIL UJI</h3>
 
 <!-- ===================================================================================================================================================== -->
 
