@@ -871,7 +871,7 @@ Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kr
 
 **3.2.1 Tabel Barang**
 
-<table border="1" align="center">
+<table border="1">
 	<tr>
 		<td align="center">Id Field</td>
 		<td align="center">Deskripsi</td>
@@ -939,7 +939,7 @@ Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kr
 
 **3.2.2 Tabel Supplier**
 
-<table border="1" align="center">
+<table border="1">
 	<tr>
 		<td align="center">Id Field</td>
 		<td align="center">Deskripsi</td>
@@ -972,6 +972,74 @@ Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kr
 		<td>alamat</td>
 		<td>Alamat Supplier</td>
 		<td>varchar(50)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+</table>
+
+**3.2.3 Tabel Member**
+
+<table border="1">
+	<tr>
+		<td align="center">Id Field</td>
+		<td align="center">Deskripsi</td>
+		<td align="center">Type & Length</td>
+		<td align="center">Null</td>
+		<td align="center">Keterangan</td>
+	</tr>
+	<tr>
+		<td>id_member</td>
+		<td>Id Member</td>
+		<td>int(3)</td>
+		<td align="center">Not Null</td>
+		<td align="center">Auto Increment</td>
+	</tr>
+	<tr>
+		<td>nik</td>
+		<td>Nomor Induk Kepegawaian</td>
+		<td>int(15)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+	<tr>
+		<td>nama_member</td>
+		<td>Nama Member</td>
+		<td>varchar(50)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+	<tr>
+		<td>no_hp</td>
+		<td>No Hp Member</td>
+		<td>int(15)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+	<tr>
+		<td>email</td>
+		<td>Email Member</td>
+		<td>varchar(50)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+	<tr>
+		<td>alamat</td>
+		<td>Alamat Member</td>
+		<td>varchar(50)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+	<tr>
+		<td>username</td>
+		<td>Username Akun</td>
+		<td>varchar(8)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+	<tr>
+		<td>password</td>
+		<td>Password Akun</td>
+		<td>varchar(8)</td>
 		<td align="center">Not Null</td>
 		<td align="center">-</td>
 	</tr>
