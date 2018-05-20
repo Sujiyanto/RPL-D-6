@@ -1163,3 +1163,41 @@ Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kr
 **3.3 Deskripsi Rinci Modul**
 
 **3.4 Matriks Keturunan**
+
+<table>
+	<tr>
+		<td align="center">Id Kebututhan</td>
+		<td align="center">Modul</td>
+		<td align="center">Keterangan</td>
+	</tr>
+	<tr>
+		<td>id_login</td>
+		<td>Otentikasi</td>
+		<td>Untuk melakukan validasi login</td>
+	</tr>
+	<tr>
+		<td>id_barang</td>
+		<td>Barang</td>
+		<td>Untuk melihat data barang</td>
+	</tr>
+	<tr>
+		<td>id_supplier</td>
+		<td>Supplier</td>
+		<td>Untuk melihat data supplier</td>
+	</tr>
+	<tr>
+		<td>id_member</td>
+		<td>Member</td>
+		<td>Untuk melihat data member</td>
+	</tr>
+	<tr>
+		<td>id_order</td>
+		<td>Transaksi</td>
+		<td>Untuk melihat transaksi pembelian yang dilakukan member</td>
+	</tr>
+	<tr>
+		<td>id_pembayaran</td>
+		<td>Pembayaran</td>
+		<td>Untuk melihat pembayaran yang dilakukan member</td>
+	</tr>
+</table>
