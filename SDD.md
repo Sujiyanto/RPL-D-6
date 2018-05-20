@@ -869,6 +869,74 @@ Lingkungan implementasi yang akan digunakan untuk perancangan sistem Aplikasi Kr
 
 **3.2 Deskripsi Rinci Tabel**
 
+**3.2.1 Tabel Barang**
+
+<table border="1" align="center" width="800px">
+	<tr>
+		<td align="center">Id Field</td>
+		<td align="center">Deskripsi</td>
+		<td align="center">Type & Length</td>
+		<td align="center">Null</td>
+		<td align="center">Keterangan</td>
+	</tr>
+	<tr>
+		<td>id_barang</td>
+		<td>Id Barang</td>
+		<td>int(3)</td>
+		<td align="center">Not Null</td>
+		<td align="center">Auto Increment</td>
+	</tr>
+	<tr>
+		<td>nama-barang</td>
+		<td>Nama Barang</td>
+		<td>varchar(50)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+	<tr>
+		<td>supplier</td>
+		<td>Supplier</td>
+		<td>varchar(50)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+	<tr>
+		<td>harga</td>
+		<td>Harga Barang</td>
+		<td>int(10)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+	<tr>
+		<td>uang_muka</td>
+		<td>Uang Muka</td>
+		<td>int(10)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+	<tr>
+		<td>stok</td>
+		<td>Stok Barang</td>
+		<td>int(3)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+	<tr>
+		<td>satuan</td>
+		<td>Satuan Barang</td>
+		<td>varchar(15)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+	<tr>
+		<td>keterangan</td>
+		<td>Keterangan</td>
+		<td>varchar(15)</td>
+		<td align="center">Not Null</td>
+		<td align="center">-</td>
+	</tr>
+</table>
+
 **3.2.1 Data User Admin dan Member**
 <table>
 	<tr>
